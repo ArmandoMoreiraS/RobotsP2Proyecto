@@ -1,0 +1,3 @@
+[console_scripts]
+color_sorter = color_sorting_perception.color_sorter_node:main
+

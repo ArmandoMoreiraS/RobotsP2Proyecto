@@ -1,0 +1,13 @@
+package.xml
+setup.cfg
+setup.py
+palletizer_move/__init__.py
+palletizer_move/palletizer_node.py
+palletizer_move.egg-info/PKG-INFO
+palletizer_move.egg-info/SOURCES.txt
+palletizer_move.egg-info/dependency_links.txt
+palletizer_move.egg-info/entry_points.txt
+palletizer_move.egg-info/requires.txt
+palletizer_move.egg-info/top_level.txt
+palletizer_move.egg-info/zip-safe
+resource/palletizer_move

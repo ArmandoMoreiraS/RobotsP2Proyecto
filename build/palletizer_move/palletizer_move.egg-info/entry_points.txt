@@ -1,0 +1,3 @@
+[console_scripts]
+palletizer = palletizer_move.palletizer_node:main
+

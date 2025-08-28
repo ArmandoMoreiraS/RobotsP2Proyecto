@@ -1,0 +1,17 @@
+package.xml
+setup.py
+launch/bringup_all.launch.py
+resource/ur5e_conveyor_bringup
+ur5e_conveyor_bringup/__init__.py
+ur5e_conveyor_bringup.egg-info/PKG-INFO
+ur5e_conveyor_bringup.egg-info/SOURCES.txt
+ur5e_conveyor_bringup.egg-info/dependency_links.txt
+ur5e_conveyor_bringup.egg-info/entry_points.txt
+ur5e_conveyor_bringup.egg-info/requires.txt
+ur5e_conveyor_bringup.egg-info/top_level.txt
+ur5e_conveyor_bringup.egg-info/zip-safe
+urdf/blue_box.sdf
+urdf/blue_box.urdf
+urdf/red_box.sdf
+urdf/red_box.urdf
+worlds/conveyor_with_attacher.world

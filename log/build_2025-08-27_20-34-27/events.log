@@ -1,0 +1,193 @@
+[0.000000] (-) TimerEvent: {}
+[0.003121] (-) JobUnselected: {'identifier': 'conveyorbelt_gazebo'}
+[0.003362] (-) JobUnselected: {'identifier': 'conveyorbelt_msgs'}
+[0.003450] (-) JobUnselected: {'identifier': 'linkattacher_msgs'}
+[0.003529] (-) JobUnselected: {'identifier': 'ros2_conveyorbelt'}
+[0.003630] (-) JobUnselected: {'identifier': 'ros2_linkattacher'}
+[0.003812] (-) JobUnselected: {'identifier': 'ur'}
+[0.003890] (-) JobUnselected: {'identifier': 'ur_bringup'}
+[0.003966] (-) JobUnselected: {'identifier': 'ur_calibration'}
+[0.004039] (-) JobUnselected: {'identifier': 'ur_controllers'}
+[0.004111] (-) JobUnselected: {'identifier': 'ur_dashboard_msgs'}
+[0.004182] (-) JobUnselected: {'identifier': 'ur_moveit_config'}
+[0.004253] (-) JobUnselected: {'identifier': 'ur_robot_driver'}
+[0.004324] (-) JobUnselected: {'identifier': 'ur_simulation_gazebo'}
+[0.004402] (color_sorting_perception) JobQueued: {'identifier': 'color_sorting_perception', 'dependencies': OrderedDict()}
+[0.004486] (palletizer_move) JobQueued: {'identifier': 'palletizer_move', 'dependencies': OrderedDict()}
+[0.004717] (ur5e_conveyor_bringup) JobQueued: {'identifier': 'ur5e_conveyor_bringup', 'dependencies': OrderedDict()}
+[0.004898] (color_sorting_perception) JobStarted: {'identifier': 'color_sorting_perception'}
+[0.057622] (palletizer_move) JobStarted: {'identifier': 'palletizer_move'}
+[0.081638] (ur5e_conveyor_bringup) JobStarted: {'identifier': 'ur5e_conveyor_bringup'}
+[0.098879] (-) TimerEvent: {}
+[0.199671] (-) TimerEvent: {}
+[0.300436] (-) TimerEvent: {}
+[0.401217] (-) TimerEvent: {}
+[0.501995] (-) TimerEvent: {}
+[0.602802] (-) TimerEvent: {}
+[0.703593] (-) TimerEvent: {}
+[0.804375] (-) TimerEvent: {}
+[0.905253] (-) TimerEvent: {}
+[1.005957] (-) TimerEvent: {}
+[1.106813] (-) TimerEvent: {}
+[1.207620] (-) TimerEvent: {}
+[1.308323] (-) TimerEvent: {}
+[1.409038] (-) TimerEvent: {}
+[1.509700] (-) TimerEvent: {}
+[1.610466] (-) TimerEvent: {}
+[1.711275] (-) TimerEvent: {}
+[1.811966] (-) TimerEvent: {}
+[1.912652] (-) TimerEvent: {}
+[2.013499] (-) TimerEvent: {}
+[2.114327] (-) TimerEvent: {}
+[2.215037] (-) TimerEvent: {}
+[2.315712] (-) TimerEvent: {}
+[2.416381] (-) TimerEvent: {}
+[2.517082] (-) TimerEvent: {}
+[2.617840] (-) TimerEvent: {}
+[2.718533] (-) TimerEvent: {}
+[2.819259] (-) TimerEvent: {}
+[2.919912] (-) TimerEvent: {}
+[3.020738] (-) TimerEvent: {}
+[3.121593] (-) TimerEvent: {}
+[3.222397] (-) TimerEvent: {}
+[3.323245] (-) TimerEvent: {}
+[3.424135] (-) TimerEvent: {}
+[3.525005] (-) TimerEvent: {}
+[3.625783] (-) TimerEvent: {}
+[3.726463] (-) TimerEvent: {}
+[3.827315] (-) TimerEvent: {}
+[3.928122] (-) TimerEvent: {}
+[4.028918] (-) TimerEvent: {}
+[4.129728] (-) TimerEvent: {}
+[4.230592] (-) TimerEvent: {}
+[4.331277] (-) TimerEvent: {}
+[4.432014] (-) TimerEvent: {}
+[4.532686] (-) TimerEvent: {}
+[4.633465] (-) TimerEvent: {}
+[4.734275] (-) TimerEvent: {}
+[4.835090] (-) TimerEvent: {}
+[4.935892] (-) TimerEvent: {}
+[5.036595] (-) TimerEvent: {}
+[5.137255] (-) TimerEvent: {}
+[5.237950] (-) TimerEvent: {}
+[5.338750] (-) TimerEvent: {}
+[5.439511] (-) TimerEvent: {}
+[5.540301] (-) TimerEvent: {}
+[5.640984] (-) TimerEvent: {}
+[5.741652] (-) TimerEvent: {}
+[5.842331] (-) TimerEvent: {}
+[5.943161] (-) TimerEvent: {}
+[6.043849] (-) TimerEvent: {}
+[6.144609] (-) TimerEvent: {}
+[6.245401] (-) TimerEvent: {}
+[6.346166] (-) TimerEvent: {}
+[6.447013] (-) TimerEvent: {}
+[6.547708] (-) TimerEvent: {}
+[6.648397] (-) TimerEvent: {}
+[6.711383] (color_sorting_perception) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/armando30/robotsprj/build/color_sorting_perception/build', '--no-deps', 'symlink_data'], 'cwd': '/home/armando30/robotsprj/build/color_sorting_perception', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'armando30', 'LC_TIME': 'es_EC.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/armando30/robotsprj/install/ur_robot_driver/lib:/home/armando30/robotsprj/install/ur_controllers/lib:/home/armando30/robotsprj/install/ur_dashboard_msgs/lib:/home/armando30/robotsprj/install/ros2_linkattacher/lib:/home/armando30/robotsprj/install/ros2_conveyorbelt/lib:/home/armando30/robotsprj/install/linkattacher_msgs/lib:/home/armando30/robotsprj/install/conveyorbelt_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/armando30', 'OLDPWD': '/home/armando30/robotsprj', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'es_EC.UTF-8', 'MANAGERPID': '1074', 'SYSTEMD_EXEC_PID': '2265', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '5563', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/armando30/robotsprj/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'armando30', 'JOURNAL_STREAM': '8:12949', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'armando30', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/home/armando30/robotsprj/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/models:', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/armando30/robotsprj/install/ur_robot_driver/bin:/opt/ros/humble/bin:/home/armando30/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ArmandoJMS:@/tmp/.ICE-unix/1278,unix/ArmandoJMS:/tmp/.ICE-unix/1278', 'INVOCATION_ID': '559169fc4f594cd6b86587cb3fff1530', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'es_EC.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'LC_TELEPHONE': 'es_EC.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.RBZXB3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/armando30/robotsprj/install/ur_simulation_gazebo:/home/armando30/robotsprj/install/ur:/home/armando30/robotsprj/install/ur_calibration:/home/armando30/robotsprj/install/ur_robot_driver:/home/armando30/robotsprj/install/ur_moveit_config:/home/armando30/robotsprj/install/ur_bringup:/home/armando30/robotsprj/install/ur_controllers:/home/armando30/robotsprj/install/ur_dashboard_msgs:/home/armando30/robotsprj/install/ros2_linkattacher:/home/armando30/robotsprj/install/ros2_conveyorbelt:/home/armando30/robotsprj/install/linkattacher_msgs:/home/armando30/robotsprj/install/conveyorbelt_msgs:/home/armando30/robotsprj/install/conveyorbelt_gazebo:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'es_EC.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:c5fd5283-bb27-416a-93f5-108308457440', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'es_EC.UTF-8', 'LC_IDENTIFICATION': 'es_EC.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/armando30/robotsprj/build/color_sorting_perception', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'GAZEBO_PLUGIN_PATH': '/home/armando30/robotsprj/install/ros2_linkattacher/lib:', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/armando30/robotsprj/build/color_sorting_perception/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/armando30/robotsprj/install/color_sorting_perception/lib/python3.10/site-packages:/home/armando30/robotsprj/install/ur5e_conveyor_bringup/lib/python3.10/site-packages:/home/armando30/robotsprj/install/ur_robot_driver/local/lib/python3.10/dist-packages:/home/armando30/robotsprj/install/ur_moveit_config/local/lib/python3.10/dist-packages:/home/armando30/robotsprj/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:/home/armando30/robotsprj/install/linkattacher_msgs/local/lib/python3.10/dist-packages:/home/armando30/robotsprj/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'es_EC.UTF-8', 'LC_PAPER': 'es_EC.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/armando30/robotsprj/install/ur_simulation_gazebo:/home/armando30/robotsprj/install/ur:/home/armando30/robotsprj/install/ur_calibration:/home/armando30/robotsprj/install/ur_robot_driver:/home/armando30/robotsprj/install/ur_moveit_config:/home/armando30/robotsprj/install/ur_bringup:/home/armando30/robotsprj/install/ur_controllers:/home/armando30/robotsprj/install/ur_dashboard_msgs:/home/armando30/robotsprj/install/ros2_linkattacher:/home/armando30/robotsprj/install/ros2_conveyorbelt:/home/armando30/robotsprj/install/linkattacher_msgs:/home/armando30/robotsprj/install/conveyorbelt_msgs:/home/armando30/robotsprj/install/conveyorbelt_gazebo'}, 'shell': False}
+[6.729503] (ur5e_conveyor_bringup) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/armando30/robotsprj/build/ur5e_conveyor_bringup/build', '--no-deps', 'symlink_data'], 'cwd': '/home/armando30/robotsprj/build/ur5e_conveyor_bringup', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'armando30', 'LC_TIME': 'es_EC.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/armando30/robotsprj/install/ur_robot_driver/lib:/home/armando30/robotsprj/install/ur_controllers/lib:/home/armando30/robotsprj/install/ur_dashboard_msgs/lib:/home/armando30/robotsprj/install/ros2_linkattacher/lib:/home/armando30/robotsprj/install/ros2_conveyorbelt/lib:/home/armando30/robotsprj/install/linkattacher_msgs/lib:/home/armando30/robotsprj/install/conveyorbelt_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/armando30', 'OLDPWD': '/home/armando30/robotsprj', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'es_EC.UTF-8', 'MANAGERPID': '1074', 'SYSTEMD_EXEC_PID': '2265', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '5563', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/armando30/robotsprj/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'armando30', 'JOURNAL_STREAM': '8:12949', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'armando30', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/home/armando30/robotsprj/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/models:', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/armando30/robotsprj/install/ur_robot_driver/bin:/opt/ros/humble/bin:/home/armando30/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ArmandoJMS:@/tmp/.ICE-unix/1278,unix/ArmandoJMS:/tmp/.ICE-unix/1278', 'INVOCATION_ID': '559169fc4f594cd6b86587cb3fff1530', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'es_EC.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'LC_TELEPHONE': 'es_EC.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.RBZXB3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/armando30/robotsprj/install/ur_simulation_gazebo:/home/armando30/robotsprj/install/ur:/home/armando30/robotsprj/install/ur_calibration:/home/armando30/robotsprj/install/ur_robot_driver:/home/armando30/robotsprj/install/ur_moveit_config:/home/armando30/robotsprj/install/ur_bringup:/home/armando30/robotsprj/install/ur_controllers:/home/armando30/robotsprj/install/ur_dashboard_msgs:/home/armando30/robotsprj/install/ros2_linkattacher:/home/armando30/robotsprj/install/ros2_conveyorbelt:/home/armando30/robotsprj/install/linkattacher_msgs:/home/armando30/robotsprj/install/conveyorbelt_msgs:/home/armando30/robotsprj/install/conveyorbelt_gazebo:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'es_EC.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:c5fd5283-bb27-416a-93f5-108308457440', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'es_EC.UTF-8', 'LC_IDENTIFICATION': 'es_EC.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/armando30/robotsprj/build/ur5e_conveyor_bringup', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'GAZEBO_PLUGIN_PATH': '/home/armando30/robotsprj/install/ros2_linkattacher/lib:', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/armando30/robotsprj/build/ur5e_conveyor_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/armando30/robotsprj/install/ur5e_conveyor_bringup/lib/python3.10/site-packages:/home/armando30/robotsprj/install/ur5e_conveyor_bringup/lib/python3.10/site-packages:/home/armando30/robotsprj/install/ur_robot_driver/local/lib/python3.10/dist-packages:/home/armando30/robotsprj/install/ur_moveit_config/local/lib/python3.10/dist-packages:/home/armando30/robotsprj/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:/home/armando30/robotsprj/install/linkattacher_msgs/local/lib/python3.10/dist-packages:/home/armando30/robotsprj/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'es_EC.UTF-8', 'LC_PAPER': 'es_EC.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/armando30/robotsprj/install/ur_simulation_gazebo:/home/armando30/robotsprj/install/ur:/home/armando30/robotsprj/install/ur_calibration:/home/armando30/robotsprj/install/ur_robot_driver:/home/armando30/robotsprj/install/ur_moveit_config:/home/armando30/robotsprj/install/ur_bringup:/home/armando30/robotsprj/install/ur_controllers:/home/armando30/robotsprj/install/ur_dashboard_msgs:/home/armando30/robotsprj/install/ros2_linkattacher:/home/armando30/robotsprj/install/ros2_conveyorbelt:/home/armando30/robotsprj/install/linkattacher_msgs:/home/armando30/robotsprj/install/conveyorbelt_msgs:/home/armando30/robotsprj/install/conveyorbelt_gazebo'}, 'shell': False}
+[6.738450] (palletizer_move) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/armando30/robotsprj/build/palletizer_move/build', '--no-deps', 'symlink_data'], 'cwd': '/home/armando30/robotsprj/build/palletizer_move', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'armando30', 'LC_TIME': 'es_EC.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/armando30/robotsprj/install/ur_robot_driver/lib:/home/armando30/robotsprj/install/ur_controllers/lib:/home/armando30/robotsprj/install/ur_dashboard_msgs/lib:/home/armando30/robotsprj/install/ros2_linkattacher/lib:/home/armando30/robotsprj/install/ros2_conveyorbelt/lib:/home/armando30/robotsprj/install/linkattacher_msgs/lib:/home/armando30/robotsprj/install/conveyorbelt_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/armando30', 'OLDPWD': '/home/armando30/robotsprj', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'es_EC.UTF-8', 'MANAGERPID': '1074', 'SYSTEMD_EXEC_PID': '2265', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '5563', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/armando30/robotsprj/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'armando30', 'JOURNAL_STREAM': '8:12949', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'armando30', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/home/armando30/robotsprj/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/models:', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/armando30/robotsprj/install/ur_robot_driver/bin:/opt/ros/humble/bin:/home/armando30/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ArmandoJMS:@/tmp/.ICE-unix/1278,unix/ArmandoJMS:/tmp/.ICE-unix/1278', 'INVOCATION_ID': '559169fc4f594cd6b86587cb3fff1530', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'es_EC.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'LC_TELEPHONE': 'es_EC.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.RBZXB3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/armando30/robotsprj/install/ur_simulation_gazebo:/home/armando30/robotsprj/install/ur:/home/armando30/robotsprj/install/ur_calibration:/home/armando30/robotsprj/install/ur_robot_driver:/home/armando30/robotsprj/install/ur_moveit_config:/home/armando30/robotsprj/install/ur_bringup:/home/armando30/robotsprj/install/ur_controllers:/home/armando30/robotsprj/install/ur_dashboard_msgs:/home/armando30/robotsprj/install/ros2_linkattacher:/home/armando30/robotsprj/install/ros2_conveyorbelt:/home/armando30/robotsprj/install/linkattacher_msgs:/home/armando30/robotsprj/install/conveyorbelt_msgs:/home/armando30/robotsprj/install/conveyorbelt_gazebo:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'es_EC.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:c5fd5283-bb27-416a-93f5-108308457440', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'es_EC.UTF-8', 'LC_IDENTIFICATION': 'es_EC.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/armando30/robotsprj/build/palletizer_move', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'GAZEBO_PLUGIN_PATH': '/home/armando30/robotsprj/install/ros2_linkattacher/lib:', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/armando30/robotsprj/build/palletizer_move/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/armando30/robotsprj/install/palletizer_move/lib/python3.10/site-packages:/home/armando30/robotsprj/install/ur5e_conveyor_bringup/lib/python3.10/site-packages:/home/armando30/robotsprj/install/ur_robot_driver/local/lib/python3.10/dist-packages:/home/armando30/robotsprj/install/ur_moveit_config/local/lib/python3.10/dist-packages:/home/armando30/robotsprj/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:/home/armando30/robotsprj/install/linkattacher_msgs/local/lib/python3.10/dist-packages:/home/armando30/robotsprj/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'es_EC.UTF-8', 'LC_PAPER': 'es_EC.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/armando30/robotsprj/install/ur_simulation_gazebo:/home/armando30/robotsprj/install/ur:/home/armando30/robotsprj/install/ur_calibration:/home/armando30/robotsprj/install/ur_robot_driver:/home/armando30/robotsprj/install/ur_moveit_config:/home/armando30/robotsprj/install/ur_bringup:/home/armando30/robotsprj/install/ur_controllers:/home/armando30/robotsprj/install/ur_dashboard_msgs:/home/armando30/robotsprj/install/ros2_linkattacher:/home/armando30/robotsprj/install/ros2_conveyorbelt:/home/armando30/robotsprj/install/linkattacher_msgs:/home/armando30/robotsprj/install/conveyorbelt_msgs:/home/armando30/robotsprj/install/conveyorbelt_gazebo'}, 'shell': False}
+[6.749063] (-) TimerEvent: {}
+[6.850244] (-) TimerEvent: {}
+[6.951041] (-) TimerEvent: {}
+[7.051843] (-) TimerEvent: {}
+[7.152668] (-) TimerEvent: {}
+[7.253457] (-) TimerEvent: {}
+[7.354287] (-) TimerEvent: {}
+[7.455103] (-) TimerEvent: {}
+[7.555911] (-) TimerEvent: {}
+[7.656704] (-) TimerEvent: {}
+[7.757504] (-) TimerEvent: {}
+[7.858309] (-) TimerEvent: {}
+[7.926205] (color_sorting_perception) StdoutLine: {'line': b'running develop\n'}
+[7.927024] (ur5e_conveyor_bringup) StdoutLine: {'line': b'running develop\n'}
+[7.931006] (palletizer_move) StdoutLine: {'line': b'running develop\n'}
+[7.958475] (-) TimerEvent: {}
+[8.059284] (-) TimerEvent: {}
+[8.160081] (-) TimerEvent: {}
+[8.260868] (-) TimerEvent: {}
+[8.361648] (-) TimerEvent: {}
+[8.462408] (-) TimerEvent: {}
+[8.563210] (-) TimerEvent: {}
+[8.664124] (-) TimerEvent: {}
+[8.761748] (palletizer_move) StdoutLine: {'line': b'running egg_info\n'}
+[8.762494] (palletizer_move) StdoutLine: {'line': b'creating palletizer_move.egg-info\n'}
+[8.763161] (palletizer_move) StdoutLine: {'line': b'writing palletizer_move.egg-info/PKG-INFO\n'}
+[8.764035] (palletizer_move) StdoutLine: {'line': b'writing dependency_links to palletizer_move.egg-info/dependency_links.txt\n'}
+[8.764544] (-) TimerEvent: {}
+[8.765193] (palletizer_move) StdoutLine: {'line': b'writing entry points to palletizer_move.egg-info/entry_points.txt\n'}
+[8.765884] (palletizer_move) StdoutLine: {'line': b'writing requirements to palletizer_move.egg-info/requires.txt\n'}
+[8.766348] (palletizer_move) StdoutLine: {'line': b'writing top-level names to palletizer_move.egg-info/top_level.txt\n'}
+[8.766966] (palletizer_move) StdoutLine: {'line': b"writing manifest file 'palletizer_move.egg-info/SOURCES.txt'\n"}
+[8.772099] (palletizer_move) StdoutLine: {'line': b"reading manifest file 'palletizer_move.egg-info/SOURCES.txt'\n"}
+[8.774416] (palletizer_move) StdoutLine: {'line': b"writing manifest file 'palletizer_move.egg-info/SOURCES.txt'\n"}
+[8.779602] (palletizer_move) StdoutLine: {'line': b'running build_ext\n'}
+[8.780610] (palletizer_move) StdoutLine: {'line': b'Creating /home/armando30/robotsprj/install/palletizer_move/lib/python3.10/site-packages/palletizer-move.egg-link (link to .)\n'}
+[8.783420] (palletizer_move) StdoutLine: {'line': b'Installing palletizer script to /home/armando30/robotsprj/install/palletizer_move/lib/palletizer_move\n'}
+[8.784433] (palletizer_move) StdoutLine: {'line': b'\n'}
+[8.785105] (palletizer_move) StdoutLine: {'line': b'Installed /home/armando30/robotsprj/build/palletizer_move\n'}
+[8.786195] (palletizer_move) StdoutLine: {'line': b'running symlink_data\n'}
+[8.786777] (palletizer_move) StdoutLine: {'line': b'creating /home/armando30/robotsprj/install/palletizer_move/share/ament_index\n'}
+[8.787534] (color_sorting_perception) StdoutLine: {'line': b'running egg_info\n'}
+[8.788225] (color_sorting_perception) StdoutLine: {'line': b'creating color_sorting_perception.egg-info\n'}
+[8.788873] (palletizer_move) StdoutLine: {'line': b'creating /home/armando30/robotsprj/install/palletizer_move/share/ament_index/resource_index\n'}
+[8.789394] (palletizer_move) StdoutLine: {'line': b'creating /home/armando30/robotsprj/install/palletizer_move/share/ament_index/resource_index/packages\n'}
+[8.789918] (palletizer_move) StdoutLine: {'line': b'symbolically linking /home/armando30/robotsprj/build/palletizer_move/resource/palletizer_move -> /home/armando30/robotsprj/install/palletizer_move/share/ament_index/resource_index/packages\n'}
+[8.790383] (palletizer_move) StdoutLine: {'line': b'symbolically linking /home/armando30/robotsprj/build/palletizer_move/package.xml -> /home/armando30/robotsprj/install/palletizer_move/share/palletizer_move\n'}
+[8.791012] (color_sorting_perception) StdoutLine: {'line': b'writing color_sorting_perception.egg-info/PKG-INFO\n'}
+[8.791502] (color_sorting_perception) StdoutLine: {'line': b'writing dependency_links to color_sorting_perception.egg-info/dependency_links.txt\n'}
+[8.792009] (color_sorting_perception) StdoutLine: {'line': b'writing entry points to color_sorting_perception.egg-info/entry_points.txt\n'}
+[8.792526] (color_sorting_perception) StdoutLine: {'line': b'writing requirements to color_sorting_perception.egg-info/requires.txt\n'}
+[8.793028] (color_sorting_perception) StdoutLine: {'line': b'writing top-level names to color_sorting_perception.egg-info/top_level.txt\n'}
+[8.793457] (color_sorting_perception) StdoutLine: {'line': b"writing manifest file 'color_sorting_perception.egg-info/SOURCES.txt'\n"}
+[8.797073] (color_sorting_perception) StdoutLine: {'line': b"reading manifest file 'color_sorting_perception.egg-info/SOURCES.txt'\n"}
+[8.799528] (color_sorting_perception) StdoutLine: {'line': b"writing manifest file 'color_sorting_perception.egg-info/SOURCES.txt'\n"}
+[8.804615] (color_sorting_perception) StdoutLine: {'line': b'running build_ext\n'}
+[8.805371] (color_sorting_perception) StdoutLine: {'line': b'Creating /home/armando30/robotsprj/install/color_sorting_perception/lib/python3.10/site-packages/color-sorting-perception.egg-link (link to .)\n'}
+[8.808604] (color_sorting_perception) StdoutLine: {'line': b'Installing color_sorter script to /home/armando30/robotsprj/install/color_sorting_perception/lib/color_sorting_perception\n'}
+[8.809481] (color_sorting_perception) StdoutLine: {'line': b'\n'}
+[8.809988] (color_sorting_perception) StdoutLine: {'line': b'Installed /home/armando30/robotsprj/build/color_sorting_perception\n'}
+[8.810614] (color_sorting_perception) StdoutLine: {'line': b'running symlink_data\n'}
+[8.811303] (color_sorting_perception) StdoutLine: {'line': b'creating /home/armando30/robotsprj/install/color_sorting_perception/share/ament_index\n'}
+[8.811791] (color_sorting_perception) StdoutLine: {'line': b'creating /home/armando30/robotsprj/install/color_sorting_perception/share/ament_index/resource_index\n'}
+[8.812306] (color_sorting_perception) StdoutLine: {'line': b'creating /home/armando30/robotsprj/install/color_sorting_perception/share/ament_index/resource_index/packages\n'}
+[8.812733] (color_sorting_perception) StdoutLine: {'line': b'symbolically linking /home/armando30/robotsprj/build/color_sorting_perception/resource/color_sorting_perception -> /home/armando30/robotsprj/install/color_sorting_perception/share/ament_index/resource_index/packages\n'}
+[8.813217] (color_sorting_perception) StdoutLine: {'line': b'symbolically linking /home/armando30/robotsprj/build/color_sorting_perception/package.xml -> /home/armando30/robotsprj/install/color_sorting_perception/share/color_sorting_perception\n'}
+[8.817590] (ur5e_conveyor_bringup) StdoutLine: {'line': b'running egg_info\n'}
+[8.818459] (ur5e_conveyor_bringup) StdoutLine: {'line': b'creating ur5e_conveyor_bringup.egg-info\n'}
+[8.819246] (ur5e_conveyor_bringup) StdoutLine: {'line': b'writing ur5e_conveyor_bringup.egg-info/PKG-INFO\n'}
+[8.820246] (ur5e_conveyor_bringup) StdoutLine: {'line': b'writing dependency_links to ur5e_conveyor_bringup.egg-info/dependency_links.txt\n'}
+[8.820968] (ur5e_conveyor_bringup) StdoutLine: {'line': b'writing entry points to ur5e_conveyor_bringup.egg-info/entry_points.txt\n'}
+[8.821642] (ur5e_conveyor_bringup) StdoutLine: {'line': b'writing requirements to ur5e_conveyor_bringup.egg-info/requires.txt\n'}
+[8.822145] (ur5e_conveyor_bringup) StdoutLine: {'line': b'writing top-level names to ur5e_conveyor_bringup.egg-info/top_level.txt\n'}
+[8.822776] (ur5e_conveyor_bringup) StdoutLine: {'line': b"writing manifest file 'ur5e_conveyor_bringup.egg-info/SOURCES.txt'\n"}
+[8.831587] (ur5e_conveyor_bringup) StdoutLine: {'line': b"reading manifest file 'ur5e_conveyor_bringup.egg-info/SOURCES.txt'\n"}
+[8.835202] (ur5e_conveyor_bringup) StdoutLine: {'line': b"writing manifest file 'ur5e_conveyor_bringup.egg-info/SOURCES.txt'\n"}
+[8.843153] (ur5e_conveyor_bringup) StdoutLine: {'line': b'running build_ext\n'}
+[8.844265] (ur5e_conveyor_bringup) StdoutLine: {'line': b'Creating /home/armando30/robotsprj/install/ur5e_conveyor_bringup/lib/python3.10/site-packages/ur5e-conveyor-bringup.egg-link (link to .)\n'}
+[8.848317] (ur5e_conveyor_bringup) StdoutLine: {'line': b'\n'}
+[8.849119] (ur5e_conveyor_bringup) StdoutLine: {'line': b'Installed /home/armando30/robotsprj/build/ur5e_conveyor_bringup\n'}
+[8.849802] (ur5e_conveyor_bringup) StdoutLine: {'line': b'running symlink_data\n'}
+[8.850350] (ur5e_conveyor_bringup) StdoutLine: {'line': b'creating /home/armando30/robotsprj/install/ur5e_conveyor_bringup/share/ament_index\n'}
+[8.851174] (ur5e_conveyor_bringup) StdoutLine: {'line': b'creating /home/armando30/robotsprj/install/ur5e_conveyor_bringup/share/ament_index/resource_index\n'}
+[8.851769] (ur5e_conveyor_bringup) StdoutLine: {'line': b'creating /home/armando30/robotsprj/install/ur5e_conveyor_bringup/share/ament_index/resource_index/packages\n'}
+[8.852418] (ur5e_conveyor_bringup) StdoutLine: {'line': b'symbolically linking /home/armando30/robotsprj/build/ur5e_conveyor_bringup/resource/ur5e_conveyor_bringup -> /home/armando30/robotsprj/install/ur5e_conveyor_bringup/share/ament_index/resource_index/packages\n'}
+[8.853069] (ur5e_conveyor_bringup) StdoutLine: {'line': b'symbolically linking /home/armando30/robotsprj/build/ur5e_conveyor_bringup/package.xml -> /home/armando30/robotsprj/install/ur5e_conveyor_bringup/share/ur5e_conveyor_bringup\n'}
+[8.853544] (ur5e_conveyor_bringup) StdoutLine: {'line': b'creating /home/armando30/robotsprj/install/ur5e_conveyor_bringup/share/ur5e_conveyor_bringup/worlds\n'}
+[8.854207] (ur5e_conveyor_bringup) StdoutLine: {'line': b'symbolically linking /home/armando30/robotsprj/build/ur5e_conveyor_bringup/worlds/conveyor_with_attacher.world -> /home/armando30/robotsprj/install/ur5e_conveyor_bringup/share/ur5e_conveyor_bringup/worlds\n'}
+[8.854669] (ur5e_conveyor_bringup) StdoutLine: {'line': b'creating /home/armando30/robotsprj/install/ur5e_conveyor_bringup/share/ur5e_conveyor_bringup/urdf\n'}
+[8.855127] (ur5e_conveyor_bringup) StdoutLine: {'line': b'symbolically linking /home/armando30/robotsprj/build/ur5e_conveyor_bringup/urdf/red_box.sdf -> /home/armando30/robotsprj/install/ur5e_conveyor_bringup/share/ur5e_conveyor_bringup/urdf\n'}
+[8.855570] (ur5e_conveyor_bringup) StdoutLine: {'line': b'symbolically linking /home/armando30/robotsprj/build/ur5e_conveyor_bringup/urdf/red_box.urdf -> /home/armando30/robotsprj/install/ur5e_conveyor_bringup/share/ur5e_conveyor_bringup/urdf\n'}
+[8.856056] (ur5e_conveyor_bringup) StdoutLine: {'line': b'symbolically linking /home/armando30/robotsprj/build/ur5e_conveyor_bringup/urdf/blue_box.urdf -> /home/armando30/robotsprj/install/ur5e_conveyor_bringup/share/ur5e_conveyor_bringup/urdf\n'}
+[8.856491] (ur5e_conveyor_bringup) StdoutLine: {'line': b'symbolically linking /home/armando30/robotsprj/build/ur5e_conveyor_bringup/urdf/blue_box.sdf -> /home/armando30/robotsprj/install/ur5e_conveyor_bringup/share/ur5e_conveyor_bringup/urdf\n'}
+[8.856945] (ur5e_conveyor_bringup) StdoutLine: {'line': b'creating /home/armando30/robotsprj/install/ur5e_conveyor_bringup/share/ur5e_conveyor_bringup/launch\n'}
+[8.857364] (ur5e_conveyor_bringup) StdoutLine: {'line': b'symbolically linking /home/armando30/robotsprj/build/ur5e_conveyor_bringup/launch/bringup_all.launch.py -> /home/armando30/robotsprj/install/ur5e_conveyor_bringup/share/ur5e_conveyor_bringup/launch\n'}
+[8.864747] (-) TimerEvent: {}
+[8.888073] (palletizer_move) CommandEnded: {'returncode': 0}
+[8.932921] (palletizer_move) JobEnded: {'identifier': 'palletizer_move', 'rc': 0}
+[8.936201] (color_sorting_perception) CommandEnded: {'returncode': 0}
+[8.964880] (-) TimerEvent: {}
+[8.966259] (color_sorting_perception) JobEnded: {'identifier': 'color_sorting_perception', 'rc': 0}
+[8.968813] (ur5e_conveyor_bringup) CommandEnded: {'returncode': 0}
+[8.996053] (ur5e_conveyor_bringup) JobEnded: {'identifier': 'ur5e_conveyor_bringup', 'rc': 0}
+[8.998908] (-) EventReactorShutdown: {}

@@ -1,0 +1,13 @@
+package.xml
+setup.cfg
+setup.py
+color_sorting_perception/__init__.py
+color_sorting_perception/color_sorter_node.py
+color_sorting_perception.egg-info/PKG-INFO
+color_sorting_perception.egg-info/SOURCES.txt
+color_sorting_perception.egg-info/dependency_links.txt
+color_sorting_perception.egg-info/entry_points.txt
+color_sorting_perception.egg-info/requires.txt
+color_sorting_perception.egg-info/top_level.txt
+color_sorting_perception.egg-info/zip-safe
+resource/color_sorting_perception

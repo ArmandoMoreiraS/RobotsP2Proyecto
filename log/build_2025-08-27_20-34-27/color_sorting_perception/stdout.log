@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating color_sorting_perception.egg-info
+writing color_sorting_perception.egg-info/PKG-INFO
+writing dependency_links to color_sorting_perception.egg-info/dependency_links.txt
+writing entry points to color_sorting_perception.egg-info/entry_points.txt
+writing requirements to color_sorting_perception.egg-info/requires.txt
+writing top-level names to color_sorting_perception.egg-info/top_level.txt
+writing manifest file 'color_sorting_perception.egg-info/SOURCES.txt'
+reading manifest file 'color_sorting_perception.egg-info/SOURCES.txt'
+writing manifest file 'color_sorting_perception.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/armando30/robotsprj/install/color_sorting_perception/lib/python3.10/site-packages/color-sorting-perception.egg-link (link to .)
+Installing color_sorter script to /home/armando30/robotsprj/install/color_sorting_perception/lib/color_sorting_perception
+
+Installed /home/armando30/robotsprj/build/color_sorting_perception
+running symlink_data
+creating /home/armando30/robotsprj/install/color_sorting_perception/share/ament_index
+creating /home/armando30/robotsprj/install/color_sorting_perception/share/ament_index/resource_index
+creating /home/armando30/robotsprj/install/color_sorting_perception/share/ament_index/resource_index/packages
+symbolically linking /home/armando30/robotsprj/build/color_sorting_perception/resource/color_sorting_perception -> /home/armando30/robotsprj/install/color_sorting_perception/share/ament_index/resource_index/packages
+symbolically linking /home/armando30/robotsprj/build/color_sorting_perception/package.xml -> /home/armando30/robotsprj/install/color_sorting_perception/share/color_sorting_perception

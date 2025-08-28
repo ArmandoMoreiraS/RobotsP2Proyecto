@@ -1,0 +1,24 @@
+[6.710s] Invoking command in '/home/armando30/robotsprj/build/color_sorting_perception': PYTHONPATH=/home/armando30/robotsprj/build/color_sorting_perception/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/armando30/robotsprj/install/color_sorting_perception/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/armando30/robotsprj/build/color_sorting_perception/build --no-deps symlink_data
+[7.922s] running develop
+[8.783s] running egg_info
+[8.784s] creating color_sorting_perception.egg-info
+[8.786s] writing color_sorting_perception.egg-info/PKG-INFO
+[8.787s] writing dependency_links to color_sorting_perception.egg-info/dependency_links.txt
+[8.787s] writing entry points to color_sorting_perception.egg-info/entry_points.txt
+[8.788s] writing requirements to color_sorting_perception.egg-info/requires.txt
+[8.788s] writing top-level names to color_sorting_perception.egg-info/top_level.txt
+[8.789s] writing manifest file 'color_sorting_perception.egg-info/SOURCES.txt'
+[8.793s] reading manifest file 'color_sorting_perception.egg-info/SOURCES.txt'
+[8.795s] writing manifest file 'color_sorting_perception.egg-info/SOURCES.txt'
+[8.800s] running build_ext
+[8.801s] Creating /home/armando30/robotsprj/install/color_sorting_perception/lib/python3.10/site-packages/color-sorting-perception.egg-link (link to .)
+[8.804s] Installing color_sorter script to /home/armando30/robotsprj/install/color_sorting_perception/lib/color_sorting_perception
+[8.805s] 
+[8.806s] Installed /home/armando30/robotsprj/build/color_sorting_perception
+[8.806s] running symlink_data
+[8.807s] creating /home/armando30/robotsprj/install/color_sorting_perception/share/ament_index
+[8.807s] creating /home/armando30/robotsprj/install/color_sorting_perception/share/ament_index/resource_index
+[8.808s] creating /home/armando30/robotsprj/install/color_sorting_perception/share/ament_index/resource_index/packages
+[8.808s] symbolically linking /home/armando30/robotsprj/build/color_sorting_perception/resource/color_sorting_perception -> /home/armando30/robotsprj/install/color_sorting_perception/share/ament_index/resource_index/packages
+[8.809s] symbolically linking /home/armando30/robotsprj/build/color_sorting_perception/package.xml -> /home/armando30/robotsprj/install/color_sorting_perception/share/color_sorting_perception
+[8.933s] Invoked command in '/home/armando30/robotsprj/build/color_sorting_perception' returned '0': PYTHONPATH=/home/armando30/robotsprj/build/color_sorting_perception/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/armando30/robotsprj/install/color_sorting_perception/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/armando30/robotsprj/build/color_sorting_perception/build --no-deps symlink_data

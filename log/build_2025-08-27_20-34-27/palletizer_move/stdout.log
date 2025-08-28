@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating palletizer_move.egg-info
+writing palletizer_move.egg-info/PKG-INFO
+writing dependency_links to palletizer_move.egg-info/dependency_links.txt
+writing entry points to palletizer_move.egg-info/entry_points.txt
+writing requirements to palletizer_move.egg-info/requires.txt
+writing top-level names to palletizer_move.egg-info/top_level.txt
+writing manifest file 'palletizer_move.egg-info/SOURCES.txt'
+reading manifest file 'palletizer_move.egg-info/SOURCES.txt'
+writing manifest file 'palletizer_move.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/armando30/robotsprj/install/palletizer_move/lib/python3.10/site-packages/palletizer-move.egg-link (link to .)
+Installing palletizer script to /home/armando30/robotsprj/install/palletizer_move/lib/palletizer_move
+
+Installed /home/armando30/robotsprj/build/palletizer_move
+running symlink_data
+creating /home/armando30/robotsprj/install/palletizer_move/share/ament_index
+creating /home/armando30/robotsprj/install/palletizer_move/share/ament_index/resource_index
+creating /home/armando30/robotsprj/install/palletizer_move/share/ament_index/resource_index/packages
+symbolically linking /home/armando30/robotsprj/build/palletizer_move/resource/palletizer_move -> /home/armando30/robotsprj/install/palletizer_move/share/ament_index/resource_index/packages
+symbolically linking /home/armando30/robotsprj/build/palletizer_move/package.xml -> /home/armando30/robotsprj/install/palletizer_move/share/palletizer_move
