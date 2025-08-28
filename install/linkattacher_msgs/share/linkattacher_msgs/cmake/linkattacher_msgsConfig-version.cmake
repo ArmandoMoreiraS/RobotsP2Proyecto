@@ -1,0 +1,1 @@
+/home/armando30/robotsprj/build/linkattacher_msgs/ament_cmake_core/linkattacher_msgsConfig-version.cmake

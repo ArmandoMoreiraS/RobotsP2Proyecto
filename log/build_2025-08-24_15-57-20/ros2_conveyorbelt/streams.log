@@ -1,0 +1,151 @@
+[0.042s] Invoking command in '/home/armando30/robotsprj/build/ros2_conveyorbelt': CMAKE_PREFIX_PATH=/home/armando30/robotsprj/install/conveyorbelt_msgs:/home/armando30/robotsprj/install/ur:/home/armando30/robotsprj/install/ur_calibration:/home/armando30/robotsprj/install/ur_robot_driver:/home/armando30/robotsprj/install/ur_moveit_config:/home/armando30/robotsprj/install/ur_bringup:/home/armando30/robotsprj/install/ur_controllers:/home/armando30/robotsprj/install/ur_dashboard_msgs:/home/armando30/robotsprj/install/ros2_linkattacher:/home/armando30/robotsprj/install/ros2_conveyorbelt:/home/armando30/robotsprj/install/linkattacher_msgs:/home/armando30/robotsprj/install/conveyorbelt_gazebo:/opt/ros/humble LD_LIBRARY_PATH=/home/armando30/robotsprj/install/conveyorbelt_msgs/lib:/home/armando30/robotsprj/install/ur_robot_driver/lib:/home/armando30/robotsprj/install/ur_controllers/lib:/home/armando30/robotsprj/install/ur_dashboard_msgs/lib:/home/armando30/robotsprj/install/ros2_linkattacher/lib:/home/armando30/robotsprj/install/ros2_conveyorbelt/lib:/home/armando30/robotsprj/install/linkattacher_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/armando30/robotsprj/src/IFRA_ConveyorBelt/ros2_conveyorbelt -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/armando30/robotsprj/install/ros2_conveyorbelt
+[0.259s] -- The C compiler identification is GNU 11.4.0
+[0.537s] -- The CXX compiler identification is GNU 11.4.0
+[0.576s] -- Detecting C compiler ABI info
+[0.896s] -- Detecting C compiler ABI info - done
+[0.958s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.961s] -- Detecting C compile features
+[0.962s] -- Detecting C compile features - done
+[0.980s] -- Detecting CXX compiler ABI info
+[1.314s] -- Detecting CXX compiler ABI info - done
+[1.365s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.366s] -- Detecting CXX compile features
+[1.371s] -- Detecting CXX compile features - done
+[1.380s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.182s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.533s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.659s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.012s] -- Found gazebo_ros: 3.9.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[3.234s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.257s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.297s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.352s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.425s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.628s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.641s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.962s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[4.117s] -- Found FastRTPS: /opt/ros/humble/include  
+[4.343s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.399s] -- Looking for pthread.h
+[4.752s] -- Looking for pthread.h - found
+[4.753s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.110s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[5.116s] -- Found Threads: TRUE  
+[5.453s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[5.457s] -- Checking for module 'bullet>=2.82'
+[5.512s] --   Found bullet, version 3.05
+[6.017s] -- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+[6.190s] -- Found assimp: /usr/include (found version "5.2.0") 
+[6.391s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[6.669s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[6.836s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[6.902s] -- Looking for ignition-math6 -- found version 6.15.1
+[7.022s] -- Searching for dependencies of ignition-math6
+[7.054s] -- Looking for OGRE...
+[7.056s] -- OGRE_PREFIX_WATCH changed.
+[7.082s] -- Checking for module 'OGRE'
+[7.148s] --   Found OGRE, version 1.9.0
+[7.320s] -- Found Ogre Ghadamon (1.9.0)
+[7.377s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[7.433s] -- Looking for OGRE_Paging...
+[7.479s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[7.480s] -- Looking for OGRE_Terrain...
+[7.524s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[7.525s] -- Looking for OGRE_Property...
+[7.571s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[7.572s] -- Looking for OGRE_RTShaderSystem...
+[7.616s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[7.617s] -- Looking for OGRE_Volume...
+[7.661s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[7.662s] -- Looking for OGRE_Overlay...
+[7.707s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[8.691s] -- Looking for ignition-math6 -- found version 6.15.1
+[8.752s] -- Looking for ignition-transport8 -- found version 8.2.1
+[8.755s] -- Searching for dependencies of ignition-transport8
+[8.917s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[8.975s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[8.999s] -- Checking for module 'libzmq >= 4'
+[9.122s] --   Found libzmq , version 4.3.4
+[9.301s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[9.345s] -- Checking for module 'uuid'
+[9.420s] --   Found uuid, version 2.37.2
+[9.581s] -- Found UUID: TRUE  
+[9.604s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[9.607s] -- Searching for dependencies of ignition-msgs5
+[9.705s] -- Looking for ignition-math6 -- found version 6.15.1
+[9.731s] -- Checking for module 'tinyxml2'
+[9.812s] --   Found tinyxml2, version 9.0.0
+[10.012s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[10.030s] -- Looking for ignition-common3 -- found version 3.14.0
+[10.033s] -- Searching for dependencies of ignition-common3
+[10.039s] -- Looking for dlfcn.h - found
+[10.044s] -- Looking for libdl - found
+[10.052s] -- Found DL: TRUE  
+[10.118s] -- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") 
+[10.150s] -- Searching for <ignition-common3> component [graphics]
+[10.173s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[10.176s] -- Searching for dependencies of ignition-common3-graphics
+[10.177s] -- Looking for ignition-math6 -- found version 6.15.1
+[10.210s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[10.213s] -- Searching for dependencies of ignition-fuel_tools4
+[10.626s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[10.703s] -- Checking for module 'jsoncpp'
+[10.763s] --   Found jsoncpp, version 1.9.5
+[10.902s] -- Found JSONCPP: TRUE  
+[10.930s] -- Checking for module 'libzip'
+[10.992s] --   Found libzip, version 1.7.3
+[11.137s] -- Found ZIP: TRUE  
+[11.139s] -- Looking for ignition-common3 -- found version 3.14.0
+[11.141s] -- Looking for ignition-math6 -- found version 6.15.1
+[11.143s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[11.211s] -- Gazebo version: 11.10
+[11.213s] -- Checking for module 'tbb'
+[11.275s] --   Found tbb, version 2021.5.0
+[11.436s] -- Found gazebo_msgs: 3.9.0 (/opt/ros/humble/share/gazebo_msgs/cmake)
+[11.710s] -- Found conveyorbelt_msgs: 0.0.0 (/home/armando30/robotsprj/install/conveyorbelt_msgs/share/conveyorbelt_msgs/cmake)
+[11.884s] -- Added test 'copyright' to check source files copyright and LICENSE
+[11.906s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[11.911s] -- Configured cppcheck include dirs: /home/armando30/robotsprj/src/IFRA_ConveyorBelt/ros2_conveyorbelt/include
+[11.911s] -- Configured cppcheck exclude dirs and/or files: 
+[11.917s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[11.918s] -- Configured cpplint exclude dirs and/or files: 
+[11.921s] -- Added test 'flake8' to check Python code syntax and style conventions
+[11.926s] -- Added test 'lint_cmake' to check CMake code style
+[11.929s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[11.935s] -- Added test 'uncrustify' to check C / C++ code style
+[11.936s] -- Configured uncrustify additional arguments: 
+[11.940s] -- Added test 'xmllint' to check XML markup files
+[11.953s] -- Configuring done
+[12.748s] -- Generating done
+[12.779s] -- Build files have been written to: /home/armando30/robotsprj/build/ros2_conveyorbelt
+[12.836s] Invoked command in '/home/armando30/robotsprj/build/ros2_conveyorbelt' returned '0': CMAKE_PREFIX_PATH=/home/armando30/robotsprj/install/conveyorbelt_msgs:/home/armando30/robotsprj/install/ur:/home/armando30/robotsprj/install/ur_calibration:/home/armando30/robotsprj/install/ur_robot_driver:/home/armando30/robotsprj/install/ur_moveit_config:/home/armando30/robotsprj/install/ur_bringup:/home/armando30/robotsprj/install/ur_controllers:/home/armando30/robotsprj/install/ur_dashboard_msgs:/home/armando30/robotsprj/install/ros2_linkattacher:/home/armando30/robotsprj/install/ros2_conveyorbelt:/home/armando30/robotsprj/install/linkattacher_msgs:/home/armando30/robotsprj/install/conveyorbelt_gazebo:/opt/ros/humble LD_LIBRARY_PATH=/home/armando30/robotsprj/install/conveyorbelt_msgs/lib:/home/armando30/robotsprj/install/ur_robot_driver/lib:/home/armando30/robotsprj/install/ur_controllers/lib:/home/armando30/robotsprj/install/ur_dashboard_msgs/lib:/home/armando30/robotsprj/install/ros2_linkattacher/lib:/home/armando30/robotsprj/install/ros2_conveyorbelt/lib:/home/armando30/robotsprj/install/linkattacher_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/armando30/robotsprj/src/IFRA_ConveyorBelt/ros2_conveyorbelt -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/armando30/robotsprj/install/ros2_conveyorbelt
+[12.845s] Invoking command in '/home/armando30/robotsprj/build/ros2_conveyorbelt': CMAKE_PREFIX_PATH=/home/armando30/robotsprj/install/conveyorbelt_msgs:/home/armando30/robotsprj/install/ur:/home/armando30/robotsprj/install/ur_calibration:/home/armando30/robotsprj/install/ur_robot_driver:/home/armando30/robotsprj/install/ur_moveit_config:/home/armando30/robotsprj/install/ur_bringup:/home/armando30/robotsprj/install/ur_controllers:/home/armando30/robotsprj/install/ur_dashboard_msgs:/home/armando30/robotsprj/install/ros2_linkattacher:/home/armando30/robotsprj/install/ros2_conveyorbelt:/home/armando30/robotsprj/install/linkattacher_msgs:/home/armando30/robotsprj/install/conveyorbelt_gazebo:/opt/ros/humble LD_LIBRARY_PATH=/home/armando30/robotsprj/install/conveyorbelt_msgs/lib:/home/armando30/robotsprj/install/ur_robot_driver/lib:/home/armando30/robotsprj/install/ur_controllers/lib:/home/armando30/robotsprj/install/ur_dashboard_msgs/lib:/home/armando30/robotsprj/install/ros2_linkattacher/lib:/home/armando30/robotsprj/install/ros2_conveyorbelt/lib:/home/armando30/robotsprj/install/linkattacher_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/armando30/robotsprj/build/ros2_conveyorbelt -- -j8 -l8
+[13.044s] [ 50%] [32mBuilding CXX object CMakeFiles/ros2_conveyorbelt_plugin.dir/src/ros2_conveyorbelt_plugin.cpp.o[0m
+[89.928s] [100%] [32m[1mLinking CXX shared library libros2_conveyorbelt_plugin.so[0m
+[93.392s] [100%] Built target ros2_conveyorbelt_plugin
+[93.455s] Invoked command in '/home/armando30/robotsprj/build/ros2_conveyorbelt' returned '0': CMAKE_PREFIX_PATH=/home/armando30/robotsprj/install/conveyorbelt_msgs:/home/armando30/robotsprj/install/ur:/home/armando30/robotsprj/install/ur_calibration:/home/armando30/robotsprj/install/ur_robot_driver:/home/armando30/robotsprj/install/ur_moveit_config:/home/armando30/robotsprj/install/ur_bringup:/home/armando30/robotsprj/install/ur_controllers:/home/armando30/robotsprj/install/ur_dashboard_msgs:/home/armando30/robotsprj/install/ros2_linkattacher:/home/armando30/robotsprj/install/ros2_conveyorbelt:/home/armando30/robotsprj/install/linkattacher_msgs:/home/armando30/robotsprj/install/conveyorbelt_gazebo:/opt/ros/humble LD_LIBRARY_PATH=/home/armando30/robotsprj/install/conveyorbelt_msgs/lib:/home/armando30/robotsprj/install/ur_robot_driver/lib:/home/armando30/robotsprj/install/ur_controllers/lib:/home/armando30/robotsprj/install/ur_dashboard_msgs/lib:/home/armando30/robotsprj/install/ros2_linkattacher/lib:/home/armando30/robotsprj/install/ros2_conveyorbelt/lib:/home/armando30/robotsprj/install/linkattacher_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/armando30/robotsprj/build/ros2_conveyorbelt -- -j8 -l8
+[93.457s] Invoking command in '/home/armando30/robotsprj/build/ros2_conveyorbelt': CMAKE_PREFIX_PATH=/home/armando30/robotsprj/install/conveyorbelt_msgs:/home/armando30/robotsprj/install/ur:/home/armando30/robotsprj/install/ur_calibration:/home/armando30/robotsprj/install/ur_robot_driver:/home/armando30/robotsprj/install/ur_moveit_config:/home/armando30/robotsprj/install/ur_bringup:/home/armando30/robotsprj/install/ur_controllers:/home/armando30/robotsprj/install/ur_dashboard_msgs:/home/armando30/robotsprj/install/ros2_linkattacher:/home/armando30/robotsprj/install/ros2_conveyorbelt:/home/armando30/robotsprj/install/linkattacher_msgs:/home/armando30/robotsprj/install/conveyorbelt_gazebo:/opt/ros/humble LD_LIBRARY_PATH=/home/armando30/robotsprj/install/conveyorbelt_msgs/lib:/home/armando30/robotsprj/install/ur_robot_driver/lib:/home/armando30/robotsprj/install/ur_controllers/lib:/home/armando30/robotsprj/install/ur_dashboard_msgs/lib:/home/armando30/robotsprj/install/ros2_linkattacher/lib:/home/armando30/robotsprj/install/ros2_conveyorbelt/lib:/home/armando30/robotsprj/install/linkattacher_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/armando30/robotsprj/build/ros2_conveyorbelt
+[93.536s] -- Install configuration: ""
+[93.538s] -- Execute custom install script
+[93.539s] -- Symlinking: /home/armando30/robotsprj/install/ros2_conveyorbelt/share/ros2_conveyorbelt/environment/library_path.sh
+[93.601s] -- Symlinking: /home/armando30/robotsprj/install/ros2_conveyorbelt/share/ros2_conveyorbelt/environment/library_path.dsv
+[93.645s] -- Symlinking: /home/armando30/robotsprj/install/ros2_conveyorbelt/lib/libros2_conveyorbelt_plugin.so
+[93.689s] -- Symlinking: /home/armando30/robotsprj/install/ros2_conveyorbelt/share/ros2_conveyorbelt/python/SpawnObject.py
+[93.780s] -- Symlinking: /home/armando30/robotsprj/install/ros2_conveyorbelt/lib/ros2_conveyorbelt/SpawnObject.py
+[93.844s] -- Symlinking: /home/armando30/robotsprj/install/ros2_conveyorbelt/share/ament_index/resource_index/package_run_dependencies/ros2_conveyorbelt
+[93.932s] -- Symlinking: /home/armando30/robotsprj/install/ros2_conveyorbelt/share/ament_index/resource_index/parent_prefix_path/ros2_conveyorbelt
+[94.018s] -- Symlinking: /home/armando30/robotsprj/install/ros2_conveyorbelt/share/ros2_conveyorbelt/environment/ament_prefix_path.sh
+[94.101s] -- Symlinking: /home/armando30/robotsprj/install/ros2_conveyorbelt/share/ros2_conveyorbelt/environment/ament_prefix_path.dsv
+[94.189s] -- Symlinking: /home/armando30/robotsprj/install/ros2_conveyorbelt/share/ros2_conveyorbelt/environment/path.sh
+[94.269s] -- Symlinking: /home/armando30/robotsprj/install/ros2_conveyorbelt/share/ros2_conveyorbelt/environment/path.dsv
+[94.355s] -- Symlinking: /home/armando30/robotsprj/install/ros2_conveyorbelt/share/ros2_conveyorbelt/local_setup.bash
+[94.436s] -- Symlinking: /home/armando30/robotsprj/install/ros2_conveyorbelt/share/ros2_conveyorbelt/local_setup.sh
+[94.519s] -- Symlinking: /home/armando30/robotsprj/install/ros2_conveyorbelt/share/ros2_conveyorbelt/local_setup.zsh
+[94.605s] -- Symlinking: /home/armando30/robotsprj/install/ros2_conveyorbelt/share/ros2_conveyorbelt/local_setup.dsv
+[94.689s] -- Symlinking: /home/armando30/robotsprj/install/ros2_conveyorbelt/share/ros2_conveyorbelt/package.dsv
+[94.766s] -- Symlinking: /home/armando30/robotsprj/install/ros2_conveyorbelt/share/ament_index/resource_index/packages/ros2_conveyorbelt
+[94.853s] -- Symlinking: /home/armando30/robotsprj/install/ros2_conveyorbelt/share/ros2_conveyorbelt/cmake/ament_cmake_export_libraries-extras.cmake
+[94.934s] -- Symlinking: /home/armando30/robotsprj/install/ros2_conveyorbelt/share/ros2_conveyorbelt/cmake/ros2_conveyorbeltConfig.cmake
+[95.021s] -- Symlinking: /home/armando30/robotsprj/install/ros2_conveyorbelt/share/ros2_conveyorbelt/cmake/ros2_conveyorbeltConfig-version.cmake
+[95.062s] -- Symlinking: /home/armando30/robotsprj/install/ros2_conveyorbelt/share/ros2_conveyorbelt/package.xml
+[95.132s] Invoked command in '/home/armando30/robotsprj/build/ros2_conveyorbelt' returned '0': CMAKE_PREFIX_PATH=/home/armando30/robotsprj/install/conveyorbelt_msgs:/home/armando30/robotsprj/install/ur:/home/armando30/robotsprj/install/ur_calibration:/home/armando30/robotsprj/install/ur_robot_driver:/home/armando30/robotsprj/install/ur_moveit_config:/home/armando30/robotsprj/install/ur_bringup:/home/armando30/robotsprj/install/ur_controllers:/home/armando30/robotsprj/install/ur_dashboard_msgs:/home/armando30/robotsprj/install/ros2_linkattacher:/home/armando30/robotsprj/install/ros2_conveyorbelt:/home/armando30/robotsprj/install/linkattacher_msgs:/home/armando30/robotsprj/install/conveyorbelt_gazebo:/opt/ros/humble LD_LIBRARY_PATH=/home/armando30/robotsprj/install/conveyorbelt_msgs/lib:/home/armando30/robotsprj/install/ur_robot_driver/lib:/home/armando30/robotsprj/install/ur_controllers/lib:/home/armando30/robotsprj/install/ur_dashboard_msgs/lib:/home/armando30/robotsprj/install/ros2_linkattacher/lib:/home/armando30/robotsprj/install/ros2_conveyorbelt/lib:/home/armando30/robotsprj/install/linkattacher_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/armando30/robotsprj/build/ros2_conveyorbelt

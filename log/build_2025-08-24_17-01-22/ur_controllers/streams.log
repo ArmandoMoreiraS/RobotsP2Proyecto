@@ -1,0 +1,115 @@
+[0.118s] Invoking command in '/home/armando30/robotsprj/build/ur_controllers': CMAKE_PREFIX_PATH=/home/armando30/robotsprj/install/ur_dashboard_msgs:/home/armando30/robotsprj/install/ur:/home/armando30/robotsprj/install/ur_calibration:/home/armando30/robotsprj/install/ur_robot_driver:/home/armando30/robotsprj/install/ur_moveit_config:/home/armando30/robotsprj/install/ur_bringup:/home/armando30/robotsprj/install/ur_controllers:/home/armando30/robotsprj/install/ros2_linkattacher:/home/armando30/robotsprj/install/ros2_conveyorbelt:/home/armando30/robotsprj/install/linkattacher_msgs:/home/armando30/robotsprj/install/conveyorbelt_msgs:/home/armando30/robotsprj/install/conveyorbelt_gazebo:/opt/ros/humble LD_LIBRARY_PATH=/home/armando30/robotsprj/install/ur_dashboard_msgs/lib:/home/armando30/robotsprj/install/ur_robot_driver/lib:/home/armando30/robotsprj/install/ur_controllers/lib:/home/armando30/robotsprj/install/ros2_linkattacher/lib:/home/armando30/robotsprj/install/ros2_conveyorbelt/lib:/home/armando30/robotsprj/install/linkattacher_msgs/lib:/home/armando30/robotsprj/install/conveyorbelt_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/armando30/robotsprj/build/ur_controllers -- -j8 -l8
+[0.357s] [  5%] Built target tool_contact_controller_parameters
+[0.374s] [ 11%] Built target force_mode_controller_parameters
+[0.386s] [ 17%] Built target speed_scaling_state_broadcaster_parameters
+[0.390s] [ 23%] Built target gpio_controller_parameters
+[0.396s] [ 29%] Built target scaled_joint_trajectory_controller_parameters
+[0.420s] [ 35%] Built target freedrive_mode_controller_parameters
+[0.434s] [ 41%] Built target passthrough_trajectory_controller_parameters
+[0.461s] [ 47%] Built target ur_configuration_controller_parameters
+[0.496s] [ 52%] Built target gmock_main
+[0.511s] [ 61%] Built target gmock
+[0.617s] [ 88%] Built target ur_controllers
+[0.734s] [ 94%] Built target test_load_force_mode_controller
+[0.738s] [100%] Built target test_load_freedrive_mode_controller
+[0.775s] Invoked command in '/home/armando30/robotsprj/build/ur_controllers' returned '0': CMAKE_PREFIX_PATH=/home/armando30/robotsprj/install/ur_dashboard_msgs:/home/armando30/robotsprj/install/ur:/home/armando30/robotsprj/install/ur_calibration:/home/armando30/robotsprj/install/ur_robot_driver:/home/armando30/robotsprj/install/ur_moveit_config:/home/armando30/robotsprj/install/ur_bringup:/home/armando30/robotsprj/install/ur_controllers:/home/armando30/robotsprj/install/ros2_linkattacher:/home/armando30/robotsprj/install/ros2_conveyorbelt:/home/armando30/robotsprj/install/linkattacher_msgs:/home/armando30/robotsprj/install/conveyorbelt_msgs:/home/armando30/robotsprj/install/conveyorbelt_gazebo:/opt/ros/humble LD_LIBRARY_PATH=/home/armando30/robotsprj/install/ur_dashboard_msgs/lib:/home/armando30/robotsprj/install/ur_robot_driver/lib:/home/armando30/robotsprj/install/ur_controllers/lib:/home/armando30/robotsprj/install/ros2_linkattacher/lib:/home/armando30/robotsprj/install/ros2_conveyorbelt/lib:/home/armando30/robotsprj/install/linkattacher_msgs/lib:/home/armando30/robotsprj/install/conveyorbelt_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/armando30/robotsprj/build/ur_controllers -- -j8 -l8
+[0.781s] Invoking command in '/home/armando30/robotsprj/build/ur_controllers': CMAKE_PREFIX_PATH=/home/armando30/robotsprj/install/ur_dashboard_msgs:/home/armando30/robotsprj/install/ur:/home/armando30/robotsprj/install/ur_calibration:/home/armando30/robotsprj/install/ur_robot_driver:/home/armando30/robotsprj/install/ur_moveit_config:/home/armando30/robotsprj/install/ur_bringup:/home/armando30/robotsprj/install/ur_controllers:/home/armando30/robotsprj/install/ros2_linkattacher:/home/armando30/robotsprj/install/ros2_conveyorbelt:/home/armando30/robotsprj/install/linkattacher_msgs:/home/armando30/robotsprj/install/conveyorbelt_msgs:/home/armando30/robotsprj/install/conveyorbelt_gazebo:/opt/ros/humble LD_LIBRARY_PATH=/home/armando30/robotsprj/install/ur_dashboard_msgs/lib:/home/armando30/robotsprj/install/ur_robot_driver/lib:/home/armando30/robotsprj/install/ur_controllers/lib:/home/armando30/robotsprj/install/ros2_linkattacher/lib:/home/armando30/robotsprj/install/ros2_conveyorbelt/lib:/home/armando30/robotsprj/install/linkattacher_msgs/lib:/home/armando30/robotsprj/install/conveyorbelt_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/armando30/robotsprj/build/ur_controllers
+[0.806s] -- Install configuration: ""
+[0.808s] -- Execute custom install script
+[0.810s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_controllers/include/ur_controllers/force_mode_controller_parameters.hpp
+[0.810s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_controllers/include/ur_controllers/freedrive_mode_controller_parameters.hpp
+[0.811s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_controllers/include/ur_controllers/gpio_controller_parameters.hpp
+[0.812s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp
+[0.812s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp
+[0.812s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp
+[0.813s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_controllers/include/ur_controllers/tool_contact_controller_parameters.hpp
+[0.813s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp
+[0.814s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_controllers/include/ur_controllers/force_mode_controller_parameters.hpp
+[0.815s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_controllers/include/ur_controllers/freedrive_mode_controller_parameters.hpp
+[0.815s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_controllers/include/ur_controllers/gpio_controller_parameters.hpp
+[0.816s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp
+[0.816s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp
+[0.816s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp
+[0.817s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_controllers/include/ur_controllers/tool_contact_controller_parameters.hpp
+[0.817s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp
+[0.818s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_controllers/include/ur_controllers/force_mode_controller_parameters.hpp
+[0.818s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_controllers/include/ur_controllers/freedrive_mode_controller_parameters.hpp
+[0.819s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_controllers/include/ur_controllers/gpio_controller_parameters.hpp
+[0.819s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp
+[0.820s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp
+[0.820s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp
+[0.821s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_controllers/include/ur_controllers/tool_contact_controller_parameters.hpp
+[0.821s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp
+[0.822s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_controllers/include/ur_controllers/force_mode_controller_parameters.hpp
+[0.822s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_controllers/include/ur_controllers/freedrive_mode_controller_parameters.hpp
+[0.823s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_controllers/include/ur_controllers/gpio_controller_parameters.hpp
+[0.823s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp
+[0.824s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp
+[0.824s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp
+[0.824s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_controllers/include/ur_controllers/tool_contact_controller_parameters.hpp
+[0.825s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp
+[0.826s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_controllers/include/ur_controllers/force_mode_controller_parameters.hpp
+[0.826s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_controllers/include/ur_controllers/freedrive_mode_controller_parameters.hpp
+[0.827s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_controllers/include/ur_controllers/gpio_controller_parameters.hpp
+[0.827s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp
+[0.828s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp
+[0.828s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp
+[0.829s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_controllers/include/ur_controllers/tool_contact_controller_parameters.hpp
+[0.829s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp
+[0.831s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_controllers/include/ur_controllers/force_mode_controller_parameters.hpp
+[0.831s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_controllers/include/ur_controllers/freedrive_mode_controller_parameters.hpp
+[0.832s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_controllers/include/ur_controllers/gpio_controller_parameters.hpp
+[0.832s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp
+[0.833s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp
+[0.833s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp
+[0.834s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_controllers/include/ur_controllers/tool_contact_controller_parameters.hpp
+[0.834s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp
+[0.835s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_controllers/include/ur_controllers/force_mode_controller_parameters.hpp
+[0.835s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_controllers/include/ur_controllers/freedrive_mode_controller_parameters.hpp
+[0.836s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_controllers/include/ur_controllers/gpio_controller_parameters.hpp
+[0.836s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp
+[0.836s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp
+[0.837s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp
+[0.838s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_controllers/include/ur_controllers/tool_contact_controller_parameters.hpp
+[0.838s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp
+[0.840s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_controllers/include/ur_controllers/force_mode_controller_parameters.hpp
+[0.840s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_controllers/include/ur_controllers/freedrive_mode_controller_parameters.hpp
+[0.841s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_controllers/include/ur_controllers/gpio_controller_parameters.hpp
+[0.842s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp
+[0.842s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp
+[0.843s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp
+[0.844s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_controllers/include/ur_controllers/tool_contact_controller_parameters.hpp
+[0.844s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp
+[0.845s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_controllers/share/ur_controllers//controller_plugins.xml
+[0.846s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_controllers/lib/libur_controllers.so
+[0.848s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_controllers/include/ur_controllers/force_mode_controller.hpp
+[0.849s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_controllers/include/ur_controllers/freedrive_mode_controller.hpp
+[0.849s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_controllers/include/ur_controllers/gpio_controller.hpp
+[0.850s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller.hpp
+[0.851s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller.hpp
+[0.851s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster.hpp
+[0.852s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_controllers/include/ur_controllers/tool_contact_controller.hpp
+[0.853s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_controllers/include/ur_controllers/ur_configuration_controller.hpp
+[0.854s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_controllers/share/ur_controllers/controller_plugins.xml
+[0.854s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_controllers/share/ur_controllers/environment/library_path.sh
+[0.855s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_controllers/share/ur_controllers/environment/library_path.dsv
+[0.856s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_controllers/share/ament_index/resource_index/package_run_dependencies/ur_controllers
+[0.857s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_controllers/share/ament_index/resource_index/parent_prefix_path/ur_controllers
+[0.857s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_controllers/share/ur_controllers/environment/ament_prefix_path.sh
+[0.858s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_controllers/share/ur_controllers/environment/ament_prefix_path.dsv
+[0.859s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_controllers/share/ur_controllers/environment/path.sh
+[0.859s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_controllers/share/ur_controllers/environment/path.dsv
+[0.860s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_controllers/share/ur_controllers/local_setup.bash
+[0.860s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_controllers/share/ur_controllers/local_setup.sh
+[0.861s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_controllers/share/ur_controllers/local_setup.zsh
+[0.862s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_controllers/share/ur_controllers/local_setup.dsv
+[0.862s] -- Symlinking: /home/armando30/robotsprj/install/ur_controllers/share/ur_controllers/package.dsv
+[0.892s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_controllers/share/ament_index/resource_index/packages/ur_controllers
+[0.892s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_controllers/share/ament_index/resource_index/controller_interface__pluginlib__plugin/ur_controllers
+[0.893s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_controllers/share/ur_controllers/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.893s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_controllers/share/ur_controllers/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.894s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_controllers/share/ur_controllers/cmake/ament_cmake_export_libraries-extras.cmake
+[0.895s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_controllers/share/ur_controllers/cmake/ur_controllersConfig.cmake
+[0.895s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_controllers/share/ur_controllers/cmake/ur_controllersConfig-version.cmake
+[0.896s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_controllers/share/ur_controllers/package.xml
+[0.904s] Invoked command in '/home/armando30/robotsprj/build/ur_controllers' returned '0': CMAKE_PREFIX_PATH=/home/armando30/robotsprj/install/ur_dashboard_msgs:/home/armando30/robotsprj/install/ur:/home/armando30/robotsprj/install/ur_calibration:/home/armando30/robotsprj/install/ur_robot_driver:/home/armando30/robotsprj/install/ur_moveit_config:/home/armando30/robotsprj/install/ur_bringup:/home/armando30/robotsprj/install/ur_controllers:/home/armando30/robotsprj/install/ros2_linkattacher:/home/armando30/robotsprj/install/ros2_conveyorbelt:/home/armando30/robotsprj/install/linkattacher_msgs:/home/armando30/robotsprj/install/conveyorbelt_msgs:/home/armando30/robotsprj/install/conveyorbelt_gazebo:/opt/ros/humble LD_LIBRARY_PATH=/home/armando30/robotsprj/install/ur_dashboard_msgs/lib:/home/armando30/robotsprj/install/ur_robot_driver/lib:/home/armando30/robotsprj/install/ur_controllers/lib:/home/armando30/robotsprj/install/ros2_linkattacher/lib:/home/armando30/robotsprj/install/ros2_conveyorbelt/lib:/home/armando30/robotsprj/install/linkattacher_msgs/lib:/home/armando30/robotsprj/install/conveyorbelt_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/armando30/robotsprj/build/ur_controllers

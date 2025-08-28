@@ -1,0 +1,1 @@
+/home/armando30/robotsprj/build/ur_simulation_gazebo/ament_cmake_core/ur_simulation_gazeboConfig.cmake

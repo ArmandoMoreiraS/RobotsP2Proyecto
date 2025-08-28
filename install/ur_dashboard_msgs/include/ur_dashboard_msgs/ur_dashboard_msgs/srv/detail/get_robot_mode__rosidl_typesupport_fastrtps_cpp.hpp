@@ -1,0 +1,1 @@
+/home/armando30/robotsprj/build/ur_dashboard_msgs/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/get_robot_mode__rosidl_typesupport_fastrtps_cpp.hpp

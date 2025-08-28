@@ -1,0 +1,28 @@
+[0.104s] Invoking command in '/home/armando30/robotsprj/build/conveyorbelt_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/armando30/robotsprj/build/conveyorbelt_gazebo -- -j8 -l8
+[2.508s] Invoked command in '/home/armando30/robotsprj/build/conveyorbelt_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/armando30/robotsprj/build/conveyorbelt_gazebo -- -j8 -l8
+[2.568s] Invoking command in '/home/armando30/robotsprj/build/conveyorbelt_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/armando30/robotsprj/build/conveyorbelt_gazebo
+[2.610s] -- Install configuration: ""
+[2.613s] -- Execute custom install script
+[2.618s] -- Up-to-date symlink: /home/armando30/robotsprj/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/launch/conveyorbelt.launch.py
+[2.619s] -- Up-to-date symlink: /home/armando30/robotsprj/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/models/conveyor_belt/meshes/conveyor_belt.dae
+[2.620s] -- Up-to-date symlink: /home/armando30/robotsprj/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/models/conveyor_belt/meshes/conveyor_belt.stl
+[2.620s] -- Up-to-date symlink: /home/armando30/robotsprj/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/models/conveyor_belt/model.config
+[2.625s] -- Up-to-date symlink: /home/armando30/robotsprj/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/models/conveyor_belt/model.sdf
+[2.628s] -- Up-to-date symlink: /home/armando30/robotsprj/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/worlds/conveyorbelt.world
+[2.629s] -- Up-to-date symlink: /home/armando30/robotsprj/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/urdf/box.urdf
+[2.630s] -- Up-to-date symlink: /home/armando30/robotsprj/install/conveyorbelt_gazebo/share/ament_index/resource_index/package_run_dependencies/conveyorbelt_gazebo
+[2.630s] -- Up-to-date symlink: /home/armando30/robotsprj/install/conveyorbelt_gazebo/share/ament_index/resource_index/parent_prefix_path/conveyorbelt_gazebo
+[2.631s] -- Up-to-date symlink: /home/armando30/robotsprj/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/environment/ament_prefix_path.sh
+[2.631s] -- Up-to-date symlink: /home/armando30/robotsprj/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/environment/ament_prefix_path.dsv
+[2.632s] -- Up-to-date symlink: /home/armando30/robotsprj/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/environment/path.sh
+[2.632s] -- Up-to-date symlink: /home/armando30/robotsprj/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/environment/path.dsv
+[2.633s] -- Up-to-date symlink: /home/armando30/robotsprj/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/local_setup.bash
+[2.633s] -- Up-to-date symlink: /home/armando30/robotsprj/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/local_setup.sh
+[2.634s] -- Up-to-date symlink: /home/armando30/robotsprj/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/local_setup.zsh
+[2.634s] -- Up-to-date symlink: /home/armando30/robotsprj/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/local_setup.dsv
+[2.635s] -- Symlinking: /home/armando30/robotsprj/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/package.dsv
+[2.807s] -- Up-to-date symlink: /home/armando30/robotsprj/install/conveyorbelt_gazebo/share/ament_index/resource_index/packages/conveyorbelt_gazebo
+[2.809s] -- Up-to-date symlink: /home/armando30/robotsprj/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/cmake/conveyorbelt_gazeboConfig.cmake
+[2.881s] -- Up-to-date symlink: /home/armando30/robotsprj/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/cmake/conveyorbelt_gazeboConfig-version.cmake
+[2.882s] -- Up-to-date symlink: /home/armando30/robotsprj/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/package.xml
+[2.907s] Invoked command in '/home/armando30/robotsprj/build/conveyorbelt_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/armando30/robotsprj/build/conveyorbelt_gazebo

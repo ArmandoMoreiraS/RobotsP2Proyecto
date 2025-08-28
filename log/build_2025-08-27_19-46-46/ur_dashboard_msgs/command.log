@@ -1,0 +1,1 @@
+Invoking command in '/home/armando30/robotsprj/build/ur_dashboard_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/armando30/robotsprj/build/ur_dashboard_msgs -- -j8 -l8

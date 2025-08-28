@@ -1,0 +1,1 @@
+/home/armando30/robotsprj/build/ros2_linkattacher/ament_cmake_environment_hooks/local_setup.sh

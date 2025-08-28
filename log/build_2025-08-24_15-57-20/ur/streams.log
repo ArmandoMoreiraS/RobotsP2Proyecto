@@ -1,0 +1,44 @@
+[0.092s] Invoking command in '/home/armando30/robotsprj/build/ur': CMAKE_PREFIX_PATH=/home/armando30/robotsprj/install/ur_calibration:/home/armando30/robotsprj/install/ur_robot_driver:/home/armando30/robotsprj/install/ur_controllers:/home/armando30/robotsprj/install/ur_moveit_config:/home/armando30/robotsprj/install/ur_dashboard_msgs:/home/armando30/robotsprj/install/ur:/home/armando30/robotsprj/install/ur_bringup:/home/armando30/robotsprj/install/ros2_linkattacher:/home/armando30/robotsprj/install/ros2_conveyorbelt:/home/armando30/robotsprj/install/linkattacher_msgs:/home/armando30/robotsprj/install/conveyorbelt_msgs:/home/armando30/robotsprj/install/conveyorbelt_gazebo:/opt/ros/humble /usr/bin/cmake /home/armando30/robotsprj/src/Universal_Robots_ROS2_Driver/ur -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/armando30/robotsprj/install/ur
+[0.274s] -- The C compiler identification is GNU 11.4.0
+[0.470s] -- The CXX compiler identification is GNU 11.4.0
+[0.505s] -- Detecting C compiler ABI info
+[0.723s] -- Detecting C compiler ABI info - done
+[0.777s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.779s] -- Detecting C compile features
+[0.781s] -- Detecting C compile features - done
+[0.798s] -- Detecting CXX compiler ABI info
+[1.040s] -- Detecting CXX compiler ABI info - done
+[1.070s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.071s] -- Detecting CXX compile features
+[1.072s] -- Detecting CXX compile features - done
+[1.084s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.612s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.836s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.982s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.284s] -- Added test 'lint_cmake' to check CMake code style
+[2.287s] -- Added test 'xmllint' to check XML markup files
+[2.293s] -- Configuring done
+[2.302s] -- Generating done
+[2.308s] -- Build files have been written to: /home/armando30/robotsprj/build/ur
+[2.320s] Invoked command in '/home/armando30/robotsprj/build/ur' returned '0': CMAKE_PREFIX_PATH=/home/armando30/robotsprj/install/ur_calibration:/home/armando30/robotsprj/install/ur_robot_driver:/home/armando30/robotsprj/install/ur_controllers:/home/armando30/robotsprj/install/ur_moveit_config:/home/armando30/robotsprj/install/ur_dashboard_msgs:/home/armando30/robotsprj/install/ur:/home/armando30/robotsprj/install/ur_bringup:/home/armando30/robotsprj/install/ros2_linkattacher:/home/armando30/robotsprj/install/ros2_conveyorbelt:/home/armando30/robotsprj/install/linkattacher_msgs:/home/armando30/robotsprj/install/conveyorbelt_msgs:/home/armando30/robotsprj/install/conveyorbelt_gazebo:/opt/ros/humble /usr/bin/cmake /home/armando30/robotsprj/src/Universal_Robots_ROS2_Driver/ur -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/armando30/robotsprj/install/ur
+[2.325s] Invoking command in '/home/armando30/robotsprj/build/ur': CMAKE_PREFIX_PATH=/home/armando30/robotsprj/install/ur_calibration:/home/armando30/robotsprj/install/ur_robot_driver:/home/armando30/robotsprj/install/ur_controllers:/home/armando30/robotsprj/install/ur_moveit_config:/home/armando30/robotsprj/install/ur_dashboard_msgs:/home/armando30/robotsprj/install/ur:/home/armando30/robotsprj/install/ur_bringup:/home/armando30/robotsprj/install/ros2_linkattacher:/home/armando30/robotsprj/install/ros2_conveyorbelt:/home/armando30/robotsprj/install/linkattacher_msgs:/home/armando30/robotsprj/install/conveyorbelt_msgs:/home/armando30/robotsprj/install/conveyorbelt_gazebo:/opt/ros/humble /usr/bin/cmake --build /home/armando30/robotsprj/build/ur -- -j8 -l8
+[2.440s] Invoked command in '/home/armando30/robotsprj/build/ur' returned '0': CMAKE_PREFIX_PATH=/home/armando30/robotsprj/install/ur_calibration:/home/armando30/robotsprj/install/ur_robot_driver:/home/armando30/robotsprj/install/ur_controllers:/home/armando30/robotsprj/install/ur_moveit_config:/home/armando30/robotsprj/install/ur_dashboard_msgs:/home/armando30/robotsprj/install/ur:/home/armando30/robotsprj/install/ur_bringup:/home/armando30/robotsprj/install/ros2_linkattacher:/home/armando30/robotsprj/install/ros2_conveyorbelt:/home/armando30/robotsprj/install/linkattacher_msgs:/home/armando30/robotsprj/install/conveyorbelt_msgs:/home/armando30/robotsprj/install/conveyorbelt_gazebo:/opt/ros/humble /usr/bin/cmake --build /home/armando30/robotsprj/build/ur -- -j8 -l8
+[2.446s] Invoking command in '/home/armando30/robotsprj/build/ur': CMAKE_PREFIX_PATH=/home/armando30/robotsprj/install/ur_calibration:/home/armando30/robotsprj/install/ur_robot_driver:/home/armando30/robotsprj/install/ur_controllers:/home/armando30/robotsprj/install/ur_moveit_config:/home/armando30/robotsprj/install/ur_dashboard_msgs:/home/armando30/robotsprj/install/ur:/home/armando30/robotsprj/install/ur_bringup:/home/armando30/robotsprj/install/ros2_linkattacher:/home/armando30/robotsprj/install/ros2_conveyorbelt:/home/armando30/robotsprj/install/linkattacher_msgs:/home/armando30/robotsprj/install/conveyorbelt_msgs:/home/armando30/robotsprj/install/conveyorbelt_gazebo:/opt/ros/humble /usr/bin/cmake --install /home/armando30/robotsprj/build/ur
+[2.467s] -- Install configuration: ""
+[2.469s] -- Execute custom install script
+[2.470s] -- Symlinking: /home/armando30/robotsprj/install/ur/share/ament_index/resource_index/package_run_dependencies/ur
+[2.496s] -- Symlinking: /home/armando30/robotsprj/install/ur/share/ament_index/resource_index/parent_prefix_path/ur
+[2.523s] -- Symlinking: /home/armando30/robotsprj/install/ur/share/ur/environment/ament_prefix_path.sh
+[2.549s] -- Symlinking: /home/armando30/robotsprj/install/ur/share/ur/environment/ament_prefix_path.dsv
+[2.575s] -- Symlinking: /home/armando30/robotsprj/install/ur/share/ur/environment/path.sh
+[2.601s] -- Symlinking: /home/armando30/robotsprj/install/ur/share/ur/environment/path.dsv
+[2.627s] -- Symlinking: /home/armando30/robotsprj/install/ur/share/ur/local_setup.bash
+[2.654s] -- Symlinking: /home/armando30/robotsprj/install/ur/share/ur/local_setup.sh
+[2.680s] -- Symlinking: /home/armando30/robotsprj/install/ur/share/ur/local_setup.zsh
+[2.709s] -- Symlinking: /home/armando30/robotsprj/install/ur/share/ur/local_setup.dsv
+[2.736s] -- Symlinking: /home/armando30/robotsprj/install/ur/share/ur/package.dsv
+[2.762s] -- Symlinking: /home/armando30/robotsprj/install/ur/share/ament_index/resource_index/packages/ur
+[2.789s] -- Symlinking: /home/armando30/robotsprj/install/ur/share/ur/cmake/urConfig.cmake
+[2.817s] -- Symlinking: /home/armando30/robotsprj/install/ur/share/ur/cmake/urConfig-version.cmake
+[2.843s] -- Symlinking: /home/armando30/robotsprj/install/ur/share/ur/package.xml
+[2.877s] Invoked command in '/home/armando30/robotsprj/build/ur' returned '0': CMAKE_PREFIX_PATH=/home/armando30/robotsprj/install/ur_calibration:/home/armando30/robotsprj/install/ur_robot_driver:/home/armando30/robotsprj/install/ur_controllers:/home/armando30/robotsprj/install/ur_moveit_config:/home/armando30/robotsprj/install/ur_dashboard_msgs:/home/armando30/robotsprj/install/ur:/home/armando30/robotsprj/install/ur_bringup:/home/armando30/robotsprj/install/ros2_linkattacher:/home/armando30/robotsprj/install/ros2_conveyorbelt:/home/armando30/robotsprj/install/linkattacher_msgs:/home/armando30/robotsprj/install/conveyorbelt_msgs:/home/armando30/robotsprj/install/conveyorbelt_gazebo:/opt/ros/humble /usr/bin/cmake --install /home/armando30/robotsprj/build/ur

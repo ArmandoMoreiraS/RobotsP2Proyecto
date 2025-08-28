@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>color_sorting_perception</name>
+  <version>0.1.0</version>
+  <description>HSV color detector publishing pick pose</description>
+  <maintainer email="you@example.com">armando</maintainer>
+  <license>Apache-2.0</license>
+  <buildtool_depend>ament_python</buildtool_depend>
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>image_transport</exec_depend>
+  <exec_depend>cv_bridge</exec_depend>
+</package>

@@ -1,0 +1,1 @@
+Invoking command in '/home/armando30/robotsprj/build/conveyorbelt_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/armando30/robotsprj/build/conveyorbelt_msgs -- -j8 -l8

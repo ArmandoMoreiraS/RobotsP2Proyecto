@@ -1,0 +1,23 @@
+[0.134s] Invoking command in '/home/armando30/robotsprj/build/conveyorbelt_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/armando30/robotsprj/build/conveyorbelt_msgs -- -j8 -l8
+[1.130s] [  2%] Built target conveyorbelt_msgs__cpp
+[1.210s] [  2%] Built target ament_cmake_python_symlink_conveyorbelt_msgs
+[1.268s] [ 12%] Built target conveyorbelt_msgs__rosidl_generator_c
+[1.487s] [ 23%] Built target conveyorbelt_msgs__rosidl_typesupport_introspection_c
+[1.520s] [ 33%] Built target conveyorbelt_msgs__rosidl_typesupport_introspection_cpp
+[1.531s] [ 43%] Built target conveyorbelt_msgs__rosidl_typesupport_cpp
+[1.553s] [ 53%] Built target conveyorbelt_msgs__rosidl_typesupport_c
+[1.561s] [ 64%] Built target conveyorbelt_msgs__rosidl_typesupport_fastrtps_c
+[1.590s] [ 74%] Built target conveyorbelt_msgs__rosidl_typesupport_fastrtps_cpp
+[1.686s] [ 74%] Built target conveyorbelt_msgs
+[1.779s] [ 76%] Built target conveyorbelt_msgs__py
+[2.067s] [ 84%] Built target conveyorbelt_msgs__rosidl_generator_py
+[2.254s] [ 89%] Built target conveyorbelt_msgs__rosidl_typesupport_introspection_c__pyext
+[2.272s] [ 94%] Built target conveyorbelt_msgs__rosidl_typesupport_c__pyext
+[2.280s] [100%] Built target conveyorbelt_msgs__rosidl_typesupport_fastrtps_c__pyext
+[3.169s] running egg_info
+[3.172s] writing conveyorbelt_msgs.egg-info/PKG-INFO
+[3.173s] writing dependency_links to conveyorbelt_msgs.egg-info/dependency_links.txt
+[3.174s] writing top-level names to conveyorbelt_msgs.egg-info/top_level.txt
+[3.186s] reading manifest file 'conveyorbelt_msgs.egg-info/SOURCES.txt'
+[3.190s] writing manifest file 'conveyorbelt_msgs.egg-info/SOURCES.txt'
+[3.296s] [100%] Built target ament_cmake_python_build_conveyorbelt_msgs_egg

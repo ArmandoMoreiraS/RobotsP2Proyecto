@@ -1,0 +1,1 @@
+/home/armando30/robotsprj/build/ur/ament_cmake_environment_hooks/local_setup.zsh

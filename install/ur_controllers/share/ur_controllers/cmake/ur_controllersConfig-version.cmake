@@ -1,0 +1,1 @@
+/home/armando30/robotsprj/build/ur_controllers/ament_cmake_core/ur_controllersConfig-version.cmake

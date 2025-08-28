@@ -1,0 +1,48 @@
+[0.121s] Invoking command in '/home/armando30/robotsprj/build/ur_moveit_config': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/armando30/robotsprj/build/ur_moveit_config -- -j8 -l8
+[0.452s] Built target ament_cmake_python_symlink_ur_moveit_config
+[2.893s] running egg_info
+[2.896s] writing ur_moveit_config.egg-info/PKG-INFO
+[2.897s] writing dependency_links to ur_moveit_config.egg-info/dependency_links.txt
+[2.898s] writing top-level names to ur_moveit_config.egg-info/top_level.txt
+[2.907s] reading manifest file 'ur_moveit_config.egg-info/SOURCES.txt'
+[2.910s] writing manifest file 'ur_moveit_config.egg-info/SOURCES.txt'
+[3.027s] Built target ament_cmake_python_build_ur_moveit_config_egg
+[3.180s] Invoked command in '/home/armando30/robotsprj/build/ur_moveit_config' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/armando30/robotsprj/build/ur_moveit_config -- -j8 -l8
+[3.221s] Invoking command in '/home/armando30/robotsprj/build/ur_moveit_config': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/armando30/robotsprj/build/ur_moveit_config
+[3.280s] -- Install configuration: ""
+[3.282s] -- Execute custom install script
+[3.284s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_moveit_config/share/ur_moveit_config/config/controllers.yaml
+[3.286s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_moveit_config/share/ur_moveit_config/config/joint_limits.yaml
+[3.286s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_moveit_config/share/ur_moveit_config/config/kinematics.yaml
+[3.288s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_moveit_config/share/ur_moveit_config/config/ompl_planning.yaml
+[3.292s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_moveit_config/share/ur_moveit_config/config/ur_servo.yaml
+[3.293s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_moveit_config/share/ur_moveit_config/launch/ur_moveit.launch.py
+[3.297s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_moveit_config/share/ur_moveit_config/rviz/view_robot.rviz
+[3.300s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_moveit_config/share/ur_moveit_config/srdf/ur.srdf.xacro
+[3.302s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_moveit_config/share/ur_moveit_config/srdf/ur_macro.srdf.xacro
+[3.303s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_moveit_config/share/ur_moveit_config/environment/pythonpath.sh
+[3.304s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_moveit_config/share/ur_moveit_config/environment/pythonpath.dsv
+[3.306s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config-2.8.1-py3.10.egg-info/PKG-INFO
+[3.307s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config-2.8.1-py3.10.egg-info/SOURCES.txt
+[3.308s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config-2.8.1-py3.10.egg-info/dependency_links.txt
+[3.309s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config-2.8.1-py3.10.egg-info/top_level.txt
+[3.313s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config/__init__.py
+[3.319s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config/launch_common.py
+[3.319s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_moveit_config/local/lib/python3.10/dist-packages/launch_common.py
+[3.320s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_moveit_config/share/ament_index/resource_index/package_run_dependencies/ur_moveit_config
+[3.322s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_moveit_config/share/ament_index/resource_index/parent_prefix_path/ur_moveit_config
+[3.323s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_moveit_config/share/ur_moveit_config/environment/ament_prefix_path.sh
+[3.328s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_moveit_config/share/ur_moveit_config/environment/ament_prefix_path.dsv
+[3.330s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_moveit_config/share/ur_moveit_config/environment/path.sh
+[3.335s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_moveit_config/share/ur_moveit_config/environment/path.dsv
+[3.336s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_moveit_config/share/ur_moveit_config/local_setup.bash
+[3.336s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_moveit_config/share/ur_moveit_config/local_setup.sh
+[3.342s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_moveit_config/share/ur_moveit_config/local_setup.zsh
+[3.346s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_moveit_config/share/ur_moveit_config/local_setup.dsv
+[3.348s] -- Symlinking: /home/armando30/robotsprj/install/ur_moveit_config/share/ur_moveit_config/package.dsv
+[3.360s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_moveit_config/share/ament_index/resource_index/packages/ur_moveit_config
+[3.360s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_moveit_config/share/ur_moveit_config/cmake/ur_moveit_configConfig.cmake
+[3.363s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_moveit_config/share/ur_moveit_config/cmake/ur_moveit_configConfig-version.cmake
+[3.363s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_moveit_config/share/ur_moveit_config/package.xml
+[3.403s] Listing '/home/armando30/robotsprj/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config'...
+[3.669s] Invoked command in '/home/armando30/robotsprj/build/ur_moveit_config' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/armando30/robotsprj/build/ur_moveit_config

@@ -1,0 +1,1 @@
+/home/armando30/robotsprj/src/Universal_Robots_ROS2_Driver/ur_robot_driver/launch/ur10.launch.py

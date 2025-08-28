@@ -1,0 +1,23 @@
+[0.171s] Invoking command in '/home/armando30/robotsprj/build/ur_dashboard_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/armando30/robotsprj/build/ur_dashboard_msgs -- -j8 -l8
+[1.270s] [  0%] Built target ur_dashboard_msgs__cpp
+[1.277s] [  0%] Built target ament_cmake_python_symlink_ur_dashboard_msgs
+[1.351s] [ 12%] Built target ur_dashboard_msgs__rosidl_generator_c
+[1.599s] [ 24%] Built target ur_dashboard_msgs__rosidl_typesupport_introspection_c
+[1.637s] [ 36%] Built target ur_dashboard_msgs__rosidl_typesupport_introspection_cpp
+[1.639s] [ 48%] Built target ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp
+[1.646s] [ 72%] Built target ur_dashboard_msgs__rosidl_typesupport_cpp
+[1.648s] [ 72%] Built target ur_dashboard_msgs__rosidl_typesupport_c
+[1.654s] [ 84%] Built target ur_dashboard_msgs__rosidl_typesupport_fastrtps_c
+[1.786s] [ 84%] Built target ur_dashboard_msgs
+[1.886s] [ 85%] Built target ur_dashboard_msgs__py
+[2.061s] [ 96%] Built target ur_dashboard_msgs__rosidl_generator_py
+[2.267s] [ 97%] Built target ur_dashboard_msgs__rosidl_typesupport_fastrtps_c__pyext
+[2.295s] [ 98%] Built target ur_dashboard_msgs__rosidl_typesupport_c__pyext
+[2.302s] [100%] Built target ur_dashboard_msgs__rosidl_typesupport_introspection_c__pyext
+[2.949s] running egg_info
+[2.952s] writing ur_dashboard_msgs.egg-info/PKG-INFO
+[2.953s] writing dependency_links to ur_dashboard_msgs.egg-info/dependency_links.txt
+[2.954s] writing top-level names to ur_dashboard_msgs.egg-info/top_level.txt
+[2.966s] reading manifest file 'ur_dashboard_msgs.egg-info/SOURCES.txt'
+[2.969s] writing manifest file 'ur_dashboard_msgs.egg-info/SOURCES.txt'
+[3.053s] [100%] Built target ament_cmake_python_build_ur_dashboard_msgs_egg

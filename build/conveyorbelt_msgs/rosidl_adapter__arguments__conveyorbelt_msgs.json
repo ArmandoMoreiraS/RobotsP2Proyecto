@@ -1,0 +1,7 @@
+{
+  "package_name": "conveyorbelt_msgs",
+  "non_idl_tuples": [
+    "/home/armando30/robotsprj/src/IFRA_ConveyorBelt/conveyorbelt_msgs:msg/ConveyorBeltState.msg",
+    "/home/armando30/robotsprj/src/IFRA_ConveyorBelt/conveyorbelt_msgs:srv/ConveyorBeltControl.srv"
+  ]
+}

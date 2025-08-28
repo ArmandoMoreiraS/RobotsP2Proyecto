@@ -1,0 +1,105 @@
+[0.000000] (-) TimerEvent: {}
+[0.000977] (-) JobUnselected: {'identifier': 'conveyorbelt_gazebo'}
+[0.001320] (-) JobUnselected: {'identifier': 'conveyorbelt_msgs'}
+[0.001652] (-) JobUnselected: {'identifier': 'linkattacher_msgs'}
+[0.001808] (-) JobUnselected: {'identifier': 'ros2_conveyorbelt'}
+[0.001919] (-) JobUnselected: {'identifier': 'ros2_linkattacher'}
+[0.002004] (-) JobUnselected: {'identifier': 'ur'}
+[0.002084] (-) JobUnselected: {'identifier': 'ur_bringup'}
+[0.002411] (-) JobUnselected: {'identifier': 'ur_calibration'}
+[0.002995] (-) JobUnselected: {'identifier': 'ur_controllers'}
+[0.003099] (-) JobUnselected: {'identifier': 'ur_dashboard_msgs'}
+[0.003219] (-) JobUnselected: {'identifier': 'ur_moveit_config'}
+[0.003321] (-) JobUnselected: {'identifier': 'ur_robot_driver'}
+[0.003417] (-) JobUnselected: {'identifier': 'ur_simulation_gazebo'}
+[0.003824] (ur5e_conveyor_bringup) JobQueued: {'identifier': 'ur5e_conveyor_bringup', 'dependencies': OrderedDict()}
+[0.003931] (ur5e_conveyor_bringup) JobStarted: {'identifier': 'ur5e_conveyor_bringup'}
+[0.098204] (-) TimerEvent: {}
+[0.198847] (-) TimerEvent: {}
+[0.299554] (-) TimerEvent: {}
+[0.400260] (-) TimerEvent: {}
+[0.501036] (-) TimerEvent: {}
+[0.601720] (-) TimerEvent: {}
+[0.702391] (-) TimerEvent: {}
+[0.803083] (-) TimerEvent: {}
+[0.903709] (-) TimerEvent: {}
+[1.004255] (-) TimerEvent: {}
+[1.104841] (-) TimerEvent: {}
+[1.205455] (-) TimerEvent: {}
+[1.306141] (-) TimerEvent: {}
+[1.406863] (-) TimerEvent: {}
+[1.507597] (-) TimerEvent: {}
+[1.608308] (-) TimerEvent: {}
+[1.709064] (-) TimerEvent: {}
+[1.809825] (-) TimerEvent: {}
+[1.910577] (-) TimerEvent: {}
+[2.011298] (-) TimerEvent: {}
+[2.112041] (-) TimerEvent: {}
+[2.212799] (-) TimerEvent: {}
+[2.313552] (-) TimerEvent: {}
+[2.414296] (-) TimerEvent: {}
+[2.515085] (-) TimerEvent: {}
+[2.615709] (-) TimerEvent: {}
+[2.716446] (-) TimerEvent: {}
+[2.817069] (-) TimerEvent: {}
+[2.917652] (-) TimerEvent: {}
+[3.018248] (-) TimerEvent: {}
+[3.118880] (-) TimerEvent: {}
+[3.219469] (-) TimerEvent: {}
+[3.320084] (-) TimerEvent: {}
+[3.420725] (-) TimerEvent: {}
+[3.521350] (-) TimerEvent: {}
+[3.622104] (-) TimerEvent: {}
+[3.722758] (-) TimerEvent: {}
+[3.823414] (-) TimerEvent: {}
+[3.924186] (-) TimerEvent: {}
+[4.024819] (-) TimerEvent: {}
+[4.115243] (ur5e_conveyor_bringup) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/armando30/robotsprj/build/ur5e_conveyor_bringup/build', '--no-deps', 'symlink_data'], 'cwd': '/home/armando30/robotsprj/build/ur5e_conveyor_bringup', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'armando30', 'LC_TIME': 'es_EC.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/armando30/robotsprj/install/ur_robot_driver/lib:/home/armando30/robotsprj/install/ur_controllers/lib:/home/armando30/robotsprj/install/ur_dashboard_msgs/lib:/home/armando30/robotsprj/install/ros2_linkattacher/lib:/home/armando30/robotsprj/install/ros2_conveyorbelt/lib:/home/armando30/robotsprj/install/linkattacher_msgs/lib:/home/armando30/robotsprj/install/conveyorbelt_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/armando30', 'OLDPWD': '/home/armando30/robotsprj', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'es_EC.UTF-8', 'MANAGERPID': '1092', 'SYSTEMD_EXEC_PID': '2216', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '9214', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/armando30/robotsprj/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'armando30', 'JOURNAL_STREAM': '8:10972', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'armando30', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/armando30/robotsprj/install/ur_robot_driver/bin:/opt/ros/humble/bin:/home/armando30/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ArmandoJMS:@/tmp/.ICE-unix/1282,unix/ArmandoJMS:/tmp/.ICE-unix/1282', 'INVOCATION_ID': 'efaeaf0cba344b44a0c9146c2713af2e', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'es_EC.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'LC_TELEPHONE': 'es_EC.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.D3RTB3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/armando30/robotsprj/install/ur:/home/armando30/robotsprj/install/ur_calibration:/home/armando30/robotsprj/install/ur_robot_driver:/home/armando30/robotsprj/install/ur_moveit_config:/home/armando30/robotsprj/install/ur_bringup:/home/armando30/robotsprj/install/ur_controllers:/home/armando30/robotsprj/install/ur_dashboard_msgs:/home/armando30/robotsprj/install/ros2_linkattacher:/home/armando30/robotsprj/install/ros2_conveyorbelt:/home/armando30/robotsprj/install/linkattacher_msgs:/home/armando30/robotsprj/install/conveyorbelt_msgs:/home/armando30/robotsprj/install/conveyorbelt_gazebo:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'es_EC.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:f2b73ef0-7aaf-4c22-ab51-9936d0d64ce4', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'es_EC.UTF-8', 'LC_IDENTIFICATION': 'es_EC.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/armando30/robotsprj/build/ur5e_conveyor_bringup', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'GAZEBO_PLUGIN_PATH': '/home/armando30/robotsprj/install/ros2_linkattacher/lib:', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/armando30/robotsprj/build/ur5e_conveyor_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/armando30/robotsprj/install/ur5e_conveyor_bringup/lib/python3.10/site-packages:/home/armando30/robotsprj/install/ur_robot_driver/local/lib/python3.10/dist-packages:/home/armando30/robotsprj/install/ur_moveit_config/local/lib/python3.10/dist-packages:/home/armando30/robotsprj/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:/home/armando30/robotsprj/install/linkattacher_msgs/local/lib/python3.10/dist-packages:/home/armando30/robotsprj/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'es_EC.UTF-8', 'LC_PAPER': 'es_EC.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/armando30/robotsprj/install/ur:/home/armando30/robotsprj/install/ur_calibration:/home/armando30/robotsprj/install/ur_robot_driver:/home/armando30/robotsprj/install/ur_moveit_config:/home/armando30/robotsprj/install/ur_bringup:/home/armando30/robotsprj/install/ur_controllers:/home/armando30/robotsprj/install/ur_dashboard_msgs:/home/armando30/robotsprj/install/ros2_linkattacher:/home/armando30/robotsprj/install/ros2_conveyorbelt:/home/armando30/robotsprj/install/linkattacher_msgs:/home/armando30/robotsprj/install/conveyorbelt_msgs:/home/armando30/robotsprj/install/conveyorbelt_gazebo'}, 'shell': False}
+[4.125115] (-) TimerEvent: {}
+[4.225613] (-) TimerEvent: {}
+[4.326252] (-) TimerEvent: {}
+[4.427104] (-) TimerEvent: {}
+[4.527969] (-) TimerEvent: {}
+[4.628709] (-) TimerEvent: {}
+[4.729425] (-) TimerEvent: {}
+[4.830187] (-) TimerEvent: {}
+[4.930846] (-) TimerEvent: {}
+[5.031499] (-) TimerEvent: {}
+[5.132137] (-) TimerEvent: {}
+[5.232770] (-) TimerEvent: {}
+[5.333357] (-) TimerEvent: {}
+[5.355463] (ur5e_conveyor_bringup) StdoutLine: {'line': b'running develop\n'}
+[5.433505] (-) TimerEvent: {}
+[5.534232] (-) TimerEvent: {}
+[5.634974] (-) TimerEvent: {}
+[5.735660] (-) TimerEvent: {}
+[5.836341] (-) TimerEvent: {}
+[5.937067] (-) TimerEvent: {}
+[6.037794] (-) TimerEvent: {}
+[6.138462] (-) TimerEvent: {}
+[6.173166] (ur5e_conveyor_bringup) StdoutLine: {'line': b'running egg_info\n'}
+[6.173840] (ur5e_conveyor_bringup) StdoutLine: {'line': b'creating ur5e_conveyor_bringup.egg-info\n'}
+[6.174508] (ur5e_conveyor_bringup) StdoutLine: {'line': b'writing ur5e_conveyor_bringup.egg-info/PKG-INFO\n'}
+[6.175176] (ur5e_conveyor_bringup) StdoutLine: {'line': b'writing dependency_links to ur5e_conveyor_bringup.egg-info/dependency_links.txt\n'}
+[6.175840] (ur5e_conveyor_bringup) StdoutLine: {'line': b'writing entry points to ur5e_conveyor_bringup.egg-info/entry_points.txt\n'}
+[6.176332] (ur5e_conveyor_bringup) StdoutLine: {'line': b'writing requirements to ur5e_conveyor_bringup.egg-info/requires.txt\n'}
+[6.176941] (ur5e_conveyor_bringup) StdoutLine: {'line': b'writing top-level names to ur5e_conveyor_bringup.egg-info/top_level.txt\n'}
+[6.177386] (ur5e_conveyor_bringup) StdoutLine: {'line': b"writing manifest file 'ur5e_conveyor_bringup.egg-info/SOURCES.txt'\n"}
+[6.181232] (ur5e_conveyor_bringup) StdoutLine: {'line': b"reading manifest file 'ur5e_conveyor_bringup.egg-info/SOURCES.txt'\n"}
+[6.183496] (ur5e_conveyor_bringup) StdoutLine: {'line': b"writing manifest file 'ur5e_conveyor_bringup.egg-info/SOURCES.txt'\n"}
+[6.188302] (ur5e_conveyor_bringup) StdoutLine: {'line': b'running build_ext\n'}
+[6.189164] (ur5e_conveyor_bringup) StdoutLine: {'line': b'Creating /home/armando30/robotsprj/install/ur5e_conveyor_bringup/lib/python3.10/site-packages/ur5e-conveyor-bringup.egg-link (link to .)\n'}
+[6.192272] (ur5e_conveyor_bringup) StdoutLine: {'line': b'\n'}
+[6.193360] (ur5e_conveyor_bringup) StdoutLine: {'line': b'Installed /home/armando30/robotsprj/build/ur5e_conveyor_bringup\n'}
+[6.193898] (ur5e_conveyor_bringup) StdoutLine: {'line': b'running symlink_data\n'}
+[6.194207] (ur5e_conveyor_bringup) StdoutLine: {'line': b'creating /home/armando30/robotsprj/install/ur5e_conveyor_bringup/share\n'}
+[6.194494] (ur5e_conveyor_bringup) StdoutLine: {'line': b'creating /home/armando30/robotsprj/install/ur5e_conveyor_bringup/share/ament_index\n'}
+[6.194924] (ur5e_conveyor_bringup) StdoutLine: {'line': b'creating /home/armando30/robotsprj/install/ur5e_conveyor_bringup/share/ament_index/resource_index\n'}
+[6.195201] (ur5e_conveyor_bringup) StdoutLine: {'line': b'creating /home/armando30/robotsprj/install/ur5e_conveyor_bringup/share/ament_index/resource_index/packages\n'}
+[6.195490] (ur5e_conveyor_bringup) StdoutLine: {'line': b'symbolically linking /home/armando30/robotsprj/build/ur5e_conveyor_bringup/resource/ur5e_conveyor_bringup -> /home/armando30/robotsprj/install/ur5e_conveyor_bringup/share/ament_index/resource_index/packages\n'}
+[6.195797] (ur5e_conveyor_bringup) StdoutLine: {'line': b'creating /home/armando30/robotsprj/install/ur5e_conveyor_bringup/share/ur5e_conveyor_bringup\n'}
+[6.196098] (ur5e_conveyor_bringup) StderrLine: {'line': b"error: can't copy '/home/armando30/robotsprj/build/ur5e_conveyor_bringup/package.xml': doesn't exist or not a regular file\n"}
+[6.238672] (-) TimerEvent: {}
+[6.273508] (ur5e_conveyor_bringup) CommandEnded: {'returncode': 1}
+[6.275501] (ur5e_conveyor_bringup) JobEnded: {'identifier': 'ur5e_conveyor_bringup', 'rc': 1}
+[6.285368] (-) EventReactorShutdown: {}

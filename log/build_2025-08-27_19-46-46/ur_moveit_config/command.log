@@ -1,0 +1,1 @@
+Invoking command in '/home/armando30/robotsprj/build/ur_moveit_config': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/armando30/robotsprj/build/ur_moveit_config -- -j8 -l8

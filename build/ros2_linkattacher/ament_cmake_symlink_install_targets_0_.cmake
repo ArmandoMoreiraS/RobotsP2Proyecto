@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/armando30/robotsprj/build/ros2_linkattacher/libgazebo_link_attacher.so" "TARGETS" "gazebo_link_attacher" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

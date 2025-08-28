@@ -1,0 +1,235 @@
+[0.114s] Invoking command in '/home/armando30/robotsprj/build/conveyorbelt_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/armando30/robotsprj/src/IFRA_ConveyorBelt/conveyorbelt_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/armando30/robotsprj/install/conveyorbelt_msgs
+[0.339s] -- The C compiler identification is GNU 11.4.0
+[0.553s] -- The CXX compiler identification is GNU 11.4.0
+[0.591s] -- Detecting C compiler ABI info
+[0.883s] -- Detecting C compiler ABI info - done
+[0.931s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.933s] -- Detecting C compile features
+[0.935s] -- Detecting C compile features - done
+[0.952s] -- Detecting CXX compiler ABI info
+[1.277s] -- Detecting CXX compiler ABI info - done
+[1.329s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.331s] -- Detecting CXX compile features
+[1.334s] -- Detecting CXX compile features - done
+[1.347s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.033s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.331s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.471s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.891s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[2.916s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.957s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.197s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.306s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[5.298s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.506s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.605s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[6.637s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[6.791s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[6.791s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[6.791s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[6.792s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[6.866s] -- Found PythonExtra: .so  
+[7.055s] -- Added test 'copyright' to check source files copyright and LICENSE
+[7.075s] -- Added test 'lint_cmake' to check CMake code style
+[7.081s] -- Added test 'xmllint' to check XML markup files
+[7.130s] -- Configuring done
+[7.276s] -- Generating done
+[7.310s] -- Build files have been written to: /home/armando30/robotsprj/build/conveyorbelt_msgs
+[7.327s] Invoked command in '/home/armando30/robotsprj/build/conveyorbelt_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/armando30/robotsprj/src/IFRA_ConveyorBelt/conveyorbelt_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/armando30/robotsprj/install/conveyorbelt_msgs
+[7.333s] Invoking command in '/home/armando30/robotsprj/build/conveyorbelt_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/armando30/robotsprj/build/conveyorbelt_msgs -- -j8 -l8
+[7.476s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[7.518s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[7.551s] [  5%] Built target ament_cmake_python_symlink_conveyorbelt_msgs
+[9.265s] running egg_info
+[9.269s] creating conveyorbelt_msgs.egg-info
+[9.270s] writing conveyorbelt_msgs.egg-info/PKG-INFO
+[9.270s] writing dependency_links to conveyorbelt_msgs.egg-info/dependency_links.txt
+[9.271s] writing top-level names to conveyorbelt_msgs.egg-info/top_level.txt
+[9.271s] writing manifest file 'conveyorbelt_msgs.egg-info/SOURCES.txt'
+[9.280s] reading manifest file 'conveyorbelt_msgs.egg-info/SOURCES.txt'
+[9.286s] writing manifest file 'conveyorbelt_msgs.egg-info/SOURCES.txt'
+[9.412s] [  5%] Built target ament_cmake_python_build_conveyorbelt_msgs_egg
+[10.581s] [  5%] Built target conveyorbelt_msgs__cpp
+[10.685s] [  7%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[10.736s] [ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[10.736s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[10.959s] [ 15%] [32mBuilding C object CMakeFiles/conveyorbelt_msgs__rosidl_generator_c.dir/rosidl_generator_c/conveyorbelt_msgs/msg/detail/conveyor_belt_state__functions.c.o[0m
+[10.960s] [ 17%] [32mBuilding C object CMakeFiles/conveyorbelt_msgs__rosidl_generator_c.dir/rosidl_generator_c/conveyorbelt_msgs/srv/detail/conveyor_belt_control__functions.c.o[0m
+[11.447s] [ 20%] [32m[1mLinking C shared library libconveyorbelt_msgs__rosidl_generator_c.so[0m
+[11.735s] [ 20%] Built target conveyorbelt_msgs__rosidl_generator_c
+[11.835s] [ 23%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[11.850s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[11.858s] [ 28%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[14.350s] [ 30%] [32mBuilding CXX object CMakeFiles/conveyorbelt_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/conveyorbelt_msgs/msg/detail/conveyor_belt_state__type_support.cpp.o[0m
+[14.360s] [ 33%] [32mBuilding CXX object CMakeFiles/conveyorbelt_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/conveyorbelt_msgs/srv/detail/conveyor_belt_control__type_support.cpp.o[0m
+[14.539s] [ 35%] [32mBuilding CXX object CMakeFiles/conveyorbelt_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/conveyorbelt_msgs/srv/conveyor_belt_control__type_support.cpp.o[0m
+[14.565s] [ 38%] [32mBuilding CXX object CMakeFiles/conveyorbelt_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/conveyorbelt_msgs/msg/conveyor_belt_state__type_support.cpp.o[0m
+[15.581s] [ 41%] [32mBuilding CXX object CMakeFiles/conveyorbelt_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/conveyorbelt_msgs/msg/detail/conveyor_belt_state__type_support_c.cpp.o[0m
+[15.675s] [ 43%] [32mBuilding CXX object CMakeFiles/conveyorbelt_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/conveyorbelt_msgs/msg/detail/dds_fastrtps/conveyor_belt_state__type_support.cpp.o[0m
+[17.069s] [ 46%] [32mBuilding CXX object CMakeFiles/conveyorbelt_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/conveyorbelt_msgs/msg/conveyor_belt_state__type_support.cpp.o[0m
+[17.423s] [ 48%] [32mBuilding CXX object CMakeFiles/conveyorbelt_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/conveyorbelt_msgs/srv/conveyor_belt_control__type_support.cpp.o[0m
+[17.656s] [ 51%] [32m[1mLinking CXX shared library libconveyorbelt_msgs__rosidl_typesupport_c.so[0m
+[17.840s] [ 53%] [32mBuilding CXX object CMakeFiles/conveyorbelt_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/conveyorbelt_msgs/srv/detail/dds_fastrtps/conveyor_belt_control__type_support.cpp.o[0m
+[18.061s] [ 53%] Built target conveyorbelt_msgs__rosidl_typesupport_c
+[18.140s] [ 56%] [32mBuilding CXX object CMakeFiles/conveyorbelt_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/conveyorbelt_msgs/srv/detail/conveyor_belt_control__type_support_c.cpp.o[0m
+[18.792s] [ 58%] [32mBuilding C object CMakeFiles/conveyorbelt_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/conveyorbelt_msgs/msg/detail/conveyor_belt_state__type_support.c.o[0m
+[19.109s] [ 61%] [32mBuilding C object CMakeFiles/conveyorbelt_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/conveyorbelt_msgs/srv/detail/conveyor_belt_control__type_support.c.o[0m
+[19.499s] [ 64%] [32m[1mLinking C shared library libconveyorbelt_msgs__rosidl_typesupport_introspection_c.so[0m
+[19.562s] [ 66%] [32m[1mLinking CXX shared library libconveyorbelt_msgs__rosidl_typesupport_cpp.so[0m
+[19.711s] [ 66%] Built target conveyorbelt_msgs__rosidl_typesupport_introspection_c
+[20.007s] [ 66%] Built target conveyorbelt_msgs__rosidl_typesupport_cpp
+[20.939s] [ 69%] [32m[1mLinking CXX shared library libconveyorbelt_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[21.262s] [ 69%] Built target conveyorbelt_msgs__rosidl_typesupport_introspection_cpp
+[22.894s] [ 71%] [32m[1mLinking CXX shared library libconveyorbelt_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[23.274s] [ 71%] Built target conveyorbelt_msgs__rosidl_typesupport_fastrtps_c
+[23.349s] [ 74%] [32m[1mLinking CXX shared library libconveyorbelt_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[23.724s] [ 74%] Built target conveyorbelt_msgs__rosidl_typesupport_fastrtps_cpp
+[23.788s] [ 74%] Built target conveyorbelt_msgs
+[23.850s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[26.157s] [ 76%] Built target conveyorbelt_msgs__py
+[26.260s] [ 79%] [32mBuilding C object CMakeFiles/conveyorbelt_msgs__rosidl_generator_py.dir/rosidl_generator_py/conveyorbelt_msgs/srv/_conveyor_belt_control_s.c.o[0m
+[26.261s] [ 82%] [32mBuilding C object CMakeFiles/conveyorbelt_msgs__rosidl_generator_py.dir/rosidl_generator_py/conveyorbelt_msgs/msg/_conveyor_belt_state_s.c.o[0m
+[26.984s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/conveyorbelt_msgs/libconveyorbelt_msgs__rosidl_generator_py.so[0m
+[27.162s] [ 84%] Built target conveyorbelt_msgs__rosidl_generator_py
+[27.260s] [ 87%] [32mBuilding C object CMakeFiles/conveyorbelt_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/conveyorbelt_msgs/_conveyorbelt_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[27.263s] [ 89%] [32mBuilding C object CMakeFiles/conveyorbelt_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/conveyorbelt_msgs/_conveyorbelt_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[27.278s] [ 92%] [32mBuilding C object CMakeFiles/conveyorbelt_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/conveyorbelt_msgs/_conveyorbelt_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[27.945s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/conveyorbelt_msgs/conveyorbelt_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[28.016s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/conveyorbelt_msgs/conveyorbelt_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[28.023s] [100%] [32m[1mLinking C shared library rosidl_generator_py/conveyorbelt_msgs/conveyorbelt_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[28.150s] [100%] Built target conveyorbelt_msgs__rosidl_typesupport_c__pyext
+[28.218s] [100%] Built target conveyorbelt_msgs__rosidl_typesupport_introspection_c__pyext
+[28.250s] [100%] Built target conveyorbelt_msgs__rosidl_typesupport_fastrtps_c__pyext
+[28.301s] Invoked command in '/home/armando30/robotsprj/build/conveyorbelt_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/armando30/robotsprj/build/conveyorbelt_msgs -- -j8 -l8
+[28.308s] Invoking command in '/home/armando30/robotsprj/build/conveyorbelt_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/armando30/robotsprj/build/conveyorbelt_msgs
+[28.343s] -- Install configuration: ""
+[28.346s] -- Execute custom install script
+[28.348s] -- Symlinking: /home/armando30/robotsprj/install/conveyorbelt_msgs/share/conveyorbelt_msgs/msg/ConveyorBeltState.msg
+[28.388s] -- Symlinking: /home/armando30/robotsprj/install/conveyorbelt_msgs/share/conveyorbelt_msgs/srv/ConveyorBeltControl.srv
+[28.431s] -- Symlinking: /home/armando30/robotsprj/install/conveyorbelt_msgs/share/ament_index/resource_index/rosidl_interfaces/conveyorbelt_msgs
+[28.470s] -- Symlinking: /home/armando30/robotsprj/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/msg/conveyor_belt_state.h
+[28.498s] -- Symlinking: /home/armando30/robotsprj/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/msg/detail/conveyor_belt_state__functions.h
+[28.525s] -- Symlinking: /home/armando30/robotsprj/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/msg/detail/conveyor_belt_state__struct.h
+[28.552s] -- Symlinking: /home/armando30/robotsprj/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/msg/detail/conveyor_belt_state__type_support.h
+[28.581s] -- Symlinking: /home/armando30/robotsprj/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/msg/rosidl_generator_c__visibility_control.h
+[28.608s] -- Symlinking: /home/armando30/robotsprj/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/srv/conveyor_belt_control.h
+[28.635s] -- Symlinking: /home/armando30/robotsprj/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/srv/detail/conveyor_belt_control__functions.h
+[28.666s] -- Symlinking: /home/armando30/robotsprj/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/srv/detail/conveyor_belt_control__struct.h
+[28.703s] -- Symlinking: /home/armando30/robotsprj/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/srv/detail/conveyor_belt_control__type_support.h
+[28.749s] -- Symlinking: /home/armando30/robotsprj/install/conveyorbelt_msgs/share/conveyorbelt_msgs/environment/library_path.sh
+[28.790s] -- Symlinking: /home/armando30/robotsprj/install/conveyorbelt_msgs/share/conveyorbelt_msgs/environment/library_path.dsv
+[28.828s] -- Symlinking: /home/armando30/robotsprj/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/msg/detail/conveyor_belt_state__rosidl_typesupport_fastrtps_c.h
+[28.869s] -- Symlinking: /home/armando30/robotsprj/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[28.909s] -- Symlinking: /home/armando30/robotsprj/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/srv/detail/conveyor_belt_control__rosidl_typesupport_fastrtps_c.h
+[28.951s] -- Symlinking: /home/armando30/robotsprj/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/msg/detail/conveyor_belt_state__rosidl_typesupport_introspection_c.h
+[28.991s] -- Symlinking: /home/armando30/robotsprj/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[29.024s] -- Symlinking: /home/armando30/robotsprj/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/srv/detail/conveyor_belt_control__rosidl_typesupport_introspection_c.h
+[29.064s] -- Symlinking: /home/armando30/robotsprj/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/msg/conveyor_belt_state.hpp
+[29.102s] -- Symlinking: /home/armando30/robotsprj/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/msg/detail/conveyor_belt_state__builder.hpp
+[29.138s] -- Symlinking: /home/armando30/robotsprj/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/msg/detail/conveyor_belt_state__struct.hpp
+[29.177s] -- Symlinking: /home/armando30/robotsprj/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/msg/detail/conveyor_belt_state__traits.hpp
+[29.218s] -- Symlinking: /home/armando30/robotsprj/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/msg/detail/conveyor_belt_state__type_support.hpp
+[29.257s] -- Symlinking: /home/armando30/robotsprj/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[29.301s] -- Symlinking: /home/armando30/robotsprj/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/srv/conveyor_belt_control.hpp
+[29.340s] -- Symlinking: /home/armando30/robotsprj/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/srv/detail/conveyor_belt_control__builder.hpp
+[29.391s] -- Symlinking: /home/armando30/robotsprj/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/srv/detail/conveyor_belt_control__struct.hpp
+[29.431s] -- Symlinking: /home/armando30/robotsprj/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/srv/detail/conveyor_belt_control__traits.hpp
+[29.478s] -- Symlinking: /home/armando30/robotsprj/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/srv/detail/conveyor_belt_control__type_support.hpp
+[29.523s] -- Symlinking: /home/armando30/robotsprj/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/msg/detail/conveyor_belt_state__rosidl_typesupport_fastrtps_cpp.hpp
+[29.563s] -- Symlinking: /home/armando30/robotsprj/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[29.602s] -- Symlinking: /home/armando30/robotsprj/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/srv/detail/conveyor_belt_control__rosidl_typesupport_fastrtps_cpp.hpp
+[29.652s] -- Symlinking: /home/armando30/robotsprj/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/msg/detail/conveyor_belt_state__rosidl_typesupport_introspection_cpp.hpp
+[29.701s] -- Symlinking: /home/armando30/robotsprj/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/srv/detail/conveyor_belt_control__rosidl_typesupport_introspection_cpp.hpp
+[29.743s] -- Symlinking: /home/armando30/robotsprj/install/conveyorbelt_msgs/share/conveyorbelt_msgs/environment/pythonpath.sh
+[29.790s] -- Symlinking: /home/armando30/robotsprj/install/conveyorbelt_msgs/share/conveyorbelt_msgs/environment/pythonpath.dsv
+[29.832s] -- Symlinking: /home/armando30/robotsprj/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages/conveyorbelt_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[29.880s] -- Symlinking: /home/armando30/robotsprj/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages/conveyorbelt_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[29.921s] -- Symlinking: /home/armando30/robotsprj/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages/conveyorbelt_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[29.959s] -- Symlinking: /home/armando30/robotsprj/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages/conveyorbelt_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[30.002s] -- Symlinking: /home/armando30/robotsprj/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages/conveyorbelt_msgs/__init__.py
+[30.042s] -- Symlinking: /home/armando30/robotsprj/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages/conveyorbelt_msgs/_conveyorbelt_msgs_s.ep.rosidl_typesupport_c.c
+[30.083s] -- Symlinking: /home/armando30/robotsprj/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages/conveyorbelt_msgs/_conveyorbelt_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[30.122s] -- Symlinking: /home/armando30/robotsprj/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages/conveyorbelt_msgs/_conveyorbelt_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[30.165s] -- Symlinking: /home/armando30/robotsprj/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages/conveyorbelt_msgs/conveyorbelt_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[30.205s] -- Symlinking: /home/armando30/robotsprj/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages/conveyorbelt_msgs/conveyorbelt_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[30.245s] -- Symlinking: /home/armando30/robotsprj/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages/conveyorbelt_msgs/conveyorbelt_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[30.285s] -- Symlinking: /home/armando30/robotsprj/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages/conveyorbelt_msgs/libconveyorbelt_msgs__rosidl_generator_py.so
+[30.325s] -- Symlinking: /home/armando30/robotsprj/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages/conveyorbelt_msgs/msg/__init__.py
+[30.365s] -- Symlinking: /home/armando30/robotsprj/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages/conveyorbelt_msgs/msg/_conveyor_belt_state.py
+[30.403s] -- Symlinking: /home/armando30/robotsprj/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages/conveyorbelt_msgs/msg/_conveyor_belt_state_s.c
+[30.443s] -- Symlinking: /home/armando30/robotsprj/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages/conveyorbelt_msgs/srv/__init__.py
+[30.483s] -- Symlinking: /home/armando30/robotsprj/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages/conveyorbelt_msgs/srv/_conveyor_belt_control.py
+[30.520s] -- Symlinking: /home/armando30/robotsprj/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages/conveyorbelt_msgs/srv/_conveyor_belt_control_s.c
+[30.562s] -- Up-to-date symlink: /home/armando30/robotsprj/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages/conveyorbelt_msgs/conveyorbelt_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[30.567s] -- Up-to-date symlink: /home/armando30/robotsprj/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages/conveyorbelt_msgs/conveyorbelt_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[30.567s] -- Up-to-date symlink: /home/armando30/robotsprj/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages/conveyorbelt_msgs/conveyorbelt_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[30.568s] -- Symlinking: /home/armando30/robotsprj/install/conveyorbelt_msgs/share/conveyorbelt_msgs/msg/ConveyorBeltState.idl
+[30.605s] -- Symlinking: /home/armando30/robotsprj/install/conveyorbelt_msgs/share/conveyorbelt_msgs/srv/ConveyorBeltControl.idl
+[30.631s] -- Up-to-date symlink: /home/armando30/robotsprj/install/conveyorbelt_msgs/share/conveyorbelt_msgs/msg/ConveyorBeltState.msg
+[30.632s] -- Up-to-date symlink: /home/armando30/robotsprj/install/conveyorbelt_msgs/share/conveyorbelt_msgs/srv/ConveyorBeltControl.srv
+[30.633s] -- Symlinking: /home/armando30/robotsprj/install/conveyorbelt_msgs/share/conveyorbelt_msgs/srv/ConveyorBeltControl_Request.msg
+[30.673s] -- Symlinking: /home/armando30/robotsprj/install/conveyorbelt_msgs/share/conveyorbelt_msgs/srv/ConveyorBeltControl_Response.msg
+[30.713s] -- Symlinking: /home/armando30/robotsprj/install/conveyorbelt_msgs/share/ament_index/resource_index/package_run_dependencies/conveyorbelt_msgs
+[30.752s] -- Symlinking: /home/armando30/robotsprj/install/conveyorbelt_msgs/share/ament_index/resource_index/parent_prefix_path/conveyorbelt_msgs
+[30.791s] -- Symlinking: /home/armando30/robotsprj/install/conveyorbelt_msgs/share/conveyorbelt_msgs/environment/ament_prefix_path.sh
+[30.830s] -- Symlinking: /home/armando30/robotsprj/install/conveyorbelt_msgs/share/conveyorbelt_msgs/environment/ament_prefix_path.dsv
+[30.870s] -- Symlinking: /home/armando30/robotsprj/install/conveyorbelt_msgs/share/conveyorbelt_msgs/environment/path.sh
+[30.903s] -- Symlinking: /home/armando30/robotsprj/install/conveyorbelt_msgs/share/conveyorbelt_msgs/environment/path.dsv
+[30.942s] -- Symlinking: /home/armando30/robotsprj/install/conveyorbelt_msgs/share/conveyorbelt_msgs/local_setup.bash
+[30.981s] -- Symlinking: /home/armando30/robotsprj/install/conveyorbelt_msgs/share/conveyorbelt_msgs/local_setup.sh
+[31.023s] -- Symlinking: /home/armando30/robotsprj/install/conveyorbelt_msgs/share/conveyorbelt_msgs/local_setup.zsh
+[31.059s] -- Symlinking: /home/armando30/robotsprj/install/conveyorbelt_msgs/share/conveyorbelt_msgs/local_setup.dsv
+[31.099s] -- Symlinking: /home/armando30/robotsprj/install/conveyorbelt_msgs/share/conveyorbelt_msgs/package.dsv
+[31.137s] -- Symlinking: /home/armando30/robotsprj/install/conveyorbelt_msgs/share/ament_index/resource_index/packages/conveyorbelt_msgs
+[31.177s] -- Symlinking: /home/armando30/robotsprj/install/conveyorbelt_msgs/share/conveyorbelt_msgs/cmake/rosidl_cmake-extras.cmake
+[31.216s] -- Symlinking: /home/armando30/robotsprj/install/conveyorbelt_msgs/share/conveyorbelt_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[31.255s] -- Symlinking: /home/armando30/robotsprj/install/conveyorbelt_msgs/share/conveyorbelt_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[31.295s] -- Symlinking: /home/armando30/robotsprj/install/conveyorbelt_msgs/share/conveyorbelt_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[31.333s] -- Symlinking: /home/armando30/robotsprj/install/conveyorbelt_msgs/share/conveyorbelt_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[31.371s] -- Symlinking: /home/armando30/robotsprj/install/conveyorbelt_msgs/share/conveyorbelt_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[31.404s] -- Symlinking: /home/armando30/robotsprj/install/conveyorbelt_msgs/share/conveyorbelt_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[31.432s] -- Symlinking: /home/armando30/robotsprj/install/conveyorbelt_msgs/share/conveyorbelt_msgs/cmake/conveyorbelt_msgsConfig.cmake
+[31.462s] -- Symlinking: /home/armando30/robotsprj/install/conveyorbelt_msgs/share/conveyorbelt_msgs/cmake/conveyorbelt_msgsConfig-version.cmake
+[31.491s] -- Symlinking: /home/armando30/robotsprj/install/conveyorbelt_msgs/share/conveyorbelt_msgs/package.xml
+[31.518s] -- Installing: /home/armando30/robotsprj/install/conveyorbelt_msgs/lib/libconveyorbelt_msgs__rosidl_generator_c.so
+[31.520s] -- Set runtime path of "/home/armando30/robotsprj/install/conveyorbelt_msgs/lib/libconveyorbelt_msgs__rosidl_generator_c.so" to ""
+[31.520s] -- Installing: /home/armando30/robotsprj/install/conveyorbelt_msgs/lib/libconveyorbelt_msgs__rosidl_typesupport_fastrtps_c.so
+[31.522s] -- Set runtime path of "/home/armando30/robotsprj/install/conveyorbelt_msgs/lib/libconveyorbelt_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[31.523s] -- Installing: /home/armando30/robotsprj/install/conveyorbelt_msgs/lib/libconveyorbelt_msgs__rosidl_typesupport_introspection_c.so
+[31.525s] -- Set runtime path of "/home/armando30/robotsprj/install/conveyorbelt_msgs/lib/libconveyorbelt_msgs__rosidl_typesupport_introspection_c.so" to ""
+[31.525s] -- Installing: /home/armando30/robotsprj/install/conveyorbelt_msgs/lib/libconveyorbelt_msgs__rosidl_typesupport_c.so
+[31.526s] -- Set runtime path of "/home/armando30/robotsprj/install/conveyorbelt_msgs/lib/libconveyorbelt_msgs__rosidl_typesupport_c.so" to ""
+[31.527s] -- Installing: /home/armando30/robotsprj/install/conveyorbelt_msgs/lib/libconveyorbelt_msgs__rosidl_typesupport_fastrtps_cpp.so
+[31.528s] -- Set runtime path of "/home/armando30/robotsprj/install/conveyorbelt_msgs/lib/libconveyorbelt_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[31.529s] -- Installing: /home/armando30/robotsprj/install/conveyorbelt_msgs/lib/libconveyorbelt_msgs__rosidl_typesupport_introspection_cpp.so
+[31.531s] -- Set runtime path of "/home/armando30/robotsprj/install/conveyorbelt_msgs/lib/libconveyorbelt_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[31.531s] -- Installing: /home/armando30/robotsprj/install/conveyorbelt_msgs/lib/libconveyorbelt_msgs__rosidl_typesupport_cpp.so
+[31.533s] -- Set runtime path of "/home/armando30/robotsprj/install/conveyorbelt_msgs/lib/libconveyorbelt_msgs__rosidl_typesupport_cpp.so" to ""
+[31.684s] Listing '/home/armando30/robotsprj/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages/conveyorbelt_msgs'...
+[31.685s] Compiling '/home/armando30/robotsprj/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages/conveyorbelt_msgs/__init__.py'...
+[31.685s] Listing '/home/armando30/robotsprj/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages/conveyorbelt_msgs/msg'...
+[31.686s] Compiling '/home/armando30/robotsprj/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages/conveyorbelt_msgs/msg/__init__.py'...
+[31.686s] Compiling '/home/armando30/robotsprj/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages/conveyorbelt_msgs/msg/_conveyor_belt_state.py'...
+[31.687s] Listing '/home/armando30/robotsprj/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages/conveyorbelt_msgs/srv'...
+[31.687s] Compiling '/home/armando30/robotsprj/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages/conveyorbelt_msgs/srv/__init__.py'...
+[31.688s] Compiling '/home/armando30/robotsprj/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages/conveyorbelt_msgs/srv/_conveyor_belt_control.py'...
+[31.699s] -- Installing: /home/armando30/robotsprj/install/conveyorbelt_msgs/lib/libconveyorbelt_msgs__rosidl_generator_py.so
+[31.700s] -- Set runtime path of "/home/armando30/robotsprj/install/conveyorbelt_msgs/lib/libconveyorbelt_msgs__rosidl_generator_py.so" to ""
+[31.701s] -- Installing: /home/armando30/robotsprj/install/conveyorbelt_msgs/share/conveyorbelt_msgs/cmake/export_conveyorbelt_msgs__rosidl_generator_cExport.cmake
+[31.702s] -- Installing: /home/armando30/robotsprj/install/conveyorbelt_msgs/share/conveyorbelt_msgs/cmake/export_conveyorbelt_msgs__rosidl_generator_cExport-noconfig.cmake
+[31.702s] -- Installing: /home/armando30/robotsprj/install/conveyorbelt_msgs/share/conveyorbelt_msgs/cmake/export_conveyorbelt_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[31.703s] -- Installing: /home/armando30/robotsprj/install/conveyorbelt_msgs/share/conveyorbelt_msgs/cmake/export_conveyorbelt_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[31.704s] -- Installing: /home/armando30/robotsprj/install/conveyorbelt_msgs/share/conveyorbelt_msgs/cmake/conveyorbelt_msgs__rosidl_typesupport_introspection_cExport.cmake
+[31.705s] -- Installing: /home/armando30/robotsprj/install/conveyorbelt_msgs/share/conveyorbelt_msgs/cmake/conveyorbelt_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[31.706s] -- Installing: /home/armando30/robotsprj/install/conveyorbelt_msgs/share/conveyorbelt_msgs/cmake/conveyorbelt_msgs__rosidl_typesupport_cExport.cmake
+[31.706s] -- Installing: /home/armando30/robotsprj/install/conveyorbelt_msgs/share/conveyorbelt_msgs/cmake/conveyorbelt_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[31.707s] -- Installing: /home/armando30/robotsprj/install/conveyorbelt_msgs/share/conveyorbelt_msgs/cmake/export_conveyorbelt_msgs__rosidl_generator_cppExport.cmake
+[31.708s] -- Installing: /home/armando30/robotsprj/install/conveyorbelt_msgs/share/conveyorbelt_msgs/cmake/export_conveyorbelt_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[31.709s] -- Installing: /home/armando30/robotsprj/install/conveyorbelt_msgs/share/conveyorbelt_msgs/cmake/export_conveyorbelt_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[31.709s] -- Installing: /home/armando30/robotsprj/install/conveyorbelt_msgs/share/conveyorbelt_msgs/cmake/conveyorbelt_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[31.710s] -- Installing: /home/armando30/robotsprj/install/conveyorbelt_msgs/share/conveyorbelt_msgs/cmake/conveyorbelt_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[31.711s] -- Installing: /home/armando30/robotsprj/install/conveyorbelt_msgs/share/conveyorbelt_msgs/cmake/conveyorbelt_msgs__rosidl_typesupport_cppExport.cmake
+[31.712s] -- Installing: /home/armando30/robotsprj/install/conveyorbelt_msgs/share/conveyorbelt_msgs/cmake/conveyorbelt_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[31.712s] -- Installing: /home/armando30/robotsprj/install/conveyorbelt_msgs/share/conveyorbelt_msgs/cmake/export_conveyorbelt_msgs__rosidl_generator_pyExport.cmake
+[31.713s] -- Installing: /home/armando30/robotsprj/install/conveyorbelt_msgs/share/conveyorbelt_msgs/cmake/export_conveyorbelt_msgs__rosidl_generator_pyExport-noconfig.cmake
+[31.723s] Invoked command in '/home/armando30/robotsprj/build/conveyorbelt_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/armando30/robotsprj/build/conveyorbelt_msgs

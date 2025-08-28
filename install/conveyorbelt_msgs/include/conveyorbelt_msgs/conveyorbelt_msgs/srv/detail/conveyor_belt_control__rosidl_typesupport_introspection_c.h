@@ -1,0 +1,1 @@
+/home/armando30/robotsprj/build/conveyorbelt_msgs/rosidl_typesupport_introspection_c/conveyorbelt_msgs/srv/detail/conveyor_belt_control__rosidl_typesupport_introspection_c.h

@@ -1,0 +1,3 @@
+[0.101s] Invoking command in '/home/armando30/robotsprj/build/palletizer_move': /usr/bin/cmake /home/armando30/robotsprj/src/palletizer_move -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/armando30/robotsprj/install/palletizer_move
+[0.517s] [0mCMake Error: The source directory "/home/armando30/robotsprj/src/palletizer_move" does not appear to contain CMakeLists.txt.
+[0.519s] Specify --help for usage, or press the help button on the CMake GUI.[0m

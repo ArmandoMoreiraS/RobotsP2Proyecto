@@ -1,0 +1,37 @@
+[0.060s] Invoking command in '/home/armando30/robotsprj/build/ur_calibration': CMAKE_PREFIX_PATH=/home/armando30/robotsprj/install/ur_robot_driver:/home/armando30/robotsprj/install/ur_controllers:/home/armando30/robotsprj/install/ur_dashboard_msgs:/home/armando30/robotsprj/install/ur:/home/armando30/robotsprj/install/ur_calibration:/home/armando30/robotsprj/install/ur_moveit_config:/home/armando30/robotsprj/install/ur_bringup:/home/armando30/robotsprj/install/ros2_linkattacher:/home/armando30/robotsprj/install/ros2_conveyorbelt:/home/armando30/robotsprj/install/linkattacher_msgs:/home/armando30/robotsprj/install/conveyorbelt_msgs:/home/armando30/robotsprj/install/conveyorbelt_gazebo:/opt/ros/humble /usr/bin/cmake --build /home/armando30/robotsprj/build/ur_calibration -- -j8 -l8
+[0.207s] [35m[1mConsolidate compiler generated dependencies of target gmock[0m
+[0.208s] [35m[1mConsolidate compiler generated dependencies of target gmock_main[0m
+[0.211s] [35m[1mConsolidate compiler generated dependencies of target calibration[0m
+[0.257s] [ 16%] Built target gmock_main
+[0.261s] [ 41%] Built target gmock
+[0.285s] [ 66%] Built target calibration
+[0.326s] [35m[1mConsolidate compiler generated dependencies of target calibration_correction[0m
+[0.326s] [35m[1mConsolidate compiler generated dependencies of target calibration_test[0m
+[0.394s] [ 83%] Built target calibration_test
+[0.394s] [100%] Built target calibration_correction
+[0.430s] Invoked command in '/home/armando30/robotsprj/build/ur_calibration' returned '0': CMAKE_PREFIX_PATH=/home/armando30/robotsprj/install/ur_robot_driver:/home/armando30/robotsprj/install/ur_controllers:/home/armando30/robotsprj/install/ur_dashboard_msgs:/home/armando30/robotsprj/install/ur:/home/armando30/robotsprj/install/ur_calibration:/home/armando30/robotsprj/install/ur_moveit_config:/home/armando30/robotsprj/install/ur_bringup:/home/armando30/robotsprj/install/ros2_linkattacher:/home/armando30/robotsprj/install/ros2_conveyorbelt:/home/armando30/robotsprj/install/linkattacher_msgs:/home/armando30/robotsprj/install/conveyorbelt_msgs:/home/armando30/robotsprj/install/conveyorbelt_gazebo:/opt/ros/humble /usr/bin/cmake --build /home/armando30/robotsprj/build/ur_calibration -- -j8 -l8
+[0.435s] Invoking command in '/home/armando30/robotsprj/build/ur_calibration': CMAKE_PREFIX_PATH=/home/armando30/robotsprj/install/ur_robot_driver:/home/armando30/robotsprj/install/ur_controllers:/home/armando30/robotsprj/install/ur_dashboard_msgs:/home/armando30/robotsprj/install/ur:/home/armando30/robotsprj/install/ur_calibration:/home/armando30/robotsprj/install/ur_moveit_config:/home/armando30/robotsprj/install/ur_bringup:/home/armando30/robotsprj/install/ros2_linkattacher:/home/armando30/robotsprj/install/ros2_conveyorbelt:/home/armando30/robotsprj/install/linkattacher_msgs:/home/armando30/robotsprj/install/conveyorbelt_msgs:/home/armando30/robotsprj/install/conveyorbelt_gazebo:/opt/ros/humble /usr/bin/cmake --install /home/armando30/robotsprj/build/ur_calibration
+[0.460s] -- Install configuration: "RelWithDebInfo"
+[0.462s] -- Execute custom install script
+[0.463s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_calibration/lib/ur_calibration/calibration_correction
+[0.465s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_calibration/include/ur_calibration/calibration.hpp
+[0.466s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_calibration/include/ur_calibration/calibration_consumer.hpp
+[0.467s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_calibration/share/ur_calibration/launch/calibration_correction.launch.py
+[0.468s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_calibration/share/ament_index/resource_index/package_run_dependencies/ur_calibration
+[0.469s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_calibration/share/ament_index/resource_index/parent_prefix_path/ur_calibration
+[0.470s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_calibration/share/ur_calibration/environment/ament_prefix_path.sh
+[0.471s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_calibration/share/ur_calibration/environment/ament_prefix_path.dsv
+[0.472s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_calibration/share/ur_calibration/environment/path.sh
+[0.472s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_calibration/share/ur_calibration/environment/path.dsv
+[0.473s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_calibration/share/ur_calibration/local_setup.bash
+[0.474s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_calibration/share/ur_calibration/local_setup.sh
+[0.475s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_calibration/share/ur_calibration/local_setup.zsh
+[0.475s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_calibration/share/ur_calibration/local_setup.dsv
+[0.476s] -- Symlinking: /home/armando30/robotsprj/install/ur_calibration/share/ur_calibration/package.dsv
+[0.508s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_calibration/share/ament_index/resource_index/packages/ur_calibration
+[0.510s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_calibration/share/ur_calibration/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.510s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_calibration/share/ur_calibration/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.511s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_calibration/share/ur_calibration/cmake/ur_calibrationConfig.cmake
+[0.512s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_calibration/share/ur_calibration/cmake/ur_calibrationConfig-version.cmake
+[0.513s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_calibration/share/ur_calibration/package.xml
+[0.525s] Invoked command in '/home/armando30/robotsprj/build/ur_calibration' returned '0': CMAKE_PREFIX_PATH=/home/armando30/robotsprj/install/ur_robot_driver:/home/armando30/robotsprj/install/ur_controllers:/home/armando30/robotsprj/install/ur_dashboard_msgs:/home/armando30/robotsprj/install/ur:/home/armando30/robotsprj/install/ur_calibration:/home/armando30/robotsprj/install/ur_moveit_config:/home/armando30/robotsprj/install/ur_bringup:/home/armando30/robotsprj/install/ros2_linkattacher:/home/armando30/robotsprj/install/ros2_conveyorbelt:/home/armando30/robotsprj/install/linkattacher_msgs:/home/armando30/robotsprj/install/conveyorbelt_msgs:/home/armando30/robotsprj/install/conveyorbelt_gazebo:/opt/ros/humble /usr/bin/cmake --install /home/armando30/robotsprj/build/ur_calibration

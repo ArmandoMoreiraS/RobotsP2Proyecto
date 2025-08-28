@@ -1,0 +1,1001 @@
+[1.105s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[1.106s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x76ca51d57c40>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x76ca51d576d0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x76ca51d576d0>>, mixin_verb=('build',))
+[1.891s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.891s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.892s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.892s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.892s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.892s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.892s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/armando30/robotsprj'
+[1.892s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.893s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.893s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.894s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.894s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.894s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.894s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.894s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.894s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.932s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.932s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.932s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.932s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.932s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.933s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.933s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.933s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.934s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.934s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.934s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.934s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.935s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.935s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.942s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.943s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.943s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.943s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.943s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.943s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.943s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.944s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.944s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.944s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.944s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.944s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.945s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.945s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.949s] Level 1:colcon.colcon_core.package_identification:_identify(src/IFRA_ConveyorBelt) by extensions ['ignore', 'ignore_ament_install']
+[1.949s] Level 1:colcon.colcon_core.package_identification:_identify(src/IFRA_ConveyorBelt) by extension 'ignore'
+[1.950s] Level 1:colcon.colcon_core.package_identification:_identify(src/IFRA_ConveyorBelt) by extension 'ignore_ament_install'
+[1.950s] Level 1:colcon.colcon_core.package_identification:_identify(src/IFRA_ConveyorBelt) by extensions ['colcon_pkg']
+[1.950s] Level 1:colcon.colcon_core.package_identification:_identify(src/IFRA_ConveyorBelt) by extension 'colcon_pkg'
+[1.950s] Level 1:colcon.colcon_core.package_identification:_identify(src/IFRA_ConveyorBelt) by extensions ['colcon_meta']
+[1.950s] Level 1:colcon.colcon_core.package_identification:_identify(src/IFRA_ConveyorBelt) by extension 'colcon_meta'
+[1.951s] Level 1:colcon.colcon_core.package_identification:_identify(src/IFRA_ConveyorBelt) by extensions ['ros']
+[1.951s] Level 1:colcon.colcon_core.package_identification:_identify(src/IFRA_ConveyorBelt) by extension 'ros'
+[1.951s] Level 1:colcon.colcon_core.package_identification:_identify(src/IFRA_ConveyorBelt) by extensions ['cmake', 'python']
+[1.951s] Level 1:colcon.colcon_core.package_identification:_identify(src/IFRA_ConveyorBelt) by extension 'cmake'
+[1.951s] Level 1:colcon.colcon_core.package_identification:_identify(src/IFRA_ConveyorBelt) by extension 'python'
+[1.951s] Level 1:colcon.colcon_core.package_identification:_identify(src/IFRA_ConveyorBelt) by extensions ['python_setup_py']
+[1.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/IFRA_ConveyorBelt) by extension 'python_setup_py'
+[1.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/IFRA_ConveyorBelt/conveyorbelt_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[1.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/IFRA_ConveyorBelt/conveyorbelt_gazebo) by extension 'ignore'
+[1.953s] Level 1:colcon.colcon_core.package_identification:_identify(src/IFRA_ConveyorBelt/conveyorbelt_gazebo) by extension 'ignore_ament_install'
+[1.953s] Level 1:colcon.colcon_core.package_identification:_identify(src/IFRA_ConveyorBelt/conveyorbelt_gazebo) by extensions ['colcon_pkg']
+[1.953s] Level 1:colcon.colcon_core.package_identification:_identify(src/IFRA_ConveyorBelt/conveyorbelt_gazebo) by extension 'colcon_pkg'
+[1.953s] Level 1:colcon.colcon_core.package_identification:_identify(src/IFRA_ConveyorBelt/conveyorbelt_gazebo) by extensions ['colcon_meta']
+[1.953s] Level 1:colcon.colcon_core.package_identification:_identify(src/IFRA_ConveyorBelt/conveyorbelt_gazebo) by extension 'colcon_meta'
+[1.953s] Level 1:colcon.colcon_core.package_identification:_identify(src/IFRA_ConveyorBelt/conveyorbelt_gazebo) by extensions ['ros']
+[1.954s] Level 1:colcon.colcon_core.package_identification:_identify(src/IFRA_ConveyorBelt/conveyorbelt_gazebo) by extension 'ros'
+[1.975s] DEBUG:colcon.colcon_core.package_identification:Package 'src/IFRA_ConveyorBelt/conveyorbelt_gazebo' with type 'ros.ament_cmake' and name 'conveyorbelt_gazebo'
+[1.976s] Level 1:colcon.colcon_core.package_identification:_identify(src/IFRA_ConveyorBelt/conveyorbelt_msgs) by extensions ['ignore', 'ignore_ament_install']
+[1.976s] Level 1:colcon.colcon_core.package_identification:_identify(src/IFRA_ConveyorBelt/conveyorbelt_msgs) by extension 'ignore'
+[1.976s] Level 1:colcon.colcon_core.package_identification:_identify(src/IFRA_ConveyorBelt/conveyorbelt_msgs) by extension 'ignore_ament_install'
+[1.977s] Level 1:colcon.colcon_core.package_identification:_identify(src/IFRA_ConveyorBelt/conveyorbelt_msgs) by extensions ['colcon_pkg']
+[1.977s] Level 1:colcon.colcon_core.package_identification:_identify(src/IFRA_ConveyorBelt/conveyorbelt_msgs) by extension 'colcon_pkg'
+[1.977s] Level 1:colcon.colcon_core.package_identification:_identify(src/IFRA_ConveyorBelt/conveyorbelt_msgs) by extensions ['colcon_meta']
+[1.977s] Level 1:colcon.colcon_core.package_identification:_identify(src/IFRA_ConveyorBelt/conveyorbelt_msgs) by extension 'colcon_meta'
+[1.977s] Level 1:colcon.colcon_core.package_identification:_identify(src/IFRA_ConveyorBelt/conveyorbelt_msgs) by extensions ['ros']
+[1.978s] Level 1:colcon.colcon_core.package_identification:_identify(src/IFRA_ConveyorBelt/conveyorbelt_msgs) by extension 'ros'
+[1.980s] DEBUG:colcon.colcon_core.package_identification:Package 'src/IFRA_ConveyorBelt/conveyorbelt_msgs' with type 'ros.ament_cmake' and name 'conveyorbelt_msgs'
+[1.980s] Level 1:colcon.colcon_core.package_identification:_identify(src/IFRA_ConveyorBelt/ros2_conveyorbelt) by extensions ['ignore', 'ignore_ament_install']
+[1.981s] Level 1:colcon.colcon_core.package_identification:_identify(src/IFRA_ConveyorBelt/ros2_conveyorbelt) by extension 'ignore'
+[1.981s] Level 1:colcon.colcon_core.package_identification:_identify(src/IFRA_ConveyorBelt/ros2_conveyorbelt) by extension 'ignore_ament_install'
+[1.981s] Level 1:colcon.colcon_core.package_identification:_identify(src/IFRA_ConveyorBelt/ros2_conveyorbelt) by extensions ['colcon_pkg']
+[1.981s] Level 1:colcon.colcon_core.package_identification:_identify(src/IFRA_ConveyorBelt/ros2_conveyorbelt) by extension 'colcon_pkg'
+[1.981s] Level 1:colcon.colcon_core.package_identification:_identify(src/IFRA_ConveyorBelt/ros2_conveyorbelt) by extensions ['colcon_meta']
+[1.982s] Level 1:colcon.colcon_core.package_identification:_identify(src/IFRA_ConveyorBelt/ros2_conveyorbelt) by extension 'colcon_meta'
+[1.982s] Level 1:colcon.colcon_core.package_identification:_identify(src/IFRA_ConveyorBelt/ros2_conveyorbelt) by extensions ['ros']
+[1.982s] Level 1:colcon.colcon_core.package_identification:_identify(src/IFRA_ConveyorBelt/ros2_conveyorbelt) by extension 'ros'
+[1.985s] DEBUG:colcon.colcon_core.package_identification:Package 'src/IFRA_ConveyorBelt/ros2_conveyorbelt' with type 'ros.ament_cmake' and name 'ros2_conveyorbelt'
+[1.986s] Level 1:colcon.colcon_core.package_identification:_identify(src/IFRA_LinkAttacher) by extensions ['ignore', 'ignore_ament_install']
+[1.986s] Level 1:colcon.colcon_core.package_identification:_identify(src/IFRA_LinkAttacher) by extension 'ignore'
+[1.986s] Level 1:colcon.colcon_core.package_identification:_identify(src/IFRA_LinkAttacher) by extension 'ignore_ament_install'
+[1.987s] Level 1:colcon.colcon_core.package_identification:_identify(src/IFRA_LinkAttacher) by extensions ['colcon_pkg']
+[1.987s] Level 1:colcon.colcon_core.package_identification:_identify(src/IFRA_LinkAttacher) by extension 'colcon_pkg'
+[1.987s] Level 1:colcon.colcon_core.package_identification:_identify(src/IFRA_LinkAttacher) by extensions ['colcon_meta']
+[1.987s] Level 1:colcon.colcon_core.package_identification:_identify(src/IFRA_LinkAttacher) by extension 'colcon_meta'
+[1.987s] Level 1:colcon.colcon_core.package_identification:_identify(src/IFRA_LinkAttacher) by extensions ['ros']
+[1.987s] Level 1:colcon.colcon_core.package_identification:_identify(src/IFRA_LinkAttacher) by extension 'ros'
+[1.988s] Level 1:colcon.colcon_core.package_identification:_identify(src/IFRA_LinkAttacher) by extensions ['cmake', 'python']
+[1.988s] Level 1:colcon.colcon_core.package_identification:_identify(src/IFRA_LinkAttacher) by extension 'cmake'
+[1.988s] Level 1:colcon.colcon_core.package_identification:_identify(src/IFRA_LinkAttacher) by extension 'python'
+[1.988s] Level 1:colcon.colcon_core.package_identification:_identify(src/IFRA_LinkAttacher) by extensions ['python_setup_py']
+[1.988s] Level 1:colcon.colcon_core.package_identification:_identify(src/IFRA_LinkAttacher) by extension 'python_setup_py'
+[1.989s] Level 1:colcon.colcon_core.package_identification:_identify(src/IFRA_LinkAttacher/linkattacher_msgs) by extensions ['ignore', 'ignore_ament_install']
+[1.989s] Level 1:colcon.colcon_core.package_identification:_identify(src/IFRA_LinkAttacher/linkattacher_msgs) by extension 'ignore'
+[1.989s] Level 1:colcon.colcon_core.package_identification:_identify(src/IFRA_LinkAttacher/linkattacher_msgs) by extension 'ignore_ament_install'
+[1.990s] Level 1:colcon.colcon_core.package_identification:_identify(src/IFRA_LinkAttacher/linkattacher_msgs) by extensions ['colcon_pkg']
+[1.990s] Level 1:colcon.colcon_core.package_identification:_identify(src/IFRA_LinkAttacher/linkattacher_msgs) by extension 'colcon_pkg'
+[1.990s] Level 1:colcon.colcon_core.package_identification:_identify(src/IFRA_LinkAttacher/linkattacher_msgs) by extensions ['colcon_meta']
+[1.990s] Level 1:colcon.colcon_core.package_identification:_identify(src/IFRA_LinkAttacher/linkattacher_msgs) by extension 'colcon_meta'
+[1.990s] Level 1:colcon.colcon_core.package_identification:_identify(src/IFRA_LinkAttacher/linkattacher_msgs) by extensions ['ros']
+[1.990s] Level 1:colcon.colcon_core.package_identification:_identify(src/IFRA_LinkAttacher/linkattacher_msgs) by extension 'ros'
+[1.994s] DEBUG:colcon.colcon_core.package_identification:Package 'src/IFRA_LinkAttacher/linkattacher_msgs' with type 'ros.ament_cmake' and name 'linkattacher_msgs'
+[1.995s] Level 1:colcon.colcon_core.package_identification:_identify(src/IFRA_LinkAttacher/ros2_LinkAttacher) by extensions ['ignore', 'ignore_ament_install']
+[1.995s] Level 1:colcon.colcon_core.package_identification:_identify(src/IFRA_LinkAttacher/ros2_LinkAttacher) by extension 'ignore'
+[1.995s] Level 1:colcon.colcon_core.package_identification:_identify(src/IFRA_LinkAttacher/ros2_LinkAttacher) by extension 'ignore_ament_install'
+[1.995s] Level 1:colcon.colcon_core.package_identification:_identify(src/IFRA_LinkAttacher/ros2_LinkAttacher) by extensions ['colcon_pkg']
+[1.996s] Level 1:colcon.colcon_core.package_identification:_identify(src/IFRA_LinkAttacher/ros2_LinkAttacher) by extension 'colcon_pkg'
+[1.996s] Level 1:colcon.colcon_core.package_identification:_identify(src/IFRA_LinkAttacher/ros2_LinkAttacher) by extensions ['colcon_meta']
+[1.996s] Level 1:colcon.colcon_core.package_identification:_identify(src/IFRA_LinkAttacher/ros2_LinkAttacher) by extension 'colcon_meta'
+[1.996s] Level 1:colcon.colcon_core.package_identification:_identify(src/IFRA_LinkAttacher/ros2_LinkAttacher) by extensions ['ros']
+[1.996s] Level 1:colcon.colcon_core.package_identification:_identify(src/IFRA_LinkAttacher/ros2_LinkAttacher) by extension 'ros'
+[1.999s] DEBUG:colcon.colcon_core.package_identification:Package 'src/IFRA_LinkAttacher/ros2_LinkAttacher' with type 'ros.ament_cmake' and name 'ros2_linkattacher'
+[2.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver) by extensions ['ignore', 'ignore_ament_install']
+[2.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver) by extension 'ignore'
+[2.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver) by extension 'ignore_ament_install'
+[2.001s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver) by extensions ['colcon_pkg']
+[2.001s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver) by extension 'colcon_pkg'
+[2.001s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver) by extensions ['colcon_meta']
+[2.001s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver) by extension 'colcon_meta'
+[2.001s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver) by extensions ['ros']
+[2.001s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver) by extension 'ros'
+[2.002s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver) by extensions ['cmake', 'python']
+[2.002s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver) by extension 'cmake'
+[2.002s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver) by extension 'python'
+[2.002s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver) by extensions ['python_setup_py']
+[2.002s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver) by extension 'python_setup_py'
+[2.003s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur) by extensions ['ignore', 'ignore_ament_install']
+[2.003s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur) by extension 'ignore'
+[2.003s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur) by extension 'ignore_ament_install'
+[2.003s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur) by extensions ['colcon_pkg']
+[2.004s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur) by extension 'colcon_pkg'
+[2.004s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur) by extensions ['colcon_meta']
+[2.004s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur) by extension 'colcon_meta'
+[2.004s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur) by extensions ['ros']
+[2.004s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur) by extension 'ros'
+[2.006s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Universal_Robots_ROS2_Driver/ur' with type 'ros.ament_cmake' and name 'ur'
+[2.007s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_bringup) by extensions ['ignore', 'ignore_ament_install']
+[2.007s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_bringup) by extension 'ignore'
+[2.007s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_bringup) by extension 'ignore_ament_install'
+[2.007s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_bringup) by extensions ['colcon_pkg']
+[2.007s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_bringup) by extension 'colcon_pkg'
+[2.008s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_bringup) by extensions ['colcon_meta']
+[2.008s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_bringup) by extension 'colcon_meta'
+[2.008s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_bringup) by extensions ['ros']
+[2.008s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_bringup) by extension 'ros'
+[2.014s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Universal_Robots_ROS2_Driver/ur_bringup' with type 'ros.ament_cmake' and name 'ur_bringup'
+[2.015s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_calibration) by extensions ['ignore', 'ignore_ament_install']
+[2.015s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_calibration) by extension 'ignore'
+[2.015s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_calibration) by extension 'ignore_ament_install'
+[2.015s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_calibration) by extensions ['colcon_pkg']
+[2.016s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_calibration) by extension 'colcon_pkg'
+[2.016s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_calibration) by extensions ['colcon_meta']
+[2.016s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_calibration) by extension 'colcon_meta'
+[2.016s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_calibration) by extensions ['ros']
+[2.016s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_calibration) by extension 'ros'
+[2.019s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Universal_Robots_ROS2_Driver/ur_calibration' with type 'ros.ament_cmake' and name 'ur_calibration'
+[2.020s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_controllers) by extensions ['ignore', 'ignore_ament_install']
+[2.020s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_controllers) by extension 'ignore'
+[2.021s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_controllers) by extension 'ignore_ament_install'
+[2.021s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_controllers) by extensions ['colcon_pkg']
+[2.021s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_controllers) by extension 'colcon_pkg'
+[2.021s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_controllers) by extensions ['colcon_meta']
+[2.021s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_controllers) by extension 'colcon_meta'
+[2.021s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_controllers) by extensions ['ros']
+[2.022s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_controllers) by extension 'ros'
+[2.033s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Universal_Robots_ROS2_Driver/ur_controllers' with type 'ros.ament_cmake' and name 'ur_controllers'
+[2.048s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs) by extensions ['ignore', 'ignore_ament_install']
+[2.048s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs) by extension 'ignore'
+[2.048s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs) by extension 'ignore_ament_install'
+[2.048s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs) by extensions ['colcon_pkg']
+[2.049s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs) by extension 'colcon_pkg'
+[2.049s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs) by extensions ['colcon_meta']
+[2.049s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs) by extension 'colcon_meta'
+[2.049s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs) by extensions ['ros']
+[2.049s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs) by extension 'ros'
+[2.074s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs' with type 'ros.ament_cmake' and name 'ur_dashboard_msgs'
+[2.075s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_moveit_config) by extensions ['ignore', 'ignore_ament_install']
+[2.075s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_moveit_config) by extension 'ignore'
+[2.075s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_moveit_config) by extension 'ignore_ament_install'
+[2.075s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_moveit_config) by extensions ['colcon_pkg']
+[2.076s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_moveit_config) by extension 'colcon_pkg'
+[2.076s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_moveit_config) by extensions ['colcon_meta']
+[2.076s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_moveit_config) by extension 'colcon_meta'
+[2.076s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_moveit_config) by extensions ['ros']
+[2.076s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_moveit_config) by extension 'ros'
+[2.079s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Universal_Robots_ROS2_Driver/ur_moveit_config' with type 'ros.ament_cmake' and name 'ur_moveit_config'
+[2.080s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_robot_driver) by extensions ['ignore', 'ignore_ament_install']
+[2.080s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_robot_driver) by extension 'ignore'
+[2.080s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_robot_driver) by extension 'ignore_ament_install'
+[2.080s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_robot_driver) by extensions ['colcon_pkg']
+[2.080s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_robot_driver) by extension 'colcon_pkg'
+[2.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_robot_driver) by extensions ['colcon_meta']
+[2.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_robot_driver) by extension 'colcon_meta'
+[2.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_robot_driver) by extensions ['ros']
+[2.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_robot_driver) by extension 'ros'
+[2.090s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Universal_Robots_ROS2_Driver/ur_robot_driver' with type 'ros.ament_cmake' and name 'ur_robot_driver'
+[2.090s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.090s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.090s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.090s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.090s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.415s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.416s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.444s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/armando30/robotsprj/install/ur' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[2.444s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/armando30/robotsprj/install/ur_calibration' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[2.444s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/armando30/robotsprj/install/ur_robot_driver' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[2.444s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/armando30/robotsprj/install/ur_moveit_config' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[2.445s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/armando30/robotsprj/install/ur_bringup' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[2.445s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/armando30/robotsprj/install/ur_controllers' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[2.445s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/armando30/robotsprj/install/ur_dashboard_msgs' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[2.445s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/armando30/robotsprj/install/ros2_linkattacher' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[2.445s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/armando30/robotsprj/install/ros2_conveyorbelt' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[2.446s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/armando30/robotsprj/install/linkattacher_msgs' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[2.446s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/armando30/robotsprj/install/conveyorbelt_msgs' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[2.446s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/armando30/robotsprj/install/conveyorbelt_gazebo' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[2.446s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/armando30/robotsprj/install/ur' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[2.446s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/armando30/robotsprj/install/ur_calibration' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[2.447s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/armando30/robotsprj/install/ur_robot_driver' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[2.447s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/armando30/robotsprj/install/ur_moveit_config' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[2.447s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/armando30/robotsprj/install/ur_bringup' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[2.447s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/armando30/robotsprj/install/ur_controllers' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[2.447s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/armando30/robotsprj/install/ur_dashboard_msgs' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[2.447s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/armando30/robotsprj/install/ros2_linkattacher' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[2.447s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/armando30/robotsprj/install/ros2_conveyorbelt' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[2.448s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/armando30/robotsprj/install/linkattacher_msgs' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[2.448s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/armando30/robotsprj/install/conveyorbelt_msgs' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[2.448s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/armando30/robotsprj/install/conveyorbelt_gazebo' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[2.471s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/armando30/robotsprj/install
+[2.478s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 439 installed packages in /opt/ros/humble
+[2.489s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.718s] Level 5:colcon.colcon_core.verb:set package 'conveyorbelt_gazebo' build argument 'cmake_args' from command line to 'None'
+[2.719s] Level 5:colcon.colcon_core.verb:set package 'conveyorbelt_gazebo' build argument 'cmake_target' from command line to 'None'
+[2.719s] Level 5:colcon.colcon_core.verb:set package 'conveyorbelt_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.719s] Level 5:colcon.colcon_core.verb:set package 'conveyorbelt_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[2.719s] Level 5:colcon.colcon_core.verb:set package 'conveyorbelt_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[2.719s] Level 5:colcon.colcon_core.verb:set package 'conveyorbelt_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[2.719s] Level 5:colcon.colcon_core.verb:set package 'conveyorbelt_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[2.719s] Level 5:colcon.colcon_core.verb:set package 'conveyorbelt_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[2.719s] Level 5:colcon.colcon_core.verb:set package 'conveyorbelt_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.719s] DEBUG:colcon.colcon_core.verb:Building package 'conveyorbelt_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/armando30/robotsprj/build/conveyorbelt_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/armando30/robotsprj/install/conveyorbelt_gazebo', 'merge_install': False, 'path': '/home/armando30/robotsprj/src/IFRA_ConveyorBelt/conveyorbelt_gazebo', 'symlink_install': True, 'test_result_base': None}
+[2.721s] Level 5:colcon.colcon_core.verb:set package 'conveyorbelt_msgs' build argument 'cmake_args' from command line to 'None'
+[2.721s] Level 5:colcon.colcon_core.verb:set package 'conveyorbelt_msgs' build argument 'cmake_target' from command line to 'None'
+[2.721s] Level 5:colcon.colcon_core.verb:set package 'conveyorbelt_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.721s] Level 5:colcon.colcon_core.verb:set package 'conveyorbelt_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[2.721s] Level 5:colcon.colcon_core.verb:set package 'conveyorbelt_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[2.721s] Level 5:colcon.colcon_core.verb:set package 'conveyorbelt_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[2.722s] Level 5:colcon.colcon_core.verb:set package 'conveyorbelt_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[2.722s] Level 5:colcon.colcon_core.verb:set package 'conveyorbelt_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[2.722s] Level 5:colcon.colcon_core.verb:set package 'conveyorbelt_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.722s] DEBUG:colcon.colcon_core.verb:Building package 'conveyorbelt_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/armando30/robotsprj/build/conveyorbelt_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/armando30/robotsprj/install/conveyorbelt_msgs', 'merge_install': False, 'path': '/home/armando30/robotsprj/src/IFRA_ConveyorBelt/conveyorbelt_msgs', 'symlink_install': True, 'test_result_base': None}
+[2.723s] Level 5:colcon.colcon_core.verb:set package 'linkattacher_msgs' build argument 'cmake_args' from command line to 'None'
+[2.723s] Level 5:colcon.colcon_core.verb:set package 'linkattacher_msgs' build argument 'cmake_target' from command line to 'None'
+[2.723s] Level 5:colcon.colcon_core.verb:set package 'linkattacher_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.724s] Level 5:colcon.colcon_core.verb:set package 'linkattacher_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[2.724s] Level 5:colcon.colcon_core.verb:set package 'linkattacher_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[2.724s] Level 5:colcon.colcon_core.verb:set package 'linkattacher_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[2.724s] Level 5:colcon.colcon_core.verb:set package 'linkattacher_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[2.724s] Level 5:colcon.colcon_core.verb:set package 'linkattacher_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[2.724s] Level 5:colcon.colcon_core.verb:set package 'linkattacher_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.724s] DEBUG:colcon.colcon_core.verb:Building package 'linkattacher_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/armando30/robotsprj/build/linkattacher_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/armando30/robotsprj/install/linkattacher_msgs', 'merge_install': False, 'path': '/home/armando30/robotsprj/src/IFRA_LinkAttacher/linkattacher_msgs', 'symlink_install': True, 'test_result_base': None}
+[2.726s] Level 5:colcon.colcon_core.verb:set package 'ur_dashboard_msgs' build argument 'cmake_args' from command line to 'None'
+[2.726s] Level 5:colcon.colcon_core.verb:set package 'ur_dashboard_msgs' build argument 'cmake_target' from command line to 'None'
+[2.726s] Level 5:colcon.colcon_core.verb:set package 'ur_dashboard_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.726s] Level 5:colcon.colcon_core.verb:set package 'ur_dashboard_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[2.726s] Level 5:colcon.colcon_core.verb:set package 'ur_dashboard_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[2.726s] Level 5:colcon.colcon_core.verb:set package 'ur_dashboard_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[2.726s] Level 5:colcon.colcon_core.verb:set package 'ur_dashboard_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[2.726s] Level 5:colcon.colcon_core.verb:set package 'ur_dashboard_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[2.726s] Level 5:colcon.colcon_core.verb:set package 'ur_dashboard_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.726s] DEBUG:colcon.colcon_core.verb:Building package 'ur_dashboard_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/armando30/robotsprj/build/ur_dashboard_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/armando30/robotsprj/install/ur_dashboard_msgs', 'merge_install': False, 'path': '/home/armando30/robotsprj/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs', 'symlink_install': True, 'test_result_base': None}
+[2.728s] Level 5:colcon.colcon_core.verb:set package 'ur_moveit_config' build argument 'cmake_args' from command line to 'None'
+[2.728s] Level 5:colcon.colcon_core.verb:set package 'ur_moveit_config' build argument 'cmake_target' from command line to 'None'
+[2.728s] Level 5:colcon.colcon_core.verb:set package 'ur_moveit_config' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.728s] Level 5:colcon.colcon_core.verb:set package 'ur_moveit_config' build argument 'cmake_clean_cache' from command line to 'False'
+[2.728s] Level 5:colcon.colcon_core.verb:set package 'ur_moveit_config' build argument 'cmake_clean_first' from command line to 'False'
+[2.728s] Level 5:colcon.colcon_core.verb:set package 'ur_moveit_config' build argument 'cmake_force_configure' from command line to 'False'
+[2.728s] Level 5:colcon.colcon_core.verb:set package 'ur_moveit_config' build argument 'ament_cmake_args' from command line to 'None'
+[2.729s] Level 5:colcon.colcon_core.verb:set package 'ur_moveit_config' build argument 'catkin_cmake_args' from command line to 'None'
+[2.729s] Level 5:colcon.colcon_core.verb:set package 'ur_moveit_config' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.729s] DEBUG:colcon.colcon_core.verb:Building package 'ur_moveit_config' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/armando30/robotsprj/build/ur_moveit_config', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/armando30/robotsprj/install/ur_moveit_config', 'merge_install': False, 'path': '/home/armando30/robotsprj/src/Universal_Robots_ROS2_Driver/ur_moveit_config', 'symlink_install': True, 'test_result_base': None}
+[2.730s] Level 5:colcon.colcon_core.verb:set package 'ros2_conveyorbelt' build argument 'cmake_args' from command line to 'None'
+[2.730s] Level 5:colcon.colcon_core.verb:set package 'ros2_conveyorbelt' build argument 'cmake_target' from command line to 'None'
+[2.730s] Level 5:colcon.colcon_core.verb:set package 'ros2_conveyorbelt' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.730s] Level 5:colcon.colcon_core.verb:set package 'ros2_conveyorbelt' build argument 'cmake_clean_cache' from command line to 'False'
+[2.731s] Level 5:colcon.colcon_core.verb:set package 'ros2_conveyorbelt' build argument 'cmake_clean_first' from command line to 'False'
+[2.731s] Level 5:colcon.colcon_core.verb:set package 'ros2_conveyorbelt' build argument 'cmake_force_configure' from command line to 'False'
+[2.731s] Level 5:colcon.colcon_core.verb:set package 'ros2_conveyorbelt' build argument 'ament_cmake_args' from command line to 'None'
+[2.731s] Level 5:colcon.colcon_core.verb:set package 'ros2_conveyorbelt' build argument 'catkin_cmake_args' from command line to 'None'
+[2.731s] Level 5:colcon.colcon_core.verb:set package 'ros2_conveyorbelt' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.731s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_conveyorbelt' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/armando30/robotsprj/build/ros2_conveyorbelt', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/armando30/robotsprj/install/ros2_conveyorbelt', 'merge_install': False, 'path': '/home/armando30/robotsprj/src/IFRA_ConveyorBelt/ros2_conveyorbelt', 'symlink_install': True, 'test_result_base': None}
+[2.732s] Level 5:colcon.colcon_core.verb:set package 'ros2_linkattacher' build argument 'cmake_args' from command line to 'None'
+[2.733s] Level 5:colcon.colcon_core.verb:set package 'ros2_linkattacher' build argument 'cmake_target' from command line to 'None'
+[2.733s] Level 5:colcon.colcon_core.verb:set package 'ros2_linkattacher' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.733s] Level 5:colcon.colcon_core.verb:set package 'ros2_linkattacher' build argument 'cmake_clean_cache' from command line to 'False'
+[2.733s] Level 5:colcon.colcon_core.verb:set package 'ros2_linkattacher' build argument 'cmake_clean_first' from command line to 'False'
+[2.733s] Level 5:colcon.colcon_core.verb:set package 'ros2_linkattacher' build argument 'cmake_force_configure' from command line to 'False'
+[2.733s] Level 5:colcon.colcon_core.verb:set package 'ros2_linkattacher' build argument 'ament_cmake_args' from command line to 'None'
+[2.733s] Level 5:colcon.colcon_core.verb:set package 'ros2_linkattacher' build argument 'catkin_cmake_args' from command line to 'None'
+[2.733s] Level 5:colcon.colcon_core.verb:set package 'ros2_linkattacher' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.733s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_linkattacher' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/armando30/robotsprj/build/ros2_linkattacher', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/armando30/robotsprj/install/ros2_linkattacher', 'merge_install': False, 'path': '/home/armando30/robotsprj/src/IFRA_LinkAttacher/ros2_LinkAttacher', 'symlink_install': True, 'test_result_base': None}
+[2.735s] Level 5:colcon.colcon_core.verb:set package 'ur_controllers' build argument 'cmake_args' from command line to 'None'
+[2.735s] Level 5:colcon.colcon_core.verb:set package 'ur_controllers' build argument 'cmake_target' from command line to 'None'
+[2.735s] Level 5:colcon.colcon_core.verb:set package 'ur_controllers' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.735s] Level 5:colcon.colcon_core.verb:set package 'ur_controllers' build argument 'cmake_clean_cache' from command line to 'False'
+[2.735s] Level 5:colcon.colcon_core.verb:set package 'ur_controllers' build argument 'cmake_clean_first' from command line to 'False'
+[2.735s] Level 5:colcon.colcon_core.verb:set package 'ur_controllers' build argument 'cmake_force_configure' from command line to 'False'
+[2.735s] Level 5:colcon.colcon_core.verb:set package 'ur_controllers' build argument 'ament_cmake_args' from command line to 'None'
+[2.735s] Level 5:colcon.colcon_core.verb:set package 'ur_controllers' build argument 'catkin_cmake_args' from command line to 'None'
+[2.736s] Level 5:colcon.colcon_core.verb:set package 'ur_controllers' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.736s] DEBUG:colcon.colcon_core.verb:Building package 'ur_controllers' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/armando30/robotsprj/build/ur_controllers', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/armando30/robotsprj/install/ur_controllers', 'merge_install': False, 'path': '/home/armando30/robotsprj/src/Universal_Robots_ROS2_Driver/ur_controllers', 'symlink_install': True, 'test_result_base': None}
+[2.737s] Level 5:colcon.colcon_core.verb:set package 'ur_bringup' build argument 'cmake_args' from command line to 'None'
+[2.737s] Level 5:colcon.colcon_core.verb:set package 'ur_bringup' build argument 'cmake_target' from command line to 'None'
+[2.737s] Level 5:colcon.colcon_core.verb:set package 'ur_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.737s] Level 5:colcon.colcon_core.verb:set package 'ur_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[2.737s] Level 5:colcon.colcon_core.verb:set package 'ur_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[2.738s] Level 5:colcon.colcon_core.verb:set package 'ur_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[2.738s] Level 5:colcon.colcon_core.verb:set package 'ur_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[2.738s] Level 5:colcon.colcon_core.verb:set package 'ur_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[2.738s] Level 5:colcon.colcon_core.verb:set package 'ur_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.738s] DEBUG:colcon.colcon_core.verb:Building package 'ur_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/armando30/robotsprj/build/ur_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/armando30/robotsprj/install/ur_bringup', 'merge_install': False, 'path': '/home/armando30/robotsprj/src/Universal_Robots_ROS2_Driver/ur_bringup', 'symlink_install': True, 'test_result_base': None}
+[2.739s] Level 5:colcon.colcon_core.verb:set package 'ur_robot_driver' build argument 'cmake_args' from command line to 'None'
+[2.739s] Level 5:colcon.colcon_core.verb:set package 'ur_robot_driver' build argument 'cmake_target' from command line to 'None'
+[2.740s] Level 5:colcon.colcon_core.verb:set package 'ur_robot_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.740s] Level 5:colcon.colcon_core.verb:set package 'ur_robot_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[2.740s] Level 5:colcon.colcon_core.verb:set package 'ur_robot_driver' build argument 'cmake_clean_first' from command line to 'False'
+[2.740s] Level 5:colcon.colcon_core.verb:set package 'ur_robot_driver' build argument 'cmake_force_configure' from command line to 'False'
+[2.740s] Level 5:colcon.colcon_core.verb:set package 'ur_robot_driver' build argument 'ament_cmake_args' from command line to 'None'
+[2.740s] Level 5:colcon.colcon_core.verb:set package 'ur_robot_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[2.740s] Level 5:colcon.colcon_core.verb:set package 'ur_robot_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.740s] DEBUG:colcon.colcon_core.verb:Building package 'ur_robot_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/armando30/robotsprj/build/ur_robot_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/armando30/robotsprj/install/ur_robot_driver', 'merge_install': False, 'path': '/home/armando30/robotsprj/src/Universal_Robots_ROS2_Driver/ur_robot_driver', 'symlink_install': True, 'test_result_base': None}
+[2.742s] Level 5:colcon.colcon_core.verb:set package 'ur_calibration' build argument 'cmake_args' from command line to 'None'
+[2.742s] Level 5:colcon.colcon_core.verb:set package 'ur_calibration' build argument 'cmake_target' from command line to 'None'
+[2.742s] Level 5:colcon.colcon_core.verb:set package 'ur_calibration' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.742s] Level 5:colcon.colcon_core.verb:set package 'ur_calibration' build argument 'cmake_clean_cache' from command line to 'False'
+[2.742s] Level 5:colcon.colcon_core.verb:set package 'ur_calibration' build argument 'cmake_clean_first' from command line to 'False'
+[2.742s] Level 5:colcon.colcon_core.verb:set package 'ur_calibration' build argument 'cmake_force_configure' from command line to 'False'
+[2.742s] Level 5:colcon.colcon_core.verb:set package 'ur_calibration' build argument 'ament_cmake_args' from command line to 'None'
+[2.742s] Level 5:colcon.colcon_core.verb:set package 'ur_calibration' build argument 'catkin_cmake_args' from command line to 'None'
+[2.742s] Level 5:colcon.colcon_core.verb:set package 'ur_calibration' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.743s] DEBUG:colcon.colcon_core.verb:Building package 'ur_calibration' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/armando30/robotsprj/build/ur_calibration', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/armando30/robotsprj/install/ur_calibration', 'merge_install': False, 'path': '/home/armando30/robotsprj/src/Universal_Robots_ROS2_Driver/ur_calibration', 'symlink_install': True, 'test_result_base': None}
+[2.744s] Level 5:colcon.colcon_core.verb:set package 'ur' build argument 'cmake_args' from command line to 'None'
+[2.744s] Level 5:colcon.colcon_core.verb:set package 'ur' build argument 'cmake_target' from command line to 'None'
+[2.744s] Level 5:colcon.colcon_core.verb:set package 'ur' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.744s] Level 5:colcon.colcon_core.verb:set package 'ur' build argument 'cmake_clean_cache' from command line to 'False'
+[2.744s] Level 5:colcon.colcon_core.verb:set package 'ur' build argument 'cmake_clean_first' from command line to 'False'
+[2.745s] Level 5:colcon.colcon_core.verb:set package 'ur' build argument 'cmake_force_configure' from command line to 'False'
+[2.745s] Level 5:colcon.colcon_core.verb:set package 'ur' build argument 'ament_cmake_args' from command line to 'None'
+[2.745s] Level 5:colcon.colcon_core.verb:set package 'ur' build argument 'catkin_cmake_args' from command line to 'None'
+[2.745s] Level 5:colcon.colcon_core.verb:set package 'ur' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.745s] DEBUG:colcon.colcon_core.verb:Building package 'ur' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/armando30/robotsprj/build/ur', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/armando30/robotsprj/install/ur', 'merge_install': False, 'path': '/home/armando30/robotsprj/src/Universal_Robots_ROS2_Driver/ur', 'symlink_install': True, 'test_result_base': None}
+[2.745s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.749s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.750s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/armando30/robotsprj/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs' with build type 'ament_cmake'
+[2.750s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/armando30/robotsprj/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs'
+[2.813s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.813s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.814s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.826s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/armando30/robotsprj/src/IFRA_ConveyorBelt/conveyorbelt_msgs' with build type 'ament_cmake'
+[2.827s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/armando30/robotsprj/src/IFRA_ConveyorBelt/conveyorbelt_msgs'
+[2.828s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.828s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.840s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/armando30/robotsprj/src/IFRA_LinkAttacher/linkattacher_msgs' with build type 'ament_cmake'
+[2.841s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/armando30/robotsprj/src/IFRA_LinkAttacher/linkattacher_msgs'
+[2.842s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.843s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.856s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/armando30/robotsprj/src/Universal_Robots_ROS2_Driver/ur_moveit_config' with build type 'ament_cmake'
+[2.857s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/armando30/robotsprj/src/Universal_Robots_ROS2_Driver/ur_moveit_config'
+[2.857s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.858s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.870s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/armando30/robotsprj/src/IFRA_ConveyorBelt/conveyorbelt_gazebo' with build type 'ament_cmake'
+[2.871s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/armando30/robotsprj/src/IFRA_ConveyorBelt/conveyorbelt_gazebo'
+[2.872s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.872s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.896s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/armando30/robotsprj/build/ur_dashboard_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/armando30/robotsprj/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/armando30/robotsprj/install/ur_dashboard_msgs
+[2.941s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/armando30/robotsprj/build/conveyorbelt_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/armando30/robotsprj/src/IFRA_ConveyorBelt/conveyorbelt_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/armando30/robotsprj/install/conveyorbelt_msgs
+[2.951s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/armando30/robotsprj/build/linkattacher_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/armando30/robotsprj/src/IFRA_LinkAttacher/linkattacher_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/armando30/robotsprj/install/linkattacher_msgs
+[2.965s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/armando30/robotsprj/build/ur_moveit_config': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/armando30/robotsprj/src/Universal_Robots_ROS2_Driver/ur_moveit_config -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/armando30/robotsprj/install/ur_moveit_config
+[2.978s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/armando30/robotsprj/build/conveyorbelt_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/armando30/robotsprj/src/IFRA_ConveyorBelt/conveyorbelt_gazebo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/armando30/robotsprj/install/conveyorbelt_gazebo
+[5.828s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/armando30/robotsprj/build/conveyorbelt_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/armando30/robotsprj/src/IFRA_ConveyorBelt/conveyorbelt_gazebo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/armando30/robotsprj/install/conveyorbelt_gazebo
+[5.838s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/armando30/robotsprj/build/conveyorbelt_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/armando30/robotsprj/build/conveyorbelt_gazebo -- -j8 -l8
+[5.950s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/armando30/robotsprj/build/ur_moveit_config' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/armando30/robotsprj/src/Universal_Robots_ROS2_Driver/ur_moveit_config -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/armando30/robotsprj/install/ur_moveit_config
+[5.957s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/armando30/robotsprj/build/ur_moveit_config': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/armando30/robotsprj/build/ur_moveit_config -- -j8 -l8
+[5.979s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/armando30/robotsprj/build/conveyorbelt_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/armando30/robotsprj/build/conveyorbelt_gazebo -- -j8 -l8
+[6.020s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/armando30/robotsprj/build/conveyorbelt_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/armando30/robotsprj/build/conveyorbelt_gazebo
+[6.869s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(conveyorbelt_gazebo)
+[6.872s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/armando30/robotsprj/build/conveyorbelt_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/armando30/robotsprj/build/conveyorbelt_gazebo
+[6.921s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/conveyorbelt_gazebo' for CMake module files
+[6.924s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/conveyorbelt_gazebo' for CMake config files
+[6.925s] Level 1:colcon.colcon_core.shell:create_environment_hook('conveyorbelt_gazebo', 'cmake_prefix_path')
+[6.926s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/armando30/robotsprj/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/hook/cmake_prefix_path.ps1'
+[6.930s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/armando30/robotsprj/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/hook/cmake_prefix_path.dsv'
+[6.932s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/armando30/robotsprj/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/hook/cmake_prefix_path.sh'
+[6.936s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/conveyorbelt_gazebo/bin'
+[6.937s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/conveyorbelt_gazebo/lib/pkgconfig/conveyorbelt_gazebo.pc'
+[6.938s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/conveyorbelt_gazebo/lib/python3.10/site-packages'
+[6.939s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/conveyorbelt_gazebo/bin'
+[6.941s] INFO:colcon.colcon_core.shell:Creating package script '/home/armando30/robotsprj/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/package.ps1'
+[6.945s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/armando30/robotsprj/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/package.dsv'
+[6.948s] INFO:colcon.colcon_core.shell:Creating package script '/home/armando30/robotsprj/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/package.sh'
+[6.952s] INFO:colcon.colcon_core.shell:Creating package script '/home/armando30/robotsprj/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/package.bash'
+[6.957s] INFO:colcon.colcon_core.shell:Creating package script '/home/armando30/robotsprj/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/package.zsh'
+[6.961s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/armando30/robotsprj/install/conveyorbelt_gazebo/share/colcon-core/packages/conveyorbelt_gazebo)
+[6.964s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(conveyorbelt_gazebo)
+[6.965s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/conveyorbelt_gazebo' for CMake module files
+[6.969s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/conveyorbelt_gazebo' for CMake config files
+[6.971s] Level 1:colcon.colcon_core.shell:create_environment_hook('conveyorbelt_gazebo', 'cmake_prefix_path')
+[6.972s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/armando30/robotsprj/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/hook/cmake_prefix_path.ps1'
+[6.974s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/armando30/robotsprj/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/hook/cmake_prefix_path.dsv'
+[6.976s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/armando30/robotsprj/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/hook/cmake_prefix_path.sh'
+[6.978s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/conveyorbelt_gazebo/bin'
+[6.979s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/conveyorbelt_gazebo/lib/pkgconfig/conveyorbelt_gazebo.pc'
+[6.980s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/conveyorbelt_gazebo/lib/python3.10/site-packages'
+[6.981s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/conveyorbelt_gazebo/bin'
+[6.983s] INFO:colcon.colcon_core.shell:Creating package script '/home/armando30/robotsprj/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/package.ps1'
+[6.985s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/armando30/robotsprj/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/package.dsv'
+[6.988s] INFO:colcon.colcon_core.shell:Creating package script '/home/armando30/robotsprj/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/package.sh'
+[6.990s] INFO:colcon.colcon_core.shell:Creating package script '/home/armando30/robotsprj/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/package.bash'
+[6.993s] INFO:colcon.colcon_core.shell:Creating package script '/home/armando30/robotsprj/install/conveyorbelt_gazebo/share/conveyorbelt_gazebo/package.zsh'
+[6.995s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/armando30/robotsprj/install/conveyorbelt_gazebo/share/colcon-core/packages/conveyorbelt_gazebo)
+[7.566s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/armando30/robotsprj/build/ur_moveit_config' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/armando30/robotsprj/build/ur_moveit_config -- -j8 -l8
+[7.575s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/armando30/robotsprj/build/ur_moveit_config': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/armando30/robotsprj/build/ur_moveit_config
+[9.024s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur_moveit_config)
+[9.026s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/ur_moveit_config' for CMake module files
+[9.029s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/armando30/robotsprj/build/ur_moveit_config' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/armando30/robotsprj/build/ur_moveit_config
+[9.031s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/ur_moveit_config' for CMake config files
+[9.034s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_moveit_config', 'cmake_prefix_path')
+[9.035s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/armando30/robotsprj/install/ur_moveit_config/share/ur_moveit_config/hook/cmake_prefix_path.ps1'
+[9.037s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/armando30/robotsprj/install/ur_moveit_config/share/ur_moveit_config/hook/cmake_prefix_path.dsv'
+[9.039s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/armando30/robotsprj/install/ur_moveit_config/share/ur_moveit_config/hook/cmake_prefix_path.sh'
+[9.042s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/ur_moveit_config/bin'
+[9.042s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/ur_moveit_config/lib/pkgconfig/ur_moveit_config.pc'
+[9.044s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/ur_moveit_config/lib/python3.10/site-packages'
+[9.045s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/ur_moveit_config/bin'
+[9.047s] INFO:colcon.colcon_core.shell:Creating package script '/home/armando30/robotsprj/install/ur_moveit_config/share/ur_moveit_config/package.ps1'
+[9.049s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/armando30/robotsprj/install/ur_moveit_config/share/ur_moveit_config/package.dsv'
+[9.051s] INFO:colcon.colcon_core.shell:Creating package script '/home/armando30/robotsprj/install/ur_moveit_config/share/ur_moveit_config/package.sh'
+[9.053s] INFO:colcon.colcon_core.shell:Creating package script '/home/armando30/robotsprj/install/ur_moveit_config/share/ur_moveit_config/package.bash'
+[9.055s] INFO:colcon.colcon_core.shell:Creating package script '/home/armando30/robotsprj/install/ur_moveit_config/share/ur_moveit_config/package.zsh'
+[9.056s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/armando30/robotsprj/install/ur_moveit_config/share/colcon-core/packages/ur_moveit_config)
+[9.059s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur_moveit_config)
+[9.061s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/ur_moveit_config' for CMake module files
+[9.064s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/ur_moveit_config' for CMake config files
+[9.067s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_moveit_config', 'cmake_prefix_path')
+[9.068s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/armando30/robotsprj/install/ur_moveit_config/share/ur_moveit_config/hook/cmake_prefix_path.ps1'
+[9.070s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/armando30/robotsprj/install/ur_moveit_config/share/ur_moveit_config/hook/cmake_prefix_path.dsv'
+[9.072s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/armando30/robotsprj/install/ur_moveit_config/share/ur_moveit_config/hook/cmake_prefix_path.sh'
+[9.075s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/ur_moveit_config/bin'
+[9.075s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/ur_moveit_config/lib/pkgconfig/ur_moveit_config.pc'
+[9.077s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/ur_moveit_config/lib/python3.10/site-packages'
+[9.078s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/ur_moveit_config/bin'
+[9.080s] INFO:colcon.colcon_core.shell:Creating package script '/home/armando30/robotsprj/install/ur_moveit_config/share/ur_moveit_config/package.ps1'
+[9.083s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/armando30/robotsprj/install/ur_moveit_config/share/ur_moveit_config/package.dsv'
+[9.086s] INFO:colcon.colcon_core.shell:Creating package script '/home/armando30/robotsprj/install/ur_moveit_config/share/ur_moveit_config/package.sh'
+[9.088s] INFO:colcon.colcon_core.shell:Creating package script '/home/armando30/robotsprj/install/ur_moveit_config/share/ur_moveit_config/package.bash'
+[9.091s] INFO:colcon.colcon_core.shell:Creating package script '/home/armando30/robotsprj/install/ur_moveit_config/share/ur_moveit_config/package.zsh'
+[9.093s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/armando30/robotsprj/install/ur_moveit_config/share/colcon-core/packages/ur_moveit_config)
+[10.154s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/armando30/robotsprj/build/conveyorbelt_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/armando30/robotsprj/src/IFRA_ConveyorBelt/conveyorbelt_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/armando30/robotsprj/install/conveyorbelt_msgs
+[10.160s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/armando30/robotsprj/build/conveyorbelt_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/armando30/robotsprj/build/conveyorbelt_msgs -- -j8 -l8
+[10.164s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/armando30/robotsprj/build/linkattacher_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/armando30/robotsprj/src/IFRA_LinkAttacher/linkattacher_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/armando30/robotsprj/install/linkattacher_msgs
+[10.170s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/armando30/robotsprj/build/linkattacher_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/armando30/robotsprj/build/linkattacher_msgs -- -j8 -l8
+[11.159s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/armando30/robotsprj/build/ur_dashboard_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/armando30/robotsprj/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/armando30/robotsprj/install/ur_dashboard_msgs
+[11.164s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/armando30/robotsprj/build/ur_dashboard_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/armando30/robotsprj/build/ur_dashboard_msgs -- -j8 -l8
+[31.128s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/armando30/robotsprj/build/conveyorbelt_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/armando30/robotsprj/build/conveyorbelt_msgs -- -j8 -l8
+[31.136s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/armando30/robotsprj/build/conveyorbelt_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/armando30/robotsprj/build/conveyorbelt_msgs
+[33.838s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/armando30/robotsprj/build/linkattacher_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/armando30/robotsprj/build/linkattacher_msgs -- -j8 -l8
+[33.848s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/armando30/robotsprj/build/linkattacher_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/armando30/robotsprj/build/linkattacher_msgs
+[34.545s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(conveyorbelt_msgs)
+[34.547s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/conveyorbelt_msgs' for CMake module files
+[34.551s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/armando30/robotsprj/build/conveyorbelt_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/armando30/robotsprj/build/conveyorbelt_msgs
+[34.555s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/conveyorbelt_msgs' for CMake config files
+[34.561s] Level 1:colcon.colcon_core.shell:create_environment_hook('conveyorbelt_msgs', 'cmake_prefix_path')
+[34.562s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/armando30/robotsprj/install/conveyorbelt_msgs/share/conveyorbelt_msgs/hook/cmake_prefix_path.ps1'
+[34.564s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/armando30/robotsprj/install/conveyorbelt_msgs/share/conveyorbelt_msgs/hook/cmake_prefix_path.dsv'
+[34.567s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/armando30/robotsprj/install/conveyorbelt_msgs/share/conveyorbelt_msgs/hook/cmake_prefix_path.sh'
+[34.569s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/conveyorbelt_msgs/lib'
+[34.570s] Level 1:colcon.colcon_core.shell:create_environment_hook('conveyorbelt_msgs', 'ld_library_path_lib')
+[34.572s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/armando30/robotsprj/install/conveyorbelt_msgs/share/conveyorbelt_msgs/hook/ld_library_path_lib.ps1'
+[34.574s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/armando30/robotsprj/install/conveyorbelt_msgs/share/conveyorbelt_msgs/hook/ld_library_path_lib.dsv'
+[34.576s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/armando30/robotsprj/install/conveyorbelt_msgs/share/conveyorbelt_msgs/hook/ld_library_path_lib.sh'
+[34.577s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/conveyorbelt_msgs/bin'
+[34.578s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/conveyorbelt_msgs/lib/pkgconfig/conveyorbelt_msgs.pc'
+[34.579s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/conveyorbelt_msgs/lib/python3.10/site-packages'
+[34.580s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/conveyorbelt_msgs/bin'
+[34.582s] INFO:colcon.colcon_core.shell:Creating package script '/home/armando30/robotsprj/install/conveyorbelt_msgs/share/conveyorbelt_msgs/package.ps1'
+[34.585s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/armando30/robotsprj/install/conveyorbelt_msgs/share/conveyorbelt_msgs/package.dsv'
+[34.587s] INFO:colcon.colcon_core.shell:Creating package script '/home/armando30/robotsprj/install/conveyorbelt_msgs/share/conveyorbelt_msgs/package.sh'
+[34.589s] INFO:colcon.colcon_core.shell:Creating package script '/home/armando30/robotsprj/install/conveyorbelt_msgs/share/conveyorbelt_msgs/package.bash'
+[34.591s] INFO:colcon.colcon_core.shell:Creating package script '/home/armando30/robotsprj/install/conveyorbelt_msgs/share/conveyorbelt_msgs/package.zsh'
+[34.593s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/armando30/robotsprj/install/conveyorbelt_msgs/share/colcon-core/packages/conveyorbelt_msgs)
+[34.597s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(conveyorbelt_msgs)
+[34.598s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/conveyorbelt_msgs' for CMake module files
+[34.603s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/conveyorbelt_msgs' for CMake config files
+[34.608s] Level 1:colcon.colcon_core.shell:create_environment_hook('conveyorbelt_msgs', 'cmake_prefix_path')
+[34.610s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/armando30/robotsprj/install/conveyorbelt_msgs/share/conveyorbelt_msgs/hook/cmake_prefix_path.ps1'
+[34.612s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/armando30/robotsprj/install/conveyorbelt_msgs/share/conveyorbelt_msgs/hook/cmake_prefix_path.dsv'
+[34.614s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/armando30/robotsprj/install/conveyorbelt_msgs/share/conveyorbelt_msgs/hook/cmake_prefix_path.sh'
+[34.616s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/conveyorbelt_msgs/lib'
+[34.617s] Level 1:colcon.colcon_core.shell:create_environment_hook('conveyorbelt_msgs', 'ld_library_path_lib')
+[34.618s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/armando30/robotsprj/install/conveyorbelt_msgs/share/conveyorbelt_msgs/hook/ld_library_path_lib.ps1'
+[34.620s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/armando30/robotsprj/install/conveyorbelt_msgs/share/conveyorbelt_msgs/hook/ld_library_path_lib.dsv'
+[34.622s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/armando30/robotsprj/install/conveyorbelt_msgs/share/conveyorbelt_msgs/hook/ld_library_path_lib.sh'
+[34.624s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/conveyorbelt_msgs/bin'
+[34.624s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/conveyorbelt_msgs/lib/pkgconfig/conveyorbelt_msgs.pc'
+[34.625s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/conveyorbelt_msgs/lib/python3.10/site-packages'
+[34.626s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/conveyorbelt_msgs/bin'
+[34.629s] INFO:colcon.colcon_core.shell:Creating package script '/home/armando30/robotsprj/install/conveyorbelt_msgs/share/conveyorbelt_msgs/package.ps1'
+[34.632s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/armando30/robotsprj/install/conveyorbelt_msgs/share/conveyorbelt_msgs/package.dsv'
+[34.635s] INFO:colcon.colcon_core.shell:Creating package script '/home/armando30/robotsprj/install/conveyorbelt_msgs/share/conveyorbelt_msgs/package.sh'
+[34.638s] INFO:colcon.colcon_core.shell:Creating package script '/home/armando30/robotsprj/install/conveyorbelt_msgs/share/conveyorbelt_msgs/package.bash'
+[34.641s] INFO:colcon.colcon_core.shell:Creating package script '/home/armando30/robotsprj/install/conveyorbelt_msgs/share/conveyorbelt_msgs/package.zsh'
+[34.643s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/armando30/robotsprj/install/conveyorbelt_msgs/share/colcon-core/packages/conveyorbelt_msgs)
+[34.644s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/armando30/robotsprj/src/IFRA_ConveyorBelt/ros2_conveyorbelt' with build type 'ament_cmake'
+[34.645s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/armando30/robotsprj/src/IFRA_ConveyorBelt/ros2_conveyorbelt'
+[34.646s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[34.647s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[34.693s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/armando30/robotsprj/build/ros2_conveyorbelt': CMAKE_PREFIX_PATH=/home/armando30/robotsprj/install/conveyorbelt_msgs:/home/armando30/robotsprj/install/ur:/home/armando30/robotsprj/install/ur_calibration:/home/armando30/robotsprj/install/ur_robot_driver:/home/armando30/robotsprj/install/ur_moveit_config:/home/armando30/robotsprj/install/ur_bringup:/home/armando30/robotsprj/install/ur_controllers:/home/armando30/robotsprj/install/ur_dashboard_msgs:/home/armando30/robotsprj/install/ros2_linkattacher:/home/armando30/robotsprj/install/ros2_conveyorbelt:/home/armando30/robotsprj/install/linkattacher_msgs:/home/armando30/robotsprj/install/conveyorbelt_gazebo:/opt/ros/humble LD_LIBRARY_PATH=/home/armando30/robotsprj/install/conveyorbelt_msgs/lib:/home/armando30/robotsprj/install/ur_robot_driver/lib:/home/armando30/robotsprj/install/ur_controllers/lib:/home/armando30/robotsprj/install/ur_dashboard_msgs/lib:/home/armando30/robotsprj/install/ros2_linkattacher/lib:/home/armando30/robotsprj/install/ros2_conveyorbelt/lib:/home/armando30/robotsprj/install/linkattacher_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/armando30/robotsprj/src/IFRA_ConveyorBelt/ros2_conveyorbelt -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/armando30/robotsprj/install/ros2_conveyorbelt
+[37.056s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(linkattacher_msgs)
+[37.058s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/armando30/robotsprj/build/linkattacher_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/armando30/robotsprj/build/linkattacher_msgs
+[37.059s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/linkattacher_msgs' for CMake module files
+[37.061s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/linkattacher_msgs' for CMake config files
+[37.064s] Level 1:colcon.colcon_core.shell:create_environment_hook('linkattacher_msgs', 'cmake_prefix_path')
+[37.065s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/armando30/robotsprj/install/linkattacher_msgs/share/linkattacher_msgs/hook/cmake_prefix_path.ps1'
+[37.067s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/armando30/robotsprj/install/linkattacher_msgs/share/linkattacher_msgs/hook/cmake_prefix_path.dsv'
+[37.068s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/armando30/robotsprj/install/linkattacher_msgs/share/linkattacher_msgs/hook/cmake_prefix_path.sh'
+[37.070s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/linkattacher_msgs/lib'
+[37.070s] Level 1:colcon.colcon_core.shell:create_environment_hook('linkattacher_msgs', 'ld_library_path_lib')
+[37.071s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/armando30/robotsprj/install/linkattacher_msgs/share/linkattacher_msgs/hook/ld_library_path_lib.ps1'
+[37.072s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/armando30/robotsprj/install/linkattacher_msgs/share/linkattacher_msgs/hook/ld_library_path_lib.dsv'
+[37.073s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/armando30/robotsprj/install/linkattacher_msgs/share/linkattacher_msgs/hook/ld_library_path_lib.sh'
+[37.075s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/linkattacher_msgs/bin'
+[37.075s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/linkattacher_msgs/lib/pkgconfig/linkattacher_msgs.pc'
+[37.076s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/linkattacher_msgs/lib/python3.10/site-packages'
+[37.076s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/linkattacher_msgs/bin'
+[37.077s] INFO:colcon.colcon_core.shell:Creating package script '/home/armando30/robotsprj/install/linkattacher_msgs/share/linkattacher_msgs/package.ps1'
+[37.080s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/armando30/robotsprj/install/linkattacher_msgs/share/linkattacher_msgs/package.dsv'
+[37.081s] INFO:colcon.colcon_core.shell:Creating package script '/home/armando30/robotsprj/install/linkattacher_msgs/share/linkattacher_msgs/package.sh'
+[37.082s] INFO:colcon.colcon_core.shell:Creating package script '/home/armando30/robotsprj/install/linkattacher_msgs/share/linkattacher_msgs/package.bash'
+[37.084s] INFO:colcon.colcon_core.shell:Creating package script '/home/armando30/robotsprj/install/linkattacher_msgs/share/linkattacher_msgs/package.zsh'
+[37.086s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/armando30/robotsprj/install/linkattacher_msgs/share/colcon-core/packages/linkattacher_msgs)
+[37.088s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(linkattacher_msgs)
+[37.088s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/linkattacher_msgs' for CMake module files
+[37.091s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/linkattacher_msgs' for CMake config files
+[37.094s] Level 1:colcon.colcon_core.shell:create_environment_hook('linkattacher_msgs', 'cmake_prefix_path')
+[37.095s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/armando30/robotsprj/install/linkattacher_msgs/share/linkattacher_msgs/hook/cmake_prefix_path.ps1'
+[37.096s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/armando30/robotsprj/install/linkattacher_msgs/share/linkattacher_msgs/hook/cmake_prefix_path.dsv'
+[37.097s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/armando30/robotsprj/install/linkattacher_msgs/share/linkattacher_msgs/hook/cmake_prefix_path.sh'
+[37.099s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/linkattacher_msgs/lib'
+[37.099s] Level 1:colcon.colcon_core.shell:create_environment_hook('linkattacher_msgs', 'ld_library_path_lib')
+[37.100s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/armando30/robotsprj/install/linkattacher_msgs/share/linkattacher_msgs/hook/ld_library_path_lib.ps1'
+[37.101s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/armando30/robotsprj/install/linkattacher_msgs/share/linkattacher_msgs/hook/ld_library_path_lib.dsv'
+[37.102s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/armando30/robotsprj/install/linkattacher_msgs/share/linkattacher_msgs/hook/ld_library_path_lib.sh'
+[37.104s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/linkattacher_msgs/bin'
+[37.104s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/linkattacher_msgs/lib/pkgconfig/linkattacher_msgs.pc'
+[37.105s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/linkattacher_msgs/lib/python3.10/site-packages'
+[37.105s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/linkattacher_msgs/bin'
+[37.107s] INFO:colcon.colcon_core.shell:Creating package script '/home/armando30/robotsprj/install/linkattacher_msgs/share/linkattacher_msgs/package.ps1'
+[37.109s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/armando30/robotsprj/install/linkattacher_msgs/share/linkattacher_msgs/package.dsv'
+[37.111s] INFO:colcon.colcon_core.shell:Creating package script '/home/armando30/robotsprj/install/linkattacher_msgs/share/linkattacher_msgs/package.sh'
+[37.113s] INFO:colcon.colcon_core.shell:Creating package script '/home/armando30/robotsprj/install/linkattacher_msgs/share/linkattacher_msgs/package.bash'
+[37.115s] INFO:colcon.colcon_core.shell:Creating package script '/home/armando30/robotsprj/install/linkattacher_msgs/share/linkattacher_msgs/package.zsh'
+[37.116s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/armando30/robotsprj/install/linkattacher_msgs/share/colcon-core/packages/linkattacher_msgs)
+[37.117s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/armando30/robotsprj/src/IFRA_LinkAttacher/ros2_LinkAttacher' with build type 'ament_cmake'
+[37.118s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/armando30/robotsprj/src/IFRA_LinkAttacher/ros2_LinkAttacher'
+[37.119s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[37.119s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[37.169s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/armando30/robotsprj/build/ros2_linkattacher': CMAKE_PREFIX_PATH=/home/armando30/robotsprj/install/linkattacher_msgs:/home/armando30/robotsprj/install/ur:/home/armando30/robotsprj/install/ur_calibration:/home/armando30/robotsprj/install/ur_robot_driver:/home/armando30/robotsprj/install/ur_moveit_config:/home/armando30/robotsprj/install/ur_bringup:/home/armando30/robotsprj/install/ur_controllers:/home/armando30/robotsprj/install/ur_dashboard_msgs:/home/armando30/robotsprj/install/ros2_linkattacher:/home/armando30/robotsprj/install/ros2_conveyorbelt:/home/armando30/robotsprj/install/conveyorbelt_msgs:/home/armando30/robotsprj/install/conveyorbelt_gazebo:/opt/ros/humble LD_LIBRARY_PATH=/home/armando30/robotsprj/install/linkattacher_msgs/lib:/home/armando30/robotsprj/install/ur_robot_driver/lib:/home/armando30/robotsprj/install/ur_controllers/lib:/home/armando30/robotsprj/install/ur_dashboard_msgs/lib:/home/armando30/robotsprj/install/ros2_linkattacher/lib:/home/armando30/robotsprj/install/ros2_conveyorbelt/lib:/home/armando30/robotsprj/install/conveyorbelt_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/armando30/robotsprj/src/IFRA_LinkAttacher/ros2_LinkAttacher -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/armando30/robotsprj/install/ros2_linkattacher
+[47.487s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/armando30/robotsprj/build/ros2_conveyorbelt' returned '0': CMAKE_PREFIX_PATH=/home/armando30/robotsprj/install/conveyorbelt_msgs:/home/armando30/robotsprj/install/ur:/home/armando30/robotsprj/install/ur_calibration:/home/armando30/robotsprj/install/ur_robot_driver:/home/armando30/robotsprj/install/ur_moveit_config:/home/armando30/robotsprj/install/ur_bringup:/home/armando30/robotsprj/install/ur_controllers:/home/armando30/robotsprj/install/ur_dashboard_msgs:/home/armando30/robotsprj/install/ros2_linkattacher:/home/armando30/robotsprj/install/ros2_conveyorbelt:/home/armando30/robotsprj/install/linkattacher_msgs:/home/armando30/robotsprj/install/conveyorbelt_gazebo:/opt/ros/humble LD_LIBRARY_PATH=/home/armando30/robotsprj/install/conveyorbelt_msgs/lib:/home/armando30/robotsprj/install/ur_robot_driver/lib:/home/armando30/robotsprj/install/ur_controllers/lib:/home/armando30/robotsprj/install/ur_dashboard_msgs/lib:/home/armando30/robotsprj/install/ros2_linkattacher/lib:/home/armando30/robotsprj/install/ros2_conveyorbelt/lib:/home/armando30/robotsprj/install/linkattacher_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/armando30/robotsprj/src/IFRA_ConveyorBelt/ros2_conveyorbelt -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/armando30/robotsprj/install/ros2_conveyorbelt
+[47.498s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/armando30/robotsprj/build/ros2_conveyorbelt': CMAKE_PREFIX_PATH=/home/armando30/robotsprj/install/conveyorbelt_msgs:/home/armando30/robotsprj/install/ur:/home/armando30/robotsprj/install/ur_calibration:/home/armando30/robotsprj/install/ur_robot_driver:/home/armando30/robotsprj/install/ur_moveit_config:/home/armando30/robotsprj/install/ur_bringup:/home/armando30/robotsprj/install/ur_controllers:/home/armando30/robotsprj/install/ur_dashboard_msgs:/home/armando30/robotsprj/install/ros2_linkattacher:/home/armando30/robotsprj/install/ros2_conveyorbelt:/home/armando30/robotsprj/install/linkattacher_msgs:/home/armando30/robotsprj/install/conveyorbelt_gazebo:/opt/ros/humble LD_LIBRARY_PATH=/home/armando30/robotsprj/install/conveyorbelt_msgs/lib:/home/armando30/robotsprj/install/ur_robot_driver/lib:/home/armando30/robotsprj/install/ur_controllers/lib:/home/armando30/robotsprj/install/ur_dashboard_msgs/lib:/home/armando30/robotsprj/install/ros2_linkattacher/lib:/home/armando30/robotsprj/install/ros2_conveyorbelt/lib:/home/armando30/robotsprj/install/linkattacher_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/armando30/robotsprj/build/ros2_conveyorbelt -- -j8 -l8
+[47.872s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/armando30/robotsprj/build/ros2_linkattacher' returned '0': CMAKE_PREFIX_PATH=/home/armando30/robotsprj/install/linkattacher_msgs:/home/armando30/robotsprj/install/ur:/home/armando30/robotsprj/install/ur_calibration:/home/armando30/robotsprj/install/ur_robot_driver:/home/armando30/robotsprj/install/ur_moveit_config:/home/armando30/robotsprj/install/ur_bringup:/home/armando30/robotsprj/install/ur_controllers:/home/armando30/robotsprj/install/ur_dashboard_msgs:/home/armando30/robotsprj/install/ros2_linkattacher:/home/armando30/robotsprj/install/ros2_conveyorbelt:/home/armando30/robotsprj/install/conveyorbelt_msgs:/home/armando30/robotsprj/install/conveyorbelt_gazebo:/opt/ros/humble LD_LIBRARY_PATH=/home/armando30/robotsprj/install/linkattacher_msgs/lib:/home/armando30/robotsprj/install/ur_robot_driver/lib:/home/armando30/robotsprj/install/ur_controllers/lib:/home/armando30/robotsprj/install/ur_dashboard_msgs/lib:/home/armando30/robotsprj/install/ros2_linkattacher/lib:/home/armando30/robotsprj/install/ros2_conveyorbelt/lib:/home/armando30/robotsprj/install/conveyorbelt_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/armando30/robotsprj/src/IFRA_LinkAttacher/ros2_LinkAttacher -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/armando30/robotsprj/install/ros2_linkattacher
+[47.880s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/armando30/robotsprj/build/ros2_linkattacher': CMAKE_PREFIX_PATH=/home/armando30/robotsprj/install/linkattacher_msgs:/home/armando30/robotsprj/install/ur:/home/armando30/robotsprj/install/ur_calibration:/home/armando30/robotsprj/install/ur_robot_driver:/home/armando30/robotsprj/install/ur_moveit_config:/home/armando30/robotsprj/install/ur_bringup:/home/armando30/robotsprj/install/ur_controllers:/home/armando30/robotsprj/install/ur_dashboard_msgs:/home/armando30/robotsprj/install/ros2_linkattacher:/home/armando30/robotsprj/install/ros2_conveyorbelt:/home/armando30/robotsprj/install/conveyorbelt_msgs:/home/armando30/robotsprj/install/conveyorbelt_gazebo:/opt/ros/humble LD_LIBRARY_PATH=/home/armando30/robotsprj/install/linkattacher_msgs/lib:/home/armando30/robotsprj/install/ur_robot_driver/lib:/home/armando30/robotsprj/install/ur_controllers/lib:/home/armando30/robotsprj/install/ur_dashboard_msgs/lib:/home/armando30/robotsprj/install/ros2_linkattacher/lib:/home/armando30/robotsprj/install/ros2_conveyorbelt/lib:/home/armando30/robotsprj/install/conveyorbelt_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/armando30/robotsprj/build/ros2_linkattacher -- -j8 -l8
+[103.574s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/armando30/robotsprj/build/ros2_linkattacher' returned '0': CMAKE_PREFIX_PATH=/home/armando30/robotsprj/install/linkattacher_msgs:/home/armando30/robotsprj/install/ur:/home/armando30/robotsprj/install/ur_calibration:/home/armando30/robotsprj/install/ur_robot_driver:/home/armando30/robotsprj/install/ur_moveit_config:/home/armando30/robotsprj/install/ur_bringup:/home/armando30/robotsprj/install/ur_controllers:/home/armando30/robotsprj/install/ur_dashboard_msgs:/home/armando30/robotsprj/install/ros2_linkattacher:/home/armando30/robotsprj/install/ros2_conveyorbelt:/home/armando30/robotsprj/install/conveyorbelt_msgs:/home/armando30/robotsprj/install/conveyorbelt_gazebo:/opt/ros/humble LD_LIBRARY_PATH=/home/armando30/robotsprj/install/linkattacher_msgs/lib:/home/armando30/robotsprj/install/ur_robot_driver/lib:/home/armando30/robotsprj/install/ur_controllers/lib:/home/armando30/robotsprj/install/ur_dashboard_msgs/lib:/home/armando30/robotsprj/install/ros2_linkattacher/lib:/home/armando30/robotsprj/install/ros2_conveyorbelt/lib:/home/armando30/robotsprj/install/conveyorbelt_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/armando30/robotsprj/build/ros2_linkattacher -- -j8 -l8
+[103.581s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/armando30/robotsprj/build/ros2_linkattacher': CMAKE_PREFIX_PATH=/home/armando30/robotsprj/install/linkattacher_msgs:/home/armando30/robotsprj/install/ur:/home/armando30/robotsprj/install/ur_calibration:/home/armando30/robotsprj/install/ur_robot_driver:/home/armando30/robotsprj/install/ur_moveit_config:/home/armando30/robotsprj/install/ur_bringup:/home/armando30/robotsprj/install/ur_controllers:/home/armando30/robotsprj/install/ur_dashboard_msgs:/home/armando30/robotsprj/install/ros2_linkattacher:/home/armando30/robotsprj/install/ros2_conveyorbelt:/home/armando30/robotsprj/install/conveyorbelt_msgs:/home/armando30/robotsprj/install/conveyorbelt_gazebo:/opt/ros/humble LD_LIBRARY_PATH=/home/armando30/robotsprj/install/linkattacher_msgs/lib:/home/armando30/robotsprj/install/ur_robot_driver/lib:/home/armando30/robotsprj/install/ur_controllers/lib:/home/armando30/robotsprj/install/ur_dashboard_msgs/lib:/home/armando30/robotsprj/install/ros2_linkattacher/lib:/home/armando30/robotsprj/install/ros2_conveyorbelt/lib:/home/armando30/robotsprj/install/conveyorbelt_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/armando30/robotsprj/build/ros2_linkattacher
+[104.111s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_linkattacher)
+[104.112s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/ros2_linkattacher' for CMake module files
+[104.114s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/armando30/robotsprj/build/ros2_linkattacher' returned '0': CMAKE_PREFIX_PATH=/home/armando30/robotsprj/install/linkattacher_msgs:/home/armando30/robotsprj/install/ur:/home/armando30/robotsprj/install/ur_calibration:/home/armando30/robotsprj/install/ur_robot_driver:/home/armando30/robotsprj/install/ur_moveit_config:/home/armando30/robotsprj/install/ur_bringup:/home/armando30/robotsprj/install/ur_controllers:/home/armando30/robotsprj/install/ur_dashboard_msgs:/home/armando30/robotsprj/install/ros2_linkattacher:/home/armando30/robotsprj/install/ros2_conveyorbelt:/home/armando30/robotsprj/install/conveyorbelt_msgs:/home/armando30/robotsprj/install/conveyorbelt_gazebo:/opt/ros/humble LD_LIBRARY_PATH=/home/armando30/robotsprj/install/linkattacher_msgs/lib:/home/armando30/robotsprj/install/ur_robot_driver/lib:/home/armando30/robotsprj/install/ur_controllers/lib:/home/armando30/robotsprj/install/ur_dashboard_msgs/lib:/home/armando30/robotsprj/install/ros2_linkattacher/lib:/home/armando30/robotsprj/install/ros2_conveyorbelt/lib:/home/armando30/robotsprj/install/conveyorbelt_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/armando30/robotsprj/build/ros2_linkattacher
+[104.116s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/ros2_linkattacher' for CMake config files
+[104.117s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_linkattacher', 'cmake_prefix_path')
+[104.118s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/armando30/robotsprj/install/ros2_linkattacher/share/ros2_linkattacher/hook/cmake_prefix_path.ps1'
+[104.120s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/armando30/robotsprj/install/ros2_linkattacher/share/ros2_linkattacher/hook/cmake_prefix_path.dsv'
+[104.121s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/armando30/robotsprj/install/ros2_linkattacher/share/ros2_linkattacher/hook/cmake_prefix_path.sh'
+[104.122s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/ros2_linkattacher/lib'
+[104.123s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_linkattacher', 'ld_library_path_lib')
+[104.123s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/armando30/robotsprj/install/ros2_linkattacher/share/ros2_linkattacher/hook/ld_library_path_lib.ps1'
+[104.125s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/armando30/robotsprj/install/ros2_linkattacher/share/ros2_linkattacher/hook/ld_library_path_lib.dsv'
+[104.126s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/armando30/robotsprj/install/ros2_linkattacher/share/ros2_linkattacher/hook/ld_library_path_lib.sh'
+[104.127s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/ros2_linkattacher/bin'
+[104.127s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/ros2_linkattacher/lib/pkgconfig/ros2_linkattacher.pc'
+[104.128s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/ros2_linkattacher/lib/python3.10/site-packages'
+[104.129s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/ros2_linkattacher/bin'
+[104.130s] INFO:colcon.colcon_core.shell:Creating package script '/home/armando30/robotsprj/install/ros2_linkattacher/share/ros2_linkattacher/package.ps1'
+[104.132s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/armando30/robotsprj/install/ros2_linkattacher/share/ros2_linkattacher/package.dsv'
+[104.133s] INFO:colcon.colcon_core.shell:Creating package script '/home/armando30/robotsprj/install/ros2_linkattacher/share/ros2_linkattacher/package.sh'
+[104.135s] INFO:colcon.colcon_core.shell:Creating package script '/home/armando30/robotsprj/install/ros2_linkattacher/share/ros2_linkattacher/package.bash'
+[104.136s] INFO:colcon.colcon_core.shell:Creating package script '/home/armando30/robotsprj/install/ros2_linkattacher/share/ros2_linkattacher/package.zsh'
+[104.138s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/armando30/robotsprj/install/ros2_linkattacher/share/colcon-core/packages/ros2_linkattacher)
+[104.140s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_linkattacher)
+[104.140s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/ros2_linkattacher' for CMake module files
+[104.142s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/ros2_linkattacher' for CMake config files
+[104.144s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_linkattacher', 'cmake_prefix_path')
+[104.144s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/armando30/robotsprj/install/ros2_linkattacher/share/ros2_linkattacher/hook/cmake_prefix_path.ps1'
+[104.146s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/armando30/robotsprj/install/ros2_linkattacher/share/ros2_linkattacher/hook/cmake_prefix_path.dsv'
+[104.147s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/armando30/robotsprj/install/ros2_linkattacher/share/ros2_linkattacher/hook/cmake_prefix_path.sh'
+[104.149s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/ros2_linkattacher/lib'
+[104.149s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_linkattacher', 'ld_library_path_lib')
+[104.150s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/armando30/robotsprj/install/ros2_linkattacher/share/ros2_linkattacher/hook/ld_library_path_lib.ps1'
+[104.151s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/armando30/robotsprj/install/ros2_linkattacher/share/ros2_linkattacher/hook/ld_library_path_lib.dsv'
+[104.152s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/armando30/robotsprj/install/ros2_linkattacher/share/ros2_linkattacher/hook/ld_library_path_lib.sh'
+[104.154s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/ros2_linkattacher/bin'
+[104.154s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/ros2_linkattacher/lib/pkgconfig/ros2_linkattacher.pc'
+[104.155s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/ros2_linkattacher/lib/python3.10/site-packages'
+[104.155s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/ros2_linkattacher/bin'
+[104.156s] INFO:colcon.colcon_core.shell:Creating package script '/home/armando30/robotsprj/install/ros2_linkattacher/share/ros2_linkattacher/package.ps1'
+[104.158s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/armando30/robotsprj/install/ros2_linkattacher/share/ros2_linkattacher/package.dsv'
+[104.160s] INFO:colcon.colcon_core.shell:Creating package script '/home/armando30/robotsprj/install/ros2_linkattacher/share/ros2_linkattacher/package.sh'
+[104.162s] INFO:colcon.colcon_core.shell:Creating package script '/home/armando30/robotsprj/install/ros2_linkattacher/share/ros2_linkattacher/package.bash'
+[104.163s] INFO:colcon.colcon_core.shell:Creating package script '/home/armando30/robotsprj/install/ros2_linkattacher/share/ros2_linkattacher/package.zsh'
+[104.165s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/armando30/robotsprj/install/ros2_linkattacher/share/colcon-core/packages/ros2_linkattacher)
+[109.605s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/armando30/robotsprj/build/ur_dashboard_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/armando30/robotsprj/build/ur_dashboard_msgs -- -j8 -l8
+[109.610s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/armando30/robotsprj/build/ur_dashboard_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/armando30/robotsprj/build/ur_dashboard_msgs
+[118.485s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur_dashboard_msgs)
+[118.486s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/ur_dashboard_msgs' for CMake module files
+[118.488s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/armando30/robotsprj/build/ur_dashboard_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/armando30/robotsprj/build/ur_dashboard_msgs
+[118.490s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/ur_dashboard_msgs' for CMake config files
+[118.497s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_dashboard_msgs', 'cmake_prefix_path')
+[118.498s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/armando30/robotsprj/install/ur_dashboard_msgs/share/ur_dashboard_msgs/hook/cmake_prefix_path.ps1'
+[118.500s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/armando30/robotsprj/install/ur_dashboard_msgs/share/ur_dashboard_msgs/hook/cmake_prefix_path.dsv'
+[118.501s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/armando30/robotsprj/install/ur_dashboard_msgs/share/ur_dashboard_msgs/hook/cmake_prefix_path.sh'
+[118.503s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/ur_dashboard_msgs/lib'
+[118.503s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_dashboard_msgs', 'ld_library_path_lib')
+[118.504s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/armando30/robotsprj/install/ur_dashboard_msgs/share/ur_dashboard_msgs/hook/ld_library_path_lib.ps1'
+[118.505s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/armando30/robotsprj/install/ur_dashboard_msgs/share/ur_dashboard_msgs/hook/ld_library_path_lib.dsv'
+[118.506s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/armando30/robotsprj/install/ur_dashboard_msgs/share/ur_dashboard_msgs/hook/ld_library_path_lib.sh'
+[118.507s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/ur_dashboard_msgs/bin'
+[118.507s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/ur_dashboard_msgs/lib/pkgconfig/ur_dashboard_msgs.pc'
+[118.508s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/ur_dashboard_msgs/lib/python3.10/site-packages'
+[118.509s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/ur_dashboard_msgs/bin'
+[118.510s] INFO:colcon.colcon_core.shell:Creating package script '/home/armando30/robotsprj/install/ur_dashboard_msgs/share/ur_dashboard_msgs/package.ps1'
+[118.512s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/armando30/robotsprj/install/ur_dashboard_msgs/share/ur_dashboard_msgs/package.dsv'
+[118.513s] INFO:colcon.colcon_core.shell:Creating package script '/home/armando30/robotsprj/install/ur_dashboard_msgs/share/ur_dashboard_msgs/package.sh'
+[118.514s] INFO:colcon.colcon_core.shell:Creating package script '/home/armando30/robotsprj/install/ur_dashboard_msgs/share/ur_dashboard_msgs/package.bash'
+[118.516s] INFO:colcon.colcon_core.shell:Creating package script '/home/armando30/robotsprj/install/ur_dashboard_msgs/share/ur_dashboard_msgs/package.zsh'
+[118.517s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/armando30/robotsprj/install/ur_dashboard_msgs/share/colcon-core/packages/ur_dashboard_msgs)
+[118.520s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur_dashboard_msgs)
+[118.521s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/ur_dashboard_msgs' for CMake module files
+[118.524s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/ur_dashboard_msgs' for CMake config files
+[118.530s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_dashboard_msgs', 'cmake_prefix_path')
+[118.531s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/armando30/robotsprj/install/ur_dashboard_msgs/share/ur_dashboard_msgs/hook/cmake_prefix_path.ps1'
+[118.533s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/armando30/robotsprj/install/ur_dashboard_msgs/share/ur_dashboard_msgs/hook/cmake_prefix_path.dsv'
+[118.535s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/armando30/robotsprj/install/ur_dashboard_msgs/share/ur_dashboard_msgs/hook/cmake_prefix_path.sh'
+[118.537s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/ur_dashboard_msgs/lib'
+[118.537s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_dashboard_msgs', 'ld_library_path_lib')
+[118.538s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/armando30/robotsprj/install/ur_dashboard_msgs/share/ur_dashboard_msgs/hook/ld_library_path_lib.ps1'
+[118.539s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/armando30/robotsprj/install/ur_dashboard_msgs/share/ur_dashboard_msgs/hook/ld_library_path_lib.dsv'
+[118.540s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/armando30/robotsprj/install/ur_dashboard_msgs/share/ur_dashboard_msgs/hook/ld_library_path_lib.sh'
+[118.542s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/ur_dashboard_msgs/bin'
+[118.542s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/ur_dashboard_msgs/lib/pkgconfig/ur_dashboard_msgs.pc'
+[118.543s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/ur_dashboard_msgs/lib/python3.10/site-packages'
+[118.543s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/ur_dashboard_msgs/bin'
+[118.545s] INFO:colcon.colcon_core.shell:Creating package script '/home/armando30/robotsprj/install/ur_dashboard_msgs/share/ur_dashboard_msgs/package.ps1'
+[118.548s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/armando30/robotsprj/install/ur_dashboard_msgs/share/ur_dashboard_msgs/package.dsv'
+[118.550s] INFO:colcon.colcon_core.shell:Creating package script '/home/armando30/robotsprj/install/ur_dashboard_msgs/share/ur_dashboard_msgs/package.sh'
+[118.552s] INFO:colcon.colcon_core.shell:Creating package script '/home/armando30/robotsprj/install/ur_dashboard_msgs/share/ur_dashboard_msgs/package.bash'
+[118.553s] INFO:colcon.colcon_core.shell:Creating package script '/home/armando30/robotsprj/install/ur_dashboard_msgs/share/ur_dashboard_msgs/package.zsh'
+[118.555s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/armando30/robotsprj/install/ur_dashboard_msgs/share/colcon-core/packages/ur_dashboard_msgs)
+[118.556s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/armando30/robotsprj/src/Universal_Robots_ROS2_Driver/ur_controllers' with build type 'ament_cmake'
+[118.556s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/armando30/robotsprj/src/Universal_Robots_ROS2_Driver/ur_controllers'
+[118.557s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[118.557s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[118.594s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/armando30/robotsprj/build/ur_controllers': CMAKE_PREFIX_PATH=/home/armando30/robotsprj/install/ur_dashboard_msgs:/home/armando30/robotsprj/install/ur:/home/armando30/robotsprj/install/ur_calibration:/home/armando30/robotsprj/install/ur_robot_driver:/home/armando30/robotsprj/install/ur_moveit_config:/home/armando30/robotsprj/install/ur_bringup:/home/armando30/robotsprj/install/ur_controllers:/home/armando30/robotsprj/install/ros2_linkattacher:/home/armando30/robotsprj/install/ros2_conveyorbelt:/home/armando30/robotsprj/install/linkattacher_msgs:/home/armando30/robotsprj/install/conveyorbelt_msgs:/home/armando30/robotsprj/install/conveyorbelt_gazebo:/opt/ros/humble LD_LIBRARY_PATH=/home/armando30/robotsprj/install/ur_dashboard_msgs/lib:/home/armando30/robotsprj/install/ur_robot_driver/lib:/home/armando30/robotsprj/install/ur_controllers/lib:/home/armando30/robotsprj/install/ros2_linkattacher/lib:/home/armando30/robotsprj/install/ros2_conveyorbelt/lib:/home/armando30/robotsprj/install/linkattacher_msgs/lib:/home/armando30/robotsprj/install/conveyorbelt_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/armando30/robotsprj/src/Universal_Robots_ROS2_Driver/ur_controllers -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/armando30/robotsprj/install/ur_controllers
+[125.024s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/armando30/robotsprj/build/ur_controllers' returned '0': CMAKE_PREFIX_PATH=/home/armando30/robotsprj/install/ur_dashboard_msgs:/home/armando30/robotsprj/install/ur:/home/armando30/robotsprj/install/ur_calibration:/home/armando30/robotsprj/install/ur_robot_driver:/home/armando30/robotsprj/install/ur_moveit_config:/home/armando30/robotsprj/install/ur_bringup:/home/armando30/robotsprj/install/ur_controllers:/home/armando30/robotsprj/install/ros2_linkattacher:/home/armando30/robotsprj/install/ros2_conveyorbelt:/home/armando30/robotsprj/install/linkattacher_msgs:/home/armando30/robotsprj/install/conveyorbelt_msgs:/home/armando30/robotsprj/install/conveyorbelt_gazebo:/opt/ros/humble LD_LIBRARY_PATH=/home/armando30/robotsprj/install/ur_dashboard_msgs/lib:/home/armando30/robotsprj/install/ur_robot_driver/lib:/home/armando30/robotsprj/install/ur_controllers/lib:/home/armando30/robotsprj/install/ros2_linkattacher/lib:/home/armando30/robotsprj/install/ros2_conveyorbelt/lib:/home/armando30/robotsprj/install/linkattacher_msgs/lib:/home/armando30/robotsprj/install/conveyorbelt_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/armando30/robotsprj/src/Universal_Robots_ROS2_Driver/ur_controllers -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/armando30/robotsprj/install/ur_controllers
+[125.031s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/armando30/robotsprj/build/ur_controllers': CMAKE_PREFIX_PATH=/home/armando30/robotsprj/install/ur_dashboard_msgs:/home/armando30/robotsprj/install/ur:/home/armando30/robotsprj/install/ur_calibration:/home/armando30/robotsprj/install/ur_robot_driver:/home/armando30/robotsprj/install/ur_moveit_config:/home/armando30/robotsprj/install/ur_bringup:/home/armando30/robotsprj/install/ur_controllers:/home/armando30/robotsprj/install/ros2_linkattacher:/home/armando30/robotsprj/install/ros2_conveyorbelt:/home/armando30/robotsprj/install/linkattacher_msgs:/home/armando30/robotsprj/install/conveyorbelt_msgs:/home/armando30/robotsprj/install/conveyorbelt_gazebo:/opt/ros/humble LD_LIBRARY_PATH=/home/armando30/robotsprj/install/ur_dashboard_msgs/lib:/home/armando30/robotsprj/install/ur_robot_driver/lib:/home/armando30/robotsprj/install/ur_controllers/lib:/home/armando30/robotsprj/install/ros2_linkattacher/lib:/home/armando30/robotsprj/install/ros2_conveyorbelt/lib:/home/armando30/robotsprj/install/linkattacher_msgs/lib:/home/armando30/robotsprj/install/conveyorbelt_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/armando30/robotsprj/build/ur_controllers -- -j8 -l8
+[128.105s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/armando30/robotsprj/build/ros2_conveyorbelt' returned '0': CMAKE_PREFIX_PATH=/home/armando30/robotsprj/install/conveyorbelt_msgs:/home/armando30/robotsprj/install/ur:/home/armando30/robotsprj/install/ur_calibration:/home/armando30/robotsprj/install/ur_robot_driver:/home/armando30/robotsprj/install/ur_moveit_config:/home/armando30/robotsprj/install/ur_bringup:/home/armando30/robotsprj/install/ur_controllers:/home/armando30/robotsprj/install/ur_dashboard_msgs:/home/armando30/robotsprj/install/ros2_linkattacher:/home/armando30/robotsprj/install/ros2_conveyorbelt:/home/armando30/robotsprj/install/linkattacher_msgs:/home/armando30/robotsprj/install/conveyorbelt_gazebo:/opt/ros/humble LD_LIBRARY_PATH=/home/armando30/robotsprj/install/conveyorbelt_msgs/lib:/home/armando30/robotsprj/install/ur_robot_driver/lib:/home/armando30/robotsprj/install/ur_controllers/lib:/home/armando30/robotsprj/install/ur_dashboard_msgs/lib:/home/armando30/robotsprj/install/ros2_linkattacher/lib:/home/armando30/robotsprj/install/ros2_conveyorbelt/lib:/home/armando30/robotsprj/install/linkattacher_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/armando30/robotsprj/build/ros2_conveyorbelt -- -j8 -l8
+[128.112s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/armando30/robotsprj/build/ros2_conveyorbelt': CMAKE_PREFIX_PATH=/home/armando30/robotsprj/install/conveyorbelt_msgs:/home/armando30/robotsprj/install/ur:/home/armando30/robotsprj/install/ur_calibration:/home/armando30/robotsprj/install/ur_robot_driver:/home/armando30/robotsprj/install/ur_moveit_config:/home/armando30/robotsprj/install/ur_bringup:/home/armando30/robotsprj/install/ur_controllers:/home/armando30/robotsprj/install/ur_dashboard_msgs:/home/armando30/robotsprj/install/ros2_linkattacher:/home/armando30/robotsprj/install/ros2_conveyorbelt:/home/armando30/robotsprj/install/linkattacher_msgs:/home/armando30/robotsprj/install/conveyorbelt_gazebo:/opt/ros/humble LD_LIBRARY_PATH=/home/armando30/robotsprj/install/conveyorbelt_msgs/lib:/home/armando30/robotsprj/install/ur_robot_driver/lib:/home/armando30/robotsprj/install/ur_controllers/lib:/home/armando30/robotsprj/install/ur_dashboard_msgs/lib:/home/armando30/robotsprj/install/ros2_linkattacher/lib:/home/armando30/robotsprj/install/ros2_conveyorbelt/lib:/home/armando30/robotsprj/install/linkattacher_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/armando30/robotsprj/build/ros2_conveyorbelt
+[129.763s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_conveyorbelt)
+[129.765s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/ros2_conveyorbelt' for CMake module files
+[129.773s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/ros2_conveyorbelt' for CMake config files
+[129.778s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_conveyorbelt', 'cmake_prefix_path')
+[129.780s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/armando30/robotsprj/install/ros2_conveyorbelt/share/ros2_conveyorbelt/hook/cmake_prefix_path.ps1'
+[129.783s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/armando30/robotsprj/build/ros2_conveyorbelt' returned '0': CMAKE_PREFIX_PATH=/home/armando30/robotsprj/install/conveyorbelt_msgs:/home/armando30/robotsprj/install/ur:/home/armando30/robotsprj/install/ur_calibration:/home/armando30/robotsprj/install/ur_robot_driver:/home/armando30/robotsprj/install/ur_moveit_config:/home/armando30/robotsprj/install/ur_bringup:/home/armando30/robotsprj/install/ur_controllers:/home/armando30/robotsprj/install/ur_dashboard_msgs:/home/armando30/robotsprj/install/ros2_linkattacher:/home/armando30/robotsprj/install/ros2_conveyorbelt:/home/armando30/robotsprj/install/linkattacher_msgs:/home/armando30/robotsprj/install/conveyorbelt_gazebo:/opt/ros/humble LD_LIBRARY_PATH=/home/armando30/robotsprj/install/conveyorbelt_msgs/lib:/home/armando30/robotsprj/install/ur_robot_driver/lib:/home/armando30/robotsprj/install/ur_controllers/lib:/home/armando30/robotsprj/install/ur_dashboard_msgs/lib:/home/armando30/robotsprj/install/ros2_linkattacher/lib:/home/armando30/robotsprj/install/ros2_conveyorbelt/lib:/home/armando30/robotsprj/install/linkattacher_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/armando30/robotsprj/build/ros2_conveyorbelt
+[129.788s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/armando30/robotsprj/install/ros2_conveyorbelt/share/ros2_conveyorbelt/hook/cmake_prefix_path.dsv'
+[129.790s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/armando30/robotsprj/install/ros2_conveyorbelt/share/ros2_conveyorbelt/hook/cmake_prefix_path.sh'
+[129.793s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/ros2_conveyorbelt/lib'
+[129.793s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_conveyorbelt', 'ld_library_path_lib')
+[129.800s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/armando30/robotsprj/install/ros2_conveyorbelt/share/ros2_conveyorbelt/hook/ld_library_path_lib.ps1'
+[129.802s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/armando30/robotsprj/install/ros2_conveyorbelt/share/ros2_conveyorbelt/hook/ld_library_path_lib.dsv'
+[129.808s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/armando30/robotsprj/install/ros2_conveyorbelt/share/ros2_conveyorbelt/hook/ld_library_path_lib.sh'
+[129.814s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/ros2_conveyorbelt/bin'
+[129.815s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/ros2_conveyorbelt/lib/pkgconfig/ros2_conveyorbelt.pc'
+[129.816s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/ros2_conveyorbelt/lib/python3.10/site-packages'
+[129.824s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/ros2_conveyorbelt/bin'
+[129.827s] INFO:colcon.colcon_core.shell:Creating package script '/home/armando30/robotsprj/install/ros2_conveyorbelt/share/ros2_conveyorbelt/package.ps1'
+[129.834s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/armando30/robotsprj/install/ros2_conveyorbelt/share/ros2_conveyorbelt/package.dsv'
+[129.836s] INFO:colcon.colcon_core.shell:Creating package script '/home/armando30/robotsprj/install/ros2_conveyorbelt/share/ros2_conveyorbelt/package.sh'
+[129.843s] INFO:colcon.colcon_core.shell:Creating package script '/home/armando30/robotsprj/install/ros2_conveyorbelt/share/ros2_conveyorbelt/package.bash'
+[129.845s] INFO:colcon.colcon_core.shell:Creating package script '/home/armando30/robotsprj/install/ros2_conveyorbelt/share/ros2_conveyorbelt/package.zsh'
+[129.850s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/armando30/robotsprj/install/ros2_conveyorbelt/share/colcon-core/packages/ros2_conveyorbelt)
+[129.858s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_conveyorbelt)
+[129.859s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/ros2_conveyorbelt' for CMake module files
+[129.866s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/ros2_conveyorbelt' for CMake config files
+[129.874s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_conveyorbelt', 'cmake_prefix_path')
+[129.875s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/armando30/robotsprj/install/ros2_conveyorbelt/share/ros2_conveyorbelt/hook/cmake_prefix_path.ps1'
+[129.882s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/armando30/robotsprj/install/ros2_conveyorbelt/share/ros2_conveyorbelt/hook/cmake_prefix_path.dsv'
+[129.888s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/armando30/robotsprj/install/ros2_conveyorbelt/share/ros2_conveyorbelt/hook/cmake_prefix_path.sh'
+[129.895s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/ros2_conveyorbelt/lib'
+[129.895s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_conveyorbelt', 'ld_library_path_lib')
+[129.897s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/armando30/robotsprj/install/ros2_conveyorbelt/share/ros2_conveyorbelt/hook/ld_library_path_lib.ps1'
+[129.899s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/armando30/robotsprj/install/ros2_conveyorbelt/share/ros2_conveyorbelt/hook/ld_library_path_lib.dsv'
+[129.901s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/armando30/robotsprj/install/ros2_conveyorbelt/share/ros2_conveyorbelt/hook/ld_library_path_lib.sh'
+[129.912s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/ros2_conveyorbelt/bin'
+[129.912s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/ros2_conveyorbelt/lib/pkgconfig/ros2_conveyorbelt.pc'
+[129.913s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/ros2_conveyorbelt/lib/python3.10/site-packages'
+[129.915s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/ros2_conveyorbelt/bin'
+[129.917s] INFO:colcon.colcon_core.shell:Creating package script '/home/armando30/robotsprj/install/ros2_conveyorbelt/share/ros2_conveyorbelt/package.ps1'
+[129.924s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/armando30/robotsprj/install/ros2_conveyorbelt/share/ros2_conveyorbelt/package.dsv'
+[129.932s] INFO:colcon.colcon_core.shell:Creating package script '/home/armando30/robotsprj/install/ros2_conveyorbelt/share/ros2_conveyorbelt/package.sh'
+[129.938s] INFO:colcon.colcon_core.shell:Creating package script '/home/armando30/robotsprj/install/ros2_conveyorbelt/share/ros2_conveyorbelt/package.bash'
+[129.945s] INFO:colcon.colcon_core.shell:Creating package script '/home/armando30/robotsprj/install/ros2_conveyorbelt/share/ros2_conveyorbelt/package.zsh'
+[129.950s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/armando30/robotsprj/install/ros2_conveyorbelt/share/colcon-core/packages/ros2_conveyorbelt)
+[221.187s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/armando30/robotsprj/build/ur_controllers' returned '0': CMAKE_PREFIX_PATH=/home/armando30/robotsprj/install/ur_dashboard_msgs:/home/armando30/robotsprj/install/ur:/home/armando30/robotsprj/install/ur_calibration:/home/armando30/robotsprj/install/ur_robot_driver:/home/armando30/robotsprj/install/ur_moveit_config:/home/armando30/robotsprj/install/ur_bringup:/home/armando30/robotsprj/install/ur_controllers:/home/armando30/robotsprj/install/ros2_linkattacher:/home/armando30/robotsprj/install/ros2_conveyorbelt:/home/armando30/robotsprj/install/linkattacher_msgs:/home/armando30/robotsprj/install/conveyorbelt_msgs:/home/armando30/robotsprj/install/conveyorbelt_gazebo:/opt/ros/humble LD_LIBRARY_PATH=/home/armando30/robotsprj/install/ur_dashboard_msgs/lib:/home/armando30/robotsprj/install/ur_robot_driver/lib:/home/armando30/robotsprj/install/ur_controllers/lib:/home/armando30/robotsprj/install/ros2_linkattacher/lib:/home/armando30/robotsprj/install/ros2_conveyorbelt/lib:/home/armando30/robotsprj/install/linkattacher_msgs/lib:/home/armando30/robotsprj/install/conveyorbelt_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/armando30/robotsprj/build/ur_controllers -- -j8 -l8
+[221.193s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/armando30/robotsprj/build/ur_controllers': CMAKE_PREFIX_PATH=/home/armando30/robotsprj/install/ur_dashboard_msgs:/home/armando30/robotsprj/install/ur:/home/armando30/robotsprj/install/ur_calibration:/home/armando30/robotsprj/install/ur_robot_driver:/home/armando30/robotsprj/install/ur_moveit_config:/home/armando30/robotsprj/install/ur_bringup:/home/armando30/robotsprj/install/ur_controllers:/home/armando30/robotsprj/install/ros2_linkattacher:/home/armando30/robotsprj/install/ros2_conveyorbelt:/home/armando30/robotsprj/install/linkattacher_msgs:/home/armando30/robotsprj/install/conveyorbelt_msgs:/home/armando30/robotsprj/install/conveyorbelt_gazebo:/opt/ros/humble LD_LIBRARY_PATH=/home/armando30/robotsprj/install/ur_dashboard_msgs/lib:/home/armando30/robotsprj/install/ur_robot_driver/lib:/home/armando30/robotsprj/install/ur_controllers/lib:/home/armando30/robotsprj/install/ros2_linkattacher/lib:/home/armando30/robotsprj/install/ros2_conveyorbelt/lib:/home/armando30/robotsprj/install/linkattacher_msgs/lib:/home/armando30/robotsprj/install/conveyorbelt_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/armando30/robotsprj/build/ur_controllers
+[222.287s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur_controllers)
+[222.288s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/armando30/robotsprj/build/ur_controllers' returned '0': CMAKE_PREFIX_PATH=/home/armando30/robotsprj/install/ur_dashboard_msgs:/home/armando30/robotsprj/install/ur:/home/armando30/robotsprj/install/ur_calibration:/home/armando30/robotsprj/install/ur_robot_driver:/home/armando30/robotsprj/install/ur_moveit_config:/home/armando30/robotsprj/install/ur_bringup:/home/armando30/robotsprj/install/ur_controllers:/home/armando30/robotsprj/install/ros2_linkattacher:/home/armando30/robotsprj/install/ros2_conveyorbelt:/home/armando30/robotsprj/install/linkattacher_msgs:/home/armando30/robotsprj/install/conveyorbelt_msgs:/home/armando30/robotsprj/install/conveyorbelt_gazebo:/opt/ros/humble LD_LIBRARY_PATH=/home/armando30/robotsprj/install/ur_dashboard_msgs/lib:/home/armando30/robotsprj/install/ur_robot_driver/lib:/home/armando30/robotsprj/install/ur_controllers/lib:/home/armando30/robotsprj/install/ros2_linkattacher/lib:/home/armando30/robotsprj/install/ros2_conveyorbelt/lib:/home/armando30/robotsprj/install/linkattacher_msgs/lib:/home/armando30/robotsprj/install/conveyorbelt_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/armando30/robotsprj/build/ur_controllers
+[222.290s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/ur_controllers' for CMake module files
+[222.292s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/ur_controllers' for CMake config files
+[222.293s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_controllers', 'cmake_prefix_path')
+[222.294s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/armando30/robotsprj/install/ur_controllers/share/ur_controllers/hook/cmake_prefix_path.ps1'
+[222.296s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/armando30/robotsprj/install/ur_controllers/share/ur_controllers/hook/cmake_prefix_path.dsv'
+[222.297s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/armando30/robotsprj/install/ur_controllers/share/ur_controllers/hook/cmake_prefix_path.sh'
+[222.299s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/ur_controllers/lib'
+[222.299s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_controllers', 'ld_library_path_lib')
+[222.300s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/armando30/robotsprj/install/ur_controllers/share/ur_controllers/hook/ld_library_path_lib.ps1'
+[222.301s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/armando30/robotsprj/install/ur_controllers/share/ur_controllers/hook/ld_library_path_lib.dsv'
+[222.302s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/armando30/robotsprj/install/ur_controllers/share/ur_controllers/hook/ld_library_path_lib.sh'
+[222.303s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/ur_controllers/bin'
+[222.304s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/ur_controllers/lib/pkgconfig/ur_controllers.pc'
+[222.304s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/ur_controllers/lib/python3.10/site-packages'
+[222.305s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/ur_controllers/bin'
+[222.306s] INFO:colcon.colcon_core.shell:Creating package script '/home/armando30/robotsprj/install/ur_controllers/share/ur_controllers/package.ps1'
+[222.308s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/armando30/robotsprj/install/ur_controllers/share/ur_controllers/package.dsv'
+[222.309s] INFO:colcon.colcon_core.shell:Creating package script '/home/armando30/robotsprj/install/ur_controllers/share/ur_controllers/package.sh'
+[222.311s] INFO:colcon.colcon_core.shell:Creating package script '/home/armando30/robotsprj/install/ur_controllers/share/ur_controllers/package.bash'
+[222.312s] INFO:colcon.colcon_core.shell:Creating package script '/home/armando30/robotsprj/install/ur_controllers/share/ur_controllers/package.zsh'
+[222.313s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/armando30/robotsprj/install/ur_controllers/share/colcon-core/packages/ur_controllers)
+[222.315s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur_controllers)
+[222.316s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/ur_controllers' for CMake module files
+[222.318s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/ur_controllers' for CMake config files
+[222.319s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_controllers', 'cmake_prefix_path')
+[222.320s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/armando30/robotsprj/install/ur_controllers/share/ur_controllers/hook/cmake_prefix_path.ps1'
+[222.321s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/armando30/robotsprj/install/ur_controllers/share/ur_controllers/hook/cmake_prefix_path.dsv'
+[222.322s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/armando30/robotsprj/install/ur_controllers/share/ur_controllers/hook/cmake_prefix_path.sh'
+[222.324s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/ur_controllers/lib'
+[222.324s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_controllers', 'ld_library_path_lib')
+[222.325s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/armando30/robotsprj/install/ur_controllers/share/ur_controllers/hook/ld_library_path_lib.ps1'
+[222.326s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/armando30/robotsprj/install/ur_controllers/share/ur_controllers/hook/ld_library_path_lib.dsv'
+[222.327s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/armando30/robotsprj/install/ur_controllers/share/ur_controllers/hook/ld_library_path_lib.sh'
+[222.328s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/ur_controllers/bin'
+[222.328s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/ur_controllers/lib/pkgconfig/ur_controllers.pc'
+[222.329s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/ur_controllers/lib/python3.10/site-packages'
+[222.330s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/ur_controllers/bin'
+[222.331s] INFO:colcon.colcon_core.shell:Creating package script '/home/armando30/robotsprj/install/ur_controllers/share/ur_controllers/package.ps1'
+[222.333s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/armando30/robotsprj/install/ur_controllers/share/ur_controllers/package.dsv'
+[222.335s] INFO:colcon.colcon_core.shell:Creating package script '/home/armando30/robotsprj/install/ur_controllers/share/ur_controllers/package.sh'
+[222.336s] INFO:colcon.colcon_core.shell:Creating package script '/home/armando30/robotsprj/install/ur_controllers/share/ur_controllers/package.bash'
+[222.337s] INFO:colcon.colcon_core.shell:Creating package script '/home/armando30/robotsprj/install/ur_controllers/share/ur_controllers/package.zsh'
+[222.339s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/armando30/robotsprj/install/ur_controllers/share/colcon-core/packages/ur_controllers)
+[222.340s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/armando30/robotsprj/src/Universal_Robots_ROS2_Driver/ur_robot_driver' with build type 'ament_cmake'
+[222.340s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/armando30/robotsprj/src/Universal_Robots_ROS2_Driver/ur_robot_driver'
+[222.341s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[222.341s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[222.358s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/armando30/robotsprj/src/Universal_Robots_ROS2_Driver/ur_bringup' with build type 'ament_cmake'
+[222.358s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/armando30/robotsprj/src/Universal_Robots_ROS2_Driver/ur_bringup'
+[222.359s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[222.359s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[222.388s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/armando30/robotsprj/build/ur_robot_driver': CMAKE_PREFIX_PATH=/home/armando30/robotsprj/install/ur_controllers:/home/armando30/robotsprj/install/ur_dashboard_msgs:/home/armando30/robotsprj/install/ur:/home/armando30/robotsprj/install/ur_calibration:/home/armando30/robotsprj/install/ur_robot_driver:/home/armando30/robotsprj/install/ur_moveit_config:/home/armando30/robotsprj/install/ur_bringup:/home/armando30/robotsprj/install/ros2_linkattacher:/home/armando30/robotsprj/install/ros2_conveyorbelt:/home/armando30/robotsprj/install/linkattacher_msgs:/home/armando30/robotsprj/install/conveyorbelt_msgs:/home/armando30/robotsprj/install/conveyorbelt_gazebo:/opt/ros/humble LD_LIBRARY_PATH=/home/armando30/robotsprj/install/ur_controllers/lib:/home/armando30/robotsprj/install/ur_dashboard_msgs/lib:/home/armando30/robotsprj/install/ur_robot_driver/lib:/home/armando30/robotsprj/install/ros2_linkattacher/lib:/home/armando30/robotsprj/install/ros2_conveyorbelt/lib:/home/armando30/robotsprj/install/linkattacher_msgs/lib:/home/armando30/robotsprj/install/conveyorbelt_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/armando30/robotsprj/src/Universal_Robots_ROS2_Driver/ur_robot_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/armando30/robotsprj/install/ur_robot_driver
+[222.405s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/armando30/robotsprj/build/ur_bringup': CMAKE_PREFIX_PATH=/home/armando30/robotsprj/install/ur_controllers:/home/armando30/robotsprj/install/ur_dashboard_msgs:/home/armando30/robotsprj/install/ur:/home/armando30/robotsprj/install/ur_calibration:/home/armando30/robotsprj/install/ur_robot_driver:/home/armando30/robotsprj/install/ur_moveit_config:/home/armando30/robotsprj/install/ur_bringup:/home/armando30/robotsprj/install/ros2_linkattacher:/home/armando30/robotsprj/install/ros2_conveyorbelt:/home/armando30/robotsprj/install/linkattacher_msgs:/home/armando30/robotsprj/install/conveyorbelt_msgs:/home/armando30/robotsprj/install/conveyorbelt_gazebo:/opt/ros/humble LD_LIBRARY_PATH=/home/armando30/robotsprj/install/ur_controllers/lib:/home/armando30/robotsprj/install/ur_dashboard_msgs/lib:/home/armando30/robotsprj/install/ur_robot_driver/lib:/home/armando30/robotsprj/install/ros2_linkattacher/lib:/home/armando30/robotsprj/install/ros2_conveyorbelt/lib:/home/armando30/robotsprj/install/linkattacher_msgs/lib:/home/armando30/robotsprj/install/conveyorbelt_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/armando30/robotsprj/src/Universal_Robots_ROS2_Driver/ur_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/armando30/robotsprj/install/ur_bringup
+[224.592s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/armando30/robotsprj/build/ur_bringup' returned '0': CMAKE_PREFIX_PATH=/home/armando30/robotsprj/install/ur_controllers:/home/armando30/robotsprj/install/ur_dashboard_msgs:/home/armando30/robotsprj/install/ur:/home/armando30/robotsprj/install/ur_calibration:/home/armando30/robotsprj/install/ur_robot_driver:/home/armando30/robotsprj/install/ur_moveit_config:/home/armando30/robotsprj/install/ur_bringup:/home/armando30/robotsprj/install/ros2_linkattacher:/home/armando30/robotsprj/install/ros2_conveyorbelt:/home/armando30/robotsprj/install/linkattacher_msgs:/home/armando30/robotsprj/install/conveyorbelt_msgs:/home/armando30/robotsprj/install/conveyorbelt_gazebo:/opt/ros/humble LD_LIBRARY_PATH=/home/armando30/robotsprj/install/ur_controllers/lib:/home/armando30/robotsprj/install/ur_dashboard_msgs/lib:/home/armando30/robotsprj/install/ur_robot_driver/lib:/home/armando30/robotsprj/install/ros2_linkattacher/lib:/home/armando30/robotsprj/install/ros2_conveyorbelt/lib:/home/armando30/robotsprj/install/linkattacher_msgs/lib:/home/armando30/robotsprj/install/conveyorbelt_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/armando30/robotsprj/src/Universal_Robots_ROS2_Driver/ur_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/armando30/robotsprj/install/ur_bringup
+[224.598s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/armando30/robotsprj/build/ur_bringup': CMAKE_PREFIX_PATH=/home/armando30/robotsprj/install/ur_controllers:/home/armando30/robotsprj/install/ur_dashboard_msgs:/home/armando30/robotsprj/install/ur:/home/armando30/robotsprj/install/ur_calibration:/home/armando30/robotsprj/install/ur_robot_driver:/home/armando30/robotsprj/install/ur_moveit_config:/home/armando30/robotsprj/install/ur_bringup:/home/armando30/robotsprj/install/ros2_linkattacher:/home/armando30/robotsprj/install/ros2_conveyorbelt:/home/armando30/robotsprj/install/linkattacher_msgs:/home/armando30/robotsprj/install/conveyorbelt_msgs:/home/armando30/robotsprj/install/conveyorbelt_gazebo:/opt/ros/humble LD_LIBRARY_PATH=/home/armando30/robotsprj/install/ur_controllers/lib:/home/armando30/robotsprj/install/ur_dashboard_msgs/lib:/home/armando30/robotsprj/install/ur_robot_driver/lib:/home/armando30/robotsprj/install/ros2_linkattacher/lib:/home/armando30/robotsprj/install/ros2_conveyorbelt/lib:/home/armando30/robotsprj/install/linkattacher_msgs/lib:/home/armando30/robotsprj/install/conveyorbelt_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/armando30/robotsprj/build/ur_bringup -- -j8 -l8
+[224.712s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/armando30/robotsprj/build/ur_bringup' returned '0': CMAKE_PREFIX_PATH=/home/armando30/robotsprj/install/ur_controllers:/home/armando30/robotsprj/install/ur_dashboard_msgs:/home/armando30/robotsprj/install/ur:/home/armando30/robotsprj/install/ur_calibration:/home/armando30/robotsprj/install/ur_robot_driver:/home/armando30/robotsprj/install/ur_moveit_config:/home/armando30/robotsprj/install/ur_bringup:/home/armando30/robotsprj/install/ros2_linkattacher:/home/armando30/robotsprj/install/ros2_conveyorbelt:/home/armando30/robotsprj/install/linkattacher_msgs:/home/armando30/robotsprj/install/conveyorbelt_msgs:/home/armando30/robotsprj/install/conveyorbelt_gazebo:/opt/ros/humble LD_LIBRARY_PATH=/home/armando30/robotsprj/install/ur_controllers/lib:/home/armando30/robotsprj/install/ur_dashboard_msgs/lib:/home/armando30/robotsprj/install/ur_robot_driver/lib:/home/armando30/robotsprj/install/ros2_linkattacher/lib:/home/armando30/robotsprj/install/ros2_conveyorbelt/lib:/home/armando30/robotsprj/install/linkattacher_msgs/lib:/home/armando30/robotsprj/install/conveyorbelt_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/armando30/robotsprj/build/ur_bringup -- -j8 -l8
+[224.717s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/armando30/robotsprj/build/ur_bringup': CMAKE_PREFIX_PATH=/home/armando30/robotsprj/install/ur_controllers:/home/armando30/robotsprj/install/ur_dashboard_msgs:/home/armando30/robotsprj/install/ur:/home/armando30/robotsprj/install/ur_calibration:/home/armando30/robotsprj/install/ur_robot_driver:/home/armando30/robotsprj/install/ur_moveit_config:/home/armando30/robotsprj/install/ur_bringup:/home/armando30/robotsprj/install/ros2_linkattacher:/home/armando30/robotsprj/install/ros2_conveyorbelt:/home/armando30/robotsprj/install/linkattacher_msgs:/home/armando30/robotsprj/install/conveyorbelt_msgs:/home/armando30/robotsprj/install/conveyorbelt_gazebo:/opt/ros/humble LD_LIBRARY_PATH=/home/armando30/robotsprj/install/ur_controllers/lib:/home/armando30/robotsprj/install/ur_dashboard_msgs/lib:/home/armando30/robotsprj/install/ur_robot_driver/lib:/home/armando30/robotsprj/install/ros2_linkattacher/lib:/home/armando30/robotsprj/install/ros2_conveyorbelt/lib:/home/armando30/robotsprj/install/linkattacher_msgs/lib:/home/armando30/robotsprj/install/conveyorbelt_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/armando30/robotsprj/build/ur_bringup
+[225.916s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur_bringup)
+[225.918s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/ur_bringup' for CMake module files
+[225.921s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/armando30/robotsprj/build/ur_bringup' returned '0': CMAKE_PREFIX_PATH=/home/armando30/robotsprj/install/ur_controllers:/home/armando30/robotsprj/install/ur_dashboard_msgs:/home/armando30/robotsprj/install/ur:/home/armando30/robotsprj/install/ur_calibration:/home/armando30/robotsprj/install/ur_robot_driver:/home/armando30/robotsprj/install/ur_moveit_config:/home/armando30/robotsprj/install/ur_bringup:/home/armando30/robotsprj/install/ros2_linkattacher:/home/armando30/robotsprj/install/ros2_conveyorbelt:/home/armando30/robotsprj/install/linkattacher_msgs:/home/armando30/robotsprj/install/conveyorbelt_msgs:/home/armando30/robotsprj/install/conveyorbelt_gazebo:/opt/ros/humble LD_LIBRARY_PATH=/home/armando30/robotsprj/install/ur_controllers/lib:/home/armando30/robotsprj/install/ur_dashboard_msgs/lib:/home/armando30/robotsprj/install/ur_robot_driver/lib:/home/armando30/robotsprj/install/ros2_linkattacher/lib:/home/armando30/robotsprj/install/ros2_conveyorbelt/lib:/home/armando30/robotsprj/install/linkattacher_msgs/lib:/home/armando30/robotsprj/install/conveyorbelt_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/armando30/robotsprj/build/ur_bringup
+[225.923s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/ur_bringup' for CMake config files
+[225.924s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_bringup', 'cmake_prefix_path')
+[225.926s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/armando30/robotsprj/install/ur_bringup/share/ur_bringup/hook/cmake_prefix_path.ps1'
+[225.928s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/armando30/robotsprj/install/ur_bringup/share/ur_bringup/hook/cmake_prefix_path.dsv'
+[225.930s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/armando30/robotsprj/install/ur_bringup/share/ur_bringup/hook/cmake_prefix_path.sh'
+[225.932s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/ur_bringup/lib'
+[225.933s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/ur_bringup/bin'
+[225.933s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/ur_bringup/lib/pkgconfig/ur_bringup.pc'
+[225.934s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/ur_bringup/lib/python3.10/site-packages'
+[225.936s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/ur_bringup/bin'
+[225.937s] INFO:colcon.colcon_core.shell:Creating package script '/home/armando30/robotsprj/install/ur_bringup/share/ur_bringup/package.ps1'
+[225.940s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/armando30/robotsprj/install/ur_bringup/share/ur_bringup/package.dsv'
+[225.942s] INFO:colcon.colcon_core.shell:Creating package script '/home/armando30/robotsprj/install/ur_bringup/share/ur_bringup/package.sh'
+[225.943s] INFO:colcon.colcon_core.shell:Creating package script '/home/armando30/robotsprj/install/ur_bringup/share/ur_bringup/package.bash'
+[225.944s] INFO:colcon.colcon_core.shell:Creating package script '/home/armando30/robotsprj/install/ur_bringup/share/ur_bringup/package.zsh'
+[225.945s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/armando30/robotsprj/install/ur_bringup/share/colcon-core/packages/ur_bringup)
+[225.947s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur_bringup)
+[225.948s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/ur_bringup' for CMake module files
+[225.950s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/ur_bringup' for CMake config files
+[225.951s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_bringup', 'cmake_prefix_path')
+[225.952s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/armando30/robotsprj/install/ur_bringup/share/ur_bringup/hook/cmake_prefix_path.ps1'
+[225.953s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/armando30/robotsprj/install/ur_bringup/share/ur_bringup/hook/cmake_prefix_path.dsv'
+[225.954s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/armando30/robotsprj/install/ur_bringup/share/ur_bringup/hook/cmake_prefix_path.sh'
+[225.956s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/ur_bringup/lib'
+[225.956s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/ur_bringup/bin'
+[225.957s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/ur_bringup/lib/pkgconfig/ur_bringup.pc'
+[225.957s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/ur_bringup/lib/python3.10/site-packages'
+[225.958s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/ur_bringup/bin'
+[225.959s] INFO:colcon.colcon_core.shell:Creating package script '/home/armando30/robotsprj/install/ur_bringup/share/ur_bringup/package.ps1'
+[225.961s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/armando30/robotsprj/install/ur_bringup/share/ur_bringup/package.dsv'
+[225.963s] INFO:colcon.colcon_core.shell:Creating package script '/home/armando30/robotsprj/install/ur_bringup/share/ur_bringup/package.sh'
+[225.964s] INFO:colcon.colcon_core.shell:Creating package script '/home/armando30/robotsprj/install/ur_bringup/share/ur_bringup/package.bash'
+[225.966s] INFO:colcon.colcon_core.shell:Creating package script '/home/armando30/robotsprj/install/ur_bringup/share/ur_bringup/package.zsh'
+[225.967s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/armando30/robotsprj/install/ur_bringup/share/colcon-core/packages/ur_bringup)
+[229.876s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/armando30/robotsprj/build/ur_robot_driver' returned '0': CMAKE_PREFIX_PATH=/home/armando30/robotsprj/install/ur_controllers:/home/armando30/robotsprj/install/ur_dashboard_msgs:/home/armando30/robotsprj/install/ur:/home/armando30/robotsprj/install/ur_calibration:/home/armando30/robotsprj/install/ur_robot_driver:/home/armando30/robotsprj/install/ur_moveit_config:/home/armando30/robotsprj/install/ur_bringup:/home/armando30/robotsprj/install/ros2_linkattacher:/home/armando30/robotsprj/install/ros2_conveyorbelt:/home/armando30/robotsprj/install/linkattacher_msgs:/home/armando30/robotsprj/install/conveyorbelt_msgs:/home/armando30/robotsprj/install/conveyorbelt_gazebo:/opt/ros/humble LD_LIBRARY_PATH=/home/armando30/robotsprj/install/ur_controllers/lib:/home/armando30/robotsprj/install/ur_dashboard_msgs/lib:/home/armando30/robotsprj/install/ur_robot_driver/lib:/home/armando30/robotsprj/install/ros2_linkattacher/lib:/home/armando30/robotsprj/install/ros2_conveyorbelt/lib:/home/armando30/robotsprj/install/linkattacher_msgs/lib:/home/armando30/robotsprj/install/conveyorbelt_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/armando30/robotsprj/src/Universal_Robots_ROS2_Driver/ur_robot_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/armando30/robotsprj/install/ur_robot_driver
+[229.881s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/armando30/robotsprj/build/ur_robot_driver': CMAKE_PREFIX_PATH=/home/armando30/robotsprj/install/ur_controllers:/home/armando30/robotsprj/install/ur_dashboard_msgs:/home/armando30/robotsprj/install/ur:/home/armando30/robotsprj/install/ur_calibration:/home/armando30/robotsprj/install/ur_robot_driver:/home/armando30/robotsprj/install/ur_moveit_config:/home/armando30/robotsprj/install/ur_bringup:/home/armando30/robotsprj/install/ros2_linkattacher:/home/armando30/robotsprj/install/ros2_conveyorbelt:/home/armando30/robotsprj/install/linkattacher_msgs:/home/armando30/robotsprj/install/conveyorbelt_msgs:/home/armando30/robotsprj/install/conveyorbelt_gazebo:/opt/ros/humble LD_LIBRARY_PATH=/home/armando30/robotsprj/install/ur_controllers/lib:/home/armando30/robotsprj/install/ur_dashboard_msgs/lib:/home/armando30/robotsprj/install/ur_robot_driver/lib:/home/armando30/robotsprj/install/ros2_linkattacher/lib:/home/armando30/robotsprj/install/ros2_conveyorbelt/lib:/home/armando30/robotsprj/install/linkattacher_msgs/lib:/home/armando30/robotsprj/install/conveyorbelt_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/armando30/robotsprj/build/ur_robot_driver -- -j8 -l8
+[458.076s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/armando30/robotsprj/build/ur_robot_driver' returned '0': CMAKE_PREFIX_PATH=/home/armando30/robotsprj/install/ur_controllers:/home/armando30/robotsprj/install/ur_dashboard_msgs:/home/armando30/robotsprj/install/ur:/home/armando30/robotsprj/install/ur_calibration:/home/armando30/robotsprj/install/ur_robot_driver:/home/armando30/robotsprj/install/ur_moveit_config:/home/armando30/robotsprj/install/ur_bringup:/home/armando30/robotsprj/install/ros2_linkattacher:/home/armando30/robotsprj/install/ros2_conveyorbelt:/home/armando30/robotsprj/install/linkattacher_msgs:/home/armando30/robotsprj/install/conveyorbelt_msgs:/home/armando30/robotsprj/install/conveyorbelt_gazebo:/opt/ros/humble LD_LIBRARY_PATH=/home/armando30/robotsprj/install/ur_controllers/lib:/home/armando30/robotsprj/install/ur_dashboard_msgs/lib:/home/armando30/robotsprj/install/ur_robot_driver/lib:/home/armando30/robotsprj/install/ros2_linkattacher/lib:/home/armando30/robotsprj/install/ros2_conveyorbelt/lib:/home/armando30/robotsprj/install/linkattacher_msgs/lib:/home/armando30/robotsprj/install/conveyorbelt_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/armando30/robotsprj/build/ur_robot_driver -- -j8 -l8
+[458.096s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/armando30/robotsprj/build/ur_robot_driver': CMAKE_PREFIX_PATH=/home/armando30/robotsprj/install/ur_controllers:/home/armando30/robotsprj/install/ur_dashboard_msgs:/home/armando30/robotsprj/install/ur:/home/armando30/robotsprj/install/ur_calibration:/home/armando30/robotsprj/install/ur_robot_driver:/home/armando30/robotsprj/install/ur_moveit_config:/home/armando30/robotsprj/install/ur_bringup:/home/armando30/robotsprj/install/ros2_linkattacher:/home/armando30/robotsprj/install/ros2_conveyorbelt:/home/armando30/robotsprj/install/linkattacher_msgs:/home/armando30/robotsprj/install/conveyorbelt_msgs:/home/armando30/robotsprj/install/conveyorbelt_gazebo:/opt/ros/humble LD_LIBRARY_PATH=/home/armando30/robotsprj/install/ur_controllers/lib:/home/armando30/robotsprj/install/ur_dashboard_msgs/lib:/home/armando30/robotsprj/install/ur_robot_driver/lib:/home/armando30/robotsprj/install/ros2_linkattacher/lib:/home/armando30/robotsprj/install/ros2_conveyorbelt/lib:/home/armando30/robotsprj/install/linkattacher_msgs/lib:/home/armando30/robotsprj/install/conveyorbelt_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/armando30/robotsprj/build/ur_robot_driver
+[460.393s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur_robot_driver)
+[460.395s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/ur_robot_driver' for CMake module files
+[460.398s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/armando30/robotsprj/build/ur_robot_driver' returned '0': CMAKE_PREFIX_PATH=/home/armando30/robotsprj/install/ur_controllers:/home/armando30/robotsprj/install/ur_dashboard_msgs:/home/armando30/robotsprj/install/ur:/home/armando30/robotsprj/install/ur_calibration:/home/armando30/robotsprj/install/ur_robot_driver:/home/armando30/robotsprj/install/ur_moveit_config:/home/armando30/robotsprj/install/ur_bringup:/home/armando30/robotsprj/install/ros2_linkattacher:/home/armando30/robotsprj/install/ros2_conveyorbelt:/home/armando30/robotsprj/install/linkattacher_msgs:/home/armando30/robotsprj/install/conveyorbelt_msgs:/home/armando30/robotsprj/install/conveyorbelt_gazebo:/opt/ros/humble LD_LIBRARY_PATH=/home/armando30/robotsprj/install/ur_controllers/lib:/home/armando30/robotsprj/install/ur_dashboard_msgs/lib:/home/armando30/robotsprj/install/ur_robot_driver/lib:/home/armando30/robotsprj/install/ros2_linkattacher/lib:/home/armando30/robotsprj/install/ros2_conveyorbelt/lib:/home/armando30/robotsprj/install/linkattacher_msgs/lib:/home/armando30/robotsprj/install/conveyorbelt_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/armando30/robotsprj/build/ur_robot_driver
+[460.401s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/ur_robot_driver' for CMake config files
+[460.405s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_robot_driver', 'cmake_prefix_path')
+[460.406s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/armando30/robotsprj/install/ur_robot_driver/share/ur_robot_driver/hook/cmake_prefix_path.ps1'
+[460.409s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/armando30/robotsprj/install/ur_robot_driver/share/ur_robot_driver/hook/cmake_prefix_path.dsv'
+[460.410s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/armando30/robotsprj/install/ur_robot_driver/share/ur_robot_driver/hook/cmake_prefix_path.sh'
+[460.413s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/ur_robot_driver/lib'
+[460.413s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_robot_driver', 'ld_library_path_lib')
+[460.415s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/armando30/robotsprj/install/ur_robot_driver/share/ur_robot_driver/hook/ld_library_path_lib.ps1'
+[460.416s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/armando30/robotsprj/install/ur_robot_driver/share/ur_robot_driver/hook/ld_library_path_lib.dsv'
+[460.418s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/armando30/robotsprj/install/ur_robot_driver/share/ur_robot_driver/hook/ld_library_path_lib.sh'
+[460.420s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/ur_robot_driver/bin'
+[460.420s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_robot_driver', 'path')
+[460.422s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/armando30/robotsprj/install/ur_robot_driver/share/ur_robot_driver/hook/path.ps1'
+[460.423s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/armando30/robotsprj/install/ur_robot_driver/share/ur_robot_driver/hook/path.dsv'
+[460.425s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/armando30/robotsprj/install/ur_robot_driver/share/ur_robot_driver/hook/path.sh'
+[460.427s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/ur_robot_driver/lib/pkgconfig/ur_robot_driver.pc'
+[460.428s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/ur_robot_driver/lib/python3.10/site-packages'
+[460.429s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/ur_robot_driver/bin'
+[460.430s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_robot_driver', 'pythonscriptspath')
+[460.431s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/armando30/robotsprj/install/ur_robot_driver/share/ur_robot_driver/hook/pythonscriptspath.ps1'
+[460.433s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/armando30/robotsprj/install/ur_robot_driver/share/ur_robot_driver/hook/pythonscriptspath.dsv'
+[460.435s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/armando30/robotsprj/install/ur_robot_driver/share/ur_robot_driver/hook/pythonscriptspath.sh'
+[460.439s] INFO:colcon.colcon_core.shell:Creating package script '/home/armando30/robotsprj/install/ur_robot_driver/share/ur_robot_driver/package.ps1'
+[460.454s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/armando30/robotsprj/install/ur_robot_driver/share/ur_robot_driver/package.dsv'
+[460.465s] INFO:colcon.colcon_core.shell:Creating package script '/home/armando30/robotsprj/install/ur_robot_driver/share/ur_robot_driver/package.sh'
+[460.468s] INFO:colcon.colcon_core.shell:Creating package script '/home/armando30/robotsprj/install/ur_robot_driver/share/ur_robot_driver/package.bash'
+[460.478s] INFO:colcon.colcon_core.shell:Creating package script '/home/armando30/robotsprj/install/ur_robot_driver/share/ur_robot_driver/package.zsh'
+[460.482s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/armando30/robotsprj/install/ur_robot_driver/share/colcon-core/packages/ur_robot_driver)
+[460.485s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur_robot_driver)
+[460.486s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/ur_robot_driver' for CMake module files
+[460.490s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/ur_robot_driver' for CMake config files
+[460.494s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_robot_driver', 'cmake_prefix_path')
+[460.495s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/armando30/robotsprj/install/ur_robot_driver/share/ur_robot_driver/hook/cmake_prefix_path.ps1'
+[460.497s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/armando30/robotsprj/install/ur_robot_driver/share/ur_robot_driver/hook/cmake_prefix_path.dsv'
+[460.499s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/armando30/robotsprj/install/ur_robot_driver/share/ur_robot_driver/hook/cmake_prefix_path.sh'
+[460.502s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/ur_robot_driver/lib'
+[460.502s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_robot_driver', 'ld_library_path_lib')
+[460.503s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/armando30/robotsprj/install/ur_robot_driver/share/ur_robot_driver/hook/ld_library_path_lib.ps1'
+[460.506s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/armando30/robotsprj/install/ur_robot_driver/share/ur_robot_driver/hook/ld_library_path_lib.dsv'
+[460.507s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/armando30/robotsprj/install/ur_robot_driver/share/ur_robot_driver/hook/ld_library_path_lib.sh'
+[460.509s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/ur_robot_driver/bin'
+[460.510s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_robot_driver', 'path')
+[460.511s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/armando30/robotsprj/install/ur_robot_driver/share/ur_robot_driver/hook/path.ps1'
+[460.513s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/armando30/robotsprj/install/ur_robot_driver/share/ur_robot_driver/hook/path.dsv'
+[460.514s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/armando30/robotsprj/install/ur_robot_driver/share/ur_robot_driver/hook/path.sh'
+[460.516s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/ur_robot_driver/lib/pkgconfig/ur_robot_driver.pc'
+[460.518s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/ur_robot_driver/lib/python3.10/site-packages'
+[460.519s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/ur_robot_driver/bin'
+[460.519s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_robot_driver', 'pythonscriptspath')
+[460.520s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/armando30/robotsprj/install/ur_robot_driver/share/ur_robot_driver/hook/pythonscriptspath.ps1'
+[460.522s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/armando30/robotsprj/install/ur_robot_driver/share/ur_robot_driver/hook/pythonscriptspath.dsv'
+[460.524s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/armando30/robotsprj/install/ur_robot_driver/share/ur_robot_driver/hook/pythonscriptspath.sh'
+[460.529s] INFO:colcon.colcon_core.shell:Creating package script '/home/armando30/robotsprj/install/ur_robot_driver/share/ur_robot_driver/package.ps1'
+[460.532s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/armando30/robotsprj/install/ur_robot_driver/share/ur_robot_driver/package.dsv'
+[460.536s] INFO:colcon.colcon_core.shell:Creating package script '/home/armando30/robotsprj/install/ur_robot_driver/share/ur_robot_driver/package.sh'
+[460.539s] INFO:colcon.colcon_core.shell:Creating package script '/home/armando30/robotsprj/install/ur_robot_driver/share/ur_robot_driver/package.bash'
+[460.541s] INFO:colcon.colcon_core.shell:Creating package script '/home/armando30/robotsprj/install/ur_robot_driver/share/ur_robot_driver/package.zsh'
+[460.543s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/armando30/robotsprj/install/ur_robot_driver/share/colcon-core/packages/ur_robot_driver)
+[460.545s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/armando30/robotsprj/src/Universal_Robots_ROS2_Driver/ur_calibration' with build type 'ament_cmake'
+[460.545s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/armando30/robotsprj/src/Universal_Robots_ROS2_Driver/ur_calibration'
+[460.546s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[460.547s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[460.820s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/armando30/robotsprj/build/ur_calibration': CMAKE_PREFIX_PATH=/home/armando30/robotsprj/install/ur_robot_driver:/home/armando30/robotsprj/install/ur_controllers:/home/armando30/robotsprj/install/ur_dashboard_msgs:/home/armando30/robotsprj/install/ur:/home/armando30/robotsprj/install/ur_calibration:/home/armando30/robotsprj/install/ur_moveit_config:/home/armando30/robotsprj/install/ur_bringup:/home/armando30/robotsprj/install/ros2_linkattacher:/home/armando30/robotsprj/install/ros2_conveyorbelt:/home/armando30/robotsprj/install/linkattacher_msgs:/home/armando30/robotsprj/install/conveyorbelt_msgs:/home/armando30/robotsprj/install/conveyorbelt_gazebo:/opt/ros/humble /usr/bin/cmake /home/armando30/robotsprj/src/Universal_Robots_ROS2_Driver/ur_calibration -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/armando30/robotsprj/install/ur_calibration
+[470.898s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/armando30/robotsprj/build/ur_calibration' returned '0': CMAKE_PREFIX_PATH=/home/armando30/robotsprj/install/ur_robot_driver:/home/armando30/robotsprj/install/ur_controllers:/home/armando30/robotsprj/install/ur_dashboard_msgs:/home/armando30/robotsprj/install/ur:/home/armando30/robotsprj/install/ur_calibration:/home/armando30/robotsprj/install/ur_moveit_config:/home/armando30/robotsprj/install/ur_bringup:/home/armando30/robotsprj/install/ros2_linkattacher:/home/armando30/robotsprj/install/ros2_conveyorbelt:/home/armando30/robotsprj/install/linkattacher_msgs:/home/armando30/robotsprj/install/conveyorbelt_msgs:/home/armando30/robotsprj/install/conveyorbelt_gazebo:/opt/ros/humble /usr/bin/cmake /home/armando30/robotsprj/src/Universal_Robots_ROS2_Driver/ur_calibration -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/armando30/robotsprj/install/ur_calibration
+[470.903s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/armando30/robotsprj/build/ur_calibration': CMAKE_PREFIX_PATH=/home/armando30/robotsprj/install/ur_robot_driver:/home/armando30/robotsprj/install/ur_controllers:/home/armando30/robotsprj/install/ur_dashboard_msgs:/home/armando30/robotsprj/install/ur:/home/armando30/robotsprj/install/ur_calibration:/home/armando30/robotsprj/install/ur_moveit_config:/home/armando30/robotsprj/install/ur_bringup:/home/armando30/robotsprj/install/ros2_linkattacher:/home/armando30/robotsprj/install/ros2_conveyorbelt:/home/armando30/robotsprj/install/linkattacher_msgs:/home/armando30/robotsprj/install/conveyorbelt_msgs:/home/armando30/robotsprj/install/conveyorbelt_gazebo:/opt/ros/humble /usr/bin/cmake --build /home/armando30/robotsprj/build/ur_calibration -- -j8 -l8
+[555.196s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/armando30/robotsprj/build/ur_calibration' returned '0': CMAKE_PREFIX_PATH=/home/armando30/robotsprj/install/ur_robot_driver:/home/armando30/robotsprj/install/ur_controllers:/home/armando30/robotsprj/install/ur_dashboard_msgs:/home/armando30/robotsprj/install/ur:/home/armando30/robotsprj/install/ur_calibration:/home/armando30/robotsprj/install/ur_moveit_config:/home/armando30/robotsprj/install/ur_bringup:/home/armando30/robotsprj/install/ros2_linkattacher:/home/armando30/robotsprj/install/ros2_conveyorbelt:/home/armando30/robotsprj/install/linkattacher_msgs:/home/armando30/robotsprj/install/conveyorbelt_msgs:/home/armando30/robotsprj/install/conveyorbelt_gazebo:/opt/ros/humble /usr/bin/cmake --build /home/armando30/robotsprj/build/ur_calibration -- -j8 -l8
+[555.203s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/armando30/robotsprj/build/ur_calibration': CMAKE_PREFIX_PATH=/home/armando30/robotsprj/install/ur_robot_driver:/home/armando30/robotsprj/install/ur_controllers:/home/armando30/robotsprj/install/ur_dashboard_msgs:/home/armando30/robotsprj/install/ur:/home/armando30/robotsprj/install/ur_calibration:/home/armando30/robotsprj/install/ur_moveit_config:/home/armando30/robotsprj/install/ur_bringup:/home/armando30/robotsprj/install/ros2_linkattacher:/home/armando30/robotsprj/install/ros2_conveyorbelt:/home/armando30/robotsprj/install/linkattacher_msgs:/home/armando30/robotsprj/install/conveyorbelt_msgs:/home/armando30/robotsprj/install/conveyorbelt_gazebo:/opt/ros/humble /usr/bin/cmake --install /home/armando30/robotsprj/build/ur_calibration
+[555.802s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur_calibration)
+[555.804s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/ur_calibration' for CMake module files
+[555.807s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/armando30/robotsprj/build/ur_calibration' returned '0': CMAKE_PREFIX_PATH=/home/armando30/robotsprj/install/ur_robot_driver:/home/armando30/robotsprj/install/ur_controllers:/home/armando30/robotsprj/install/ur_dashboard_msgs:/home/armando30/robotsprj/install/ur:/home/armando30/robotsprj/install/ur_calibration:/home/armando30/robotsprj/install/ur_moveit_config:/home/armando30/robotsprj/install/ur_bringup:/home/armando30/robotsprj/install/ros2_linkattacher:/home/armando30/robotsprj/install/ros2_conveyorbelt:/home/armando30/robotsprj/install/linkattacher_msgs:/home/armando30/robotsprj/install/conveyorbelt_msgs:/home/armando30/robotsprj/install/conveyorbelt_gazebo:/opt/ros/humble /usr/bin/cmake --install /home/armando30/robotsprj/build/ur_calibration
+[555.809s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/ur_calibration' for CMake config files
+[555.811s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_calibration', 'cmake_prefix_path')
+[555.812s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/armando30/robotsprj/install/ur_calibration/share/ur_calibration/hook/cmake_prefix_path.ps1'
+[555.814s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/armando30/robotsprj/install/ur_calibration/share/ur_calibration/hook/cmake_prefix_path.dsv'
+[555.816s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/armando30/robotsprj/install/ur_calibration/share/ur_calibration/hook/cmake_prefix_path.sh'
+[555.818s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/ur_calibration/lib'
+[555.819s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/ur_calibration/bin'
+[555.819s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/ur_calibration/lib/pkgconfig/ur_calibration.pc'
+[555.821s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/ur_calibration/lib/python3.10/site-packages'
+[555.822s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/ur_calibration/bin'
+[555.823s] INFO:colcon.colcon_core.shell:Creating package script '/home/armando30/robotsprj/install/ur_calibration/share/ur_calibration/package.ps1'
+[555.825s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/armando30/robotsprj/install/ur_calibration/share/ur_calibration/package.dsv'
+[555.827s] INFO:colcon.colcon_core.shell:Creating package script '/home/armando30/robotsprj/install/ur_calibration/share/ur_calibration/package.sh'
+[555.829s] INFO:colcon.colcon_core.shell:Creating package script '/home/armando30/robotsprj/install/ur_calibration/share/ur_calibration/package.bash'
+[555.831s] INFO:colcon.colcon_core.shell:Creating package script '/home/armando30/robotsprj/install/ur_calibration/share/ur_calibration/package.zsh'
+[555.833s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/armando30/robotsprj/install/ur_calibration/share/colcon-core/packages/ur_calibration)
+[555.836s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur_calibration)
+[555.837s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/ur_calibration' for CMake module files
+[555.841s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/ur_calibration' for CMake config files
+[555.843s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_calibration', 'cmake_prefix_path')
+[555.845s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/armando30/robotsprj/install/ur_calibration/share/ur_calibration/hook/cmake_prefix_path.ps1'
+[555.847s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/armando30/robotsprj/install/ur_calibration/share/ur_calibration/hook/cmake_prefix_path.dsv'
+[555.848s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/armando30/robotsprj/install/ur_calibration/share/ur_calibration/hook/cmake_prefix_path.sh'
+[555.851s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/ur_calibration/lib'
+[555.851s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/ur_calibration/bin'
+[555.852s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/ur_calibration/lib/pkgconfig/ur_calibration.pc'
+[555.853s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/ur_calibration/lib/python3.10/site-packages'
+[555.854s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/ur_calibration/bin'
+[555.856s] INFO:colcon.colcon_core.shell:Creating package script '/home/armando30/robotsprj/install/ur_calibration/share/ur_calibration/package.ps1'
+[555.858s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/armando30/robotsprj/install/ur_calibration/share/ur_calibration/package.dsv'
+[555.861s] INFO:colcon.colcon_core.shell:Creating package script '/home/armando30/robotsprj/install/ur_calibration/share/ur_calibration/package.sh'
+[555.863s] INFO:colcon.colcon_core.shell:Creating package script '/home/armando30/robotsprj/install/ur_calibration/share/ur_calibration/package.bash'
+[555.865s] INFO:colcon.colcon_core.shell:Creating package script '/home/armando30/robotsprj/install/ur_calibration/share/ur_calibration/package.zsh'
+[555.867s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/armando30/robotsprj/install/ur_calibration/share/colcon-core/packages/ur_calibration)
+[555.868s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/armando30/robotsprj/src/Universal_Robots_ROS2_Driver/ur' with build type 'ament_cmake'
+[555.869s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/armando30/robotsprj/src/Universal_Robots_ROS2_Driver/ur'
+[555.870s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[555.871s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[555.967s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/armando30/robotsprj/build/ur': CMAKE_PREFIX_PATH=/home/armando30/robotsprj/install/ur_calibration:/home/armando30/robotsprj/install/ur_robot_driver:/home/armando30/robotsprj/install/ur_controllers:/home/armando30/robotsprj/install/ur_moveit_config:/home/armando30/robotsprj/install/ur_dashboard_msgs:/home/armando30/robotsprj/install/ur:/home/armando30/robotsprj/install/ur_bringup:/home/armando30/robotsprj/install/ros2_linkattacher:/home/armando30/robotsprj/install/ros2_conveyorbelt:/home/armando30/robotsprj/install/linkattacher_msgs:/home/armando30/robotsprj/install/conveyorbelt_msgs:/home/armando30/robotsprj/install/conveyorbelt_gazebo:/opt/ros/humble /usr/bin/cmake /home/armando30/robotsprj/src/Universal_Robots_ROS2_Driver/ur -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/armando30/robotsprj/install/ur
+[558.194s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/armando30/robotsprj/build/ur' returned '0': CMAKE_PREFIX_PATH=/home/armando30/robotsprj/install/ur_calibration:/home/armando30/robotsprj/install/ur_robot_driver:/home/armando30/robotsprj/install/ur_controllers:/home/armando30/robotsprj/install/ur_moveit_config:/home/armando30/robotsprj/install/ur_dashboard_msgs:/home/armando30/robotsprj/install/ur:/home/armando30/robotsprj/install/ur_bringup:/home/armando30/robotsprj/install/ros2_linkattacher:/home/armando30/robotsprj/install/ros2_conveyorbelt:/home/armando30/robotsprj/install/linkattacher_msgs:/home/armando30/robotsprj/install/conveyorbelt_msgs:/home/armando30/robotsprj/install/conveyorbelt_gazebo:/opt/ros/humble /usr/bin/cmake /home/armando30/robotsprj/src/Universal_Robots_ROS2_Driver/ur -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/armando30/robotsprj/install/ur
+[558.199s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/armando30/robotsprj/build/ur': CMAKE_PREFIX_PATH=/home/armando30/robotsprj/install/ur_calibration:/home/armando30/robotsprj/install/ur_robot_driver:/home/armando30/robotsprj/install/ur_controllers:/home/armando30/robotsprj/install/ur_moveit_config:/home/armando30/robotsprj/install/ur_dashboard_msgs:/home/armando30/robotsprj/install/ur:/home/armando30/robotsprj/install/ur_bringup:/home/armando30/robotsprj/install/ros2_linkattacher:/home/armando30/robotsprj/install/ros2_conveyorbelt:/home/armando30/robotsprj/install/linkattacher_msgs:/home/armando30/robotsprj/install/conveyorbelt_msgs:/home/armando30/robotsprj/install/conveyorbelt_gazebo:/opt/ros/humble /usr/bin/cmake --build /home/armando30/robotsprj/build/ur -- -j8 -l8
+[558.315s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/armando30/robotsprj/build/ur' returned '0': CMAKE_PREFIX_PATH=/home/armando30/robotsprj/install/ur_calibration:/home/armando30/robotsprj/install/ur_robot_driver:/home/armando30/robotsprj/install/ur_controllers:/home/armando30/robotsprj/install/ur_moveit_config:/home/armando30/robotsprj/install/ur_dashboard_msgs:/home/armando30/robotsprj/install/ur:/home/armando30/robotsprj/install/ur_bringup:/home/armando30/robotsprj/install/ros2_linkattacher:/home/armando30/robotsprj/install/ros2_conveyorbelt:/home/armando30/robotsprj/install/linkattacher_msgs:/home/armando30/robotsprj/install/conveyorbelt_msgs:/home/armando30/robotsprj/install/conveyorbelt_gazebo:/opt/ros/humble /usr/bin/cmake --build /home/armando30/robotsprj/build/ur -- -j8 -l8
+[558.320s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/armando30/robotsprj/build/ur': CMAKE_PREFIX_PATH=/home/armando30/robotsprj/install/ur_calibration:/home/armando30/robotsprj/install/ur_robot_driver:/home/armando30/robotsprj/install/ur_controllers:/home/armando30/robotsprj/install/ur_moveit_config:/home/armando30/robotsprj/install/ur_dashboard_msgs:/home/armando30/robotsprj/install/ur:/home/armando30/robotsprj/install/ur_bringup:/home/armando30/robotsprj/install/ros2_linkattacher:/home/armando30/robotsprj/install/ros2_conveyorbelt:/home/armando30/robotsprj/install/linkattacher_msgs:/home/armando30/robotsprj/install/conveyorbelt_msgs:/home/armando30/robotsprj/install/conveyorbelt_gazebo:/opt/ros/humble /usr/bin/cmake --install /home/armando30/robotsprj/build/ur
+[558.748s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur)
+[558.750s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/ur' for CMake module files
+[558.752s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/armando30/robotsprj/build/ur' returned '0': CMAKE_PREFIX_PATH=/home/armando30/robotsprj/install/ur_calibration:/home/armando30/robotsprj/install/ur_robot_driver:/home/armando30/robotsprj/install/ur_controllers:/home/armando30/robotsprj/install/ur_moveit_config:/home/armando30/robotsprj/install/ur_dashboard_msgs:/home/armando30/robotsprj/install/ur:/home/armando30/robotsprj/install/ur_bringup:/home/armando30/robotsprj/install/ros2_linkattacher:/home/armando30/robotsprj/install/ros2_conveyorbelt:/home/armando30/robotsprj/install/linkattacher_msgs:/home/armando30/robotsprj/install/conveyorbelt_msgs:/home/armando30/robotsprj/install/conveyorbelt_gazebo:/opt/ros/humble /usr/bin/cmake --install /home/armando30/robotsprj/build/ur
+[558.753s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/ur' for CMake config files
+[558.754s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur', 'cmake_prefix_path')
+[558.755s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/armando30/robotsprj/install/ur/share/ur/hook/cmake_prefix_path.ps1'
+[558.756s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/armando30/robotsprj/install/ur/share/ur/hook/cmake_prefix_path.dsv'
+[558.757s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/armando30/robotsprj/install/ur/share/ur/hook/cmake_prefix_path.sh'
+[558.759s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/ur/bin'
+[558.759s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/ur/lib/pkgconfig/ur.pc'
+[558.760s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/ur/lib/python3.10/site-packages'
+[558.761s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/ur/bin'
+[558.762s] INFO:colcon.colcon_core.shell:Creating package script '/home/armando30/robotsprj/install/ur/share/ur/package.ps1'
+[558.763s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/armando30/robotsprj/install/ur/share/ur/package.dsv'
+[558.765s] INFO:colcon.colcon_core.shell:Creating package script '/home/armando30/robotsprj/install/ur/share/ur/package.sh'
+[558.766s] INFO:colcon.colcon_core.shell:Creating package script '/home/armando30/robotsprj/install/ur/share/ur/package.bash'
+[558.767s] INFO:colcon.colcon_core.shell:Creating package script '/home/armando30/robotsprj/install/ur/share/ur/package.zsh'
+[558.768s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/armando30/robotsprj/install/ur/share/colcon-core/packages/ur)
+[558.770s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur)
+[558.771s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/ur' for CMake module files
+[558.772s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/ur' for CMake config files
+[558.773s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur', 'cmake_prefix_path')
+[558.774s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/armando30/robotsprj/install/ur/share/ur/hook/cmake_prefix_path.ps1'
+[558.775s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/armando30/robotsprj/install/ur/share/ur/hook/cmake_prefix_path.dsv'
+[558.776s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/armando30/robotsprj/install/ur/share/ur/hook/cmake_prefix_path.sh'
+[558.778s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/ur/bin'
+[558.778s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/ur/lib/pkgconfig/ur.pc'
+[558.779s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/ur/lib/python3.10/site-packages'
+[558.780s] Level 1:colcon.colcon_core.environment:checking '/home/armando30/robotsprj/install/ur/bin'
+[558.781s] INFO:colcon.colcon_core.shell:Creating package script '/home/armando30/robotsprj/install/ur/share/ur/package.ps1'
+[558.782s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/armando30/robotsprj/install/ur/share/ur/package.dsv'
+[558.784s] INFO:colcon.colcon_core.shell:Creating package script '/home/armando30/robotsprj/install/ur/share/ur/package.sh'
+[558.785s] INFO:colcon.colcon_core.shell:Creating package script '/home/armando30/robotsprj/install/ur/share/ur/package.bash'
+[558.787s] INFO:colcon.colcon_core.shell:Creating package script '/home/armando30/robotsprj/install/ur/share/ur/package.zsh'
+[558.788s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/armando30/robotsprj/install/ur/share/colcon-core/packages/ur)
+[558.789s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[558.791s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[558.791s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[558.791s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[558.926s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[558.926s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[558.926s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[560.863s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[560.864s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/armando30/robotsprj/install/local_setup.ps1'
+[560.911s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/armando30/robotsprj/install/_local_setup_util_ps1.py'
+[560.935s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/armando30/robotsprj/install/setup.ps1'
+[560.948s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/armando30/robotsprj/install/local_setup.sh'
+[560.950s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/armando30/robotsprj/install/_local_setup_util_sh.py'
+[560.952s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/armando30/robotsprj/install/setup.sh'
+[560.959s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/armando30/robotsprj/install/local_setup.bash'
+[560.979s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/armando30/robotsprj/install/setup.bash'
+[560.992s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/armando30/robotsprj/install/local_setup.zsh'
+[561.016s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/armando30/robotsprj/install/setup.zsh'

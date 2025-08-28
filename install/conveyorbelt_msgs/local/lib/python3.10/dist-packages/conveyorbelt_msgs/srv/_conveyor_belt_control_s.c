@@ -1,0 +1,1 @@
+/home/armando30/robotsprj/build/conveyorbelt_msgs/rosidl_generator_py/conveyorbelt_msgs/srv/_conveyor_belt_control_s.c

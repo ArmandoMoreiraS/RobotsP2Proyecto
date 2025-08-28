@@ -1,0 +1,1 @@
+/home/armando30/robotsprj/build/conveyorbelt_msgs/rosidl_generator_cpp/conveyorbelt_msgs/msg/detail/conveyor_belt_state__struct.hpp

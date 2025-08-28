@@ -1,0 +1,1 @@
+[0.105s] Invoking command in '/home/armando30/robotsprj/build/conveyorbelt_gazebo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/armando30/robotsprj/build/conveyorbelt_gazebo -- -j8 -l8

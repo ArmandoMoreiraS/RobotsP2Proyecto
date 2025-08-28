@@ -1,0 +1,4 @@
+[0.036s] Invoking command in '/home/armando30/robotsprj/build/ur5e_conveyor_bringup': /usr/bin/cmake /home/armando30/robotsprj/src/ur5e_conveyor_bringup -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/armando30/robotsprj/install/ur5e_conveyor_bringup
+[0.062s] [0mCMake Error: The source directory "/home/armando30/robotsprj/src/ur5e_conveyor_bringup" does not appear to contain CMakeLists.txt.
+[0.062s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.066s] Invoked command in '/home/armando30/robotsprj/build/ur5e_conveyor_bringup' returned '1': /usr/bin/cmake /home/armando30/robotsprj/src/ur5e_conveyor_bringup -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/armando30/robotsprj/install/ur5e_conveyor_bringup

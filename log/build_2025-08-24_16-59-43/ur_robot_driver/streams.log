@@ -1,0 +1,115 @@
+[0.084s] Invoking command in '/home/armando30/robotsprj/build/ur_robot_driver': CMAKE_PREFIX_PATH=/home/armando30/robotsprj/install/ur_controllers:/home/armando30/robotsprj/install/ur_dashboard_msgs:/home/armando30/robotsprj/install/ur:/home/armando30/robotsprj/install/ur_calibration:/home/armando30/robotsprj/install/ur_robot_driver:/home/armando30/robotsprj/install/ur_moveit_config:/home/armando30/robotsprj/install/ur_bringup:/home/armando30/robotsprj/install/ros2_linkattacher:/home/armando30/robotsprj/install/ros2_conveyorbelt:/home/armando30/robotsprj/install/linkattacher_msgs:/home/armando30/robotsprj/install/conveyorbelt_msgs:/home/armando30/robotsprj/install/conveyorbelt_gazebo:/opt/ros/humble LD_LIBRARY_PATH=/home/armando30/robotsprj/install/ur_controllers/lib:/home/armando30/robotsprj/install/ur_dashboard_msgs/lib:/home/armando30/robotsprj/install/ur_robot_driver/lib:/home/armando30/robotsprj/install/ros2_linkattacher/lib:/home/armando30/robotsprj/install/ros2_conveyorbelt/lib:/home/armando30/robotsprj/install/linkattacher_msgs/lib:/home/armando30/robotsprj/install/conveyorbelt_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/armando30/robotsprj/build/ur_robot_driver -- -j8 -l8
+[0.296s] [35m[1mConsolidate compiler generated dependencies of target controller_stopper_node[0m
+[0.297s] [35m[1mConsolidate compiler generated dependencies of target dashboard_client[0m
+[0.302s] [35m[1mConsolidate compiler generated dependencies of target ur_ros2_control_node[0m
+[0.304s] [35m[1mConsolidate compiler generated dependencies of target robot_state_helper[0m
+[0.313s] [35m[1mConsolidate compiler generated dependencies of target ur_robot_driver_plugin[0m
+[0.336s] [35m[1mConsolidate compiler generated dependencies of target urscript_interface[0m
+[0.445s] [ 20%] Built target robot_state_helper
+[0.446s] [ 30%] Built target ur_ros2_control_node
+[0.452s] [ 45%] Built target controller_stopper_node
+[0.453s] [ 45%] Built target ament_cmake_python_symlink_ur_robot_driver
+[0.454s] [ 55%] Built target urscript_interface
+[0.460s] [ 75%] Built target dashboard_client
+[0.478s] [100%] Built target ur_robot_driver_plugin
+[1.565s] running egg_info
+[1.568s] writing ur_robot_driver.egg-info/PKG-INFO
+[1.568s] writing dependency_links to ur_robot_driver.egg-info/dependency_links.txt
+[1.569s] writing top-level names to ur_robot_driver.egg-info/top_level.txt
+[1.577s] reading manifest file 'ur_robot_driver.egg-info/SOURCES.txt'
+[1.579s] writing manifest file 'ur_robot_driver.egg-info/SOURCES.txt'
+[1.667s] [100%] Built target ament_cmake_python_build_ur_robot_driver_egg
+[1.704s] Invoked command in '/home/armando30/robotsprj/build/ur_robot_driver' returned '0': CMAKE_PREFIX_PATH=/home/armando30/robotsprj/install/ur_controllers:/home/armando30/robotsprj/install/ur_dashboard_msgs:/home/armando30/robotsprj/install/ur:/home/armando30/robotsprj/install/ur_calibration:/home/armando30/robotsprj/install/ur_robot_driver:/home/armando30/robotsprj/install/ur_moveit_config:/home/armando30/robotsprj/install/ur_bringup:/home/armando30/robotsprj/install/ros2_linkattacher:/home/armando30/robotsprj/install/ros2_conveyorbelt:/home/armando30/robotsprj/install/linkattacher_msgs:/home/armando30/robotsprj/install/conveyorbelt_msgs:/home/armando30/robotsprj/install/conveyorbelt_gazebo:/opt/ros/humble LD_LIBRARY_PATH=/home/armando30/robotsprj/install/ur_controllers/lib:/home/armando30/robotsprj/install/ur_dashboard_msgs/lib:/home/armando30/robotsprj/install/ur_robot_driver/lib:/home/armando30/robotsprj/install/ros2_linkattacher/lib:/home/armando30/robotsprj/install/ros2_conveyorbelt/lib:/home/armando30/robotsprj/install/linkattacher_msgs/lib:/home/armando30/robotsprj/install/conveyorbelt_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/armando30/robotsprj/build/ur_robot_driver -- -j8 -l8
+[1.711s] Invoking command in '/home/armando30/robotsprj/build/ur_robot_driver': CMAKE_PREFIX_PATH=/home/armando30/robotsprj/install/ur_controllers:/home/armando30/robotsprj/install/ur_dashboard_msgs:/home/armando30/robotsprj/install/ur:/home/armando30/robotsprj/install/ur_calibration:/home/armando30/robotsprj/install/ur_robot_driver:/home/armando30/robotsprj/install/ur_moveit_config:/home/armando30/robotsprj/install/ur_bringup:/home/armando30/robotsprj/install/ros2_linkattacher:/home/armando30/robotsprj/install/ros2_conveyorbelt:/home/armando30/robotsprj/install/linkattacher_msgs:/home/armando30/robotsprj/install/conveyorbelt_msgs:/home/armando30/robotsprj/install/conveyorbelt_gazebo:/opt/ros/humble LD_LIBRARY_PATH=/home/armando30/robotsprj/install/ur_controllers/lib:/home/armando30/robotsprj/install/ur_dashboard_msgs/lib:/home/armando30/robotsprj/install/ur_robot_driver/lib:/home/armando30/robotsprj/install/ros2_linkattacher/lib:/home/armando30/robotsprj/install/ros2_conveyorbelt/lib:/home/armando30/robotsprj/install/linkattacher_msgs/lib:/home/armando30/robotsprj/install/conveyorbelt_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/armando30/robotsprj/build/ur_robot_driver
+[1.734s] -- Install configuration: "RelWithDebInfo"
+[1.736s] -- Execute custom install script
+[1.737s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_robot_driver/share/ur_robot_driver//hardware_interface_plugin.xml
+[1.738s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_robot_driver/lib/ur_robot_driver/dashboard_client
+[1.739s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_robot_driver/lib/ur_robot_driver/ur_ros2_control_node
+[1.739s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_robot_driver/lib/ur_robot_driver/controller_stopper_node
+[1.740s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_robot_driver/lib/ur_robot_driver/urscript_interface
+[1.740s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_robot_driver/lib/ur_robot_driver/robot_state_helper
+[1.741s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_robot_driver/lib/libur_robot_driver_plugin.so
+[1.743s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_robot_driver/include/ur_robot_driver/controller_stopper.hpp
+[1.743s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_robot_driver/include/ur_robot_driver/dashboard_client_ros.hpp
+[1.743s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_robot_driver/include/ur_robot_driver/hardware_interface.hpp
+[1.744s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_robot_driver/include/ur_robot_driver/robot_state_helper.hpp
+[1.745s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_robot_driver/include/ur_robot_driver/urcl_log_handler.hpp
+[1.745s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_robot_driver/share/ur_robot_driver/environment/library_path.sh
+[1.747s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_robot_driver/share/ur_robot_driver/environment/library_path.dsv
+[1.748s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_robot_driver/include/ur_robot_driver/controller_stopper.hpp
+[1.749s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_robot_driver/include/ur_robot_driver/dashboard_client_ros.hpp
+[1.749s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_robot_driver/include/ur_robot_driver/hardware_interface.hpp
+[1.750s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_robot_driver/include/ur_robot_driver/robot_state_helper.hpp
+[1.750s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_robot_driver/include/ur_robot_driver/urcl_log_handler.hpp
+[1.751s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_robot_driver/share/ur_robot_driver/environment/pythonpath.sh
+[1.751s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_robot_driver/share/ur_robot_driver/environment/pythonpath.dsv
+[1.753s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_robot_driver/local/lib/python3.10/dist-packages/ur_robot_driver-2.8.1-py3.10.egg-info/PKG-INFO
+[1.754s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_robot_driver/local/lib/python3.10/dist-packages/ur_robot_driver-2.8.1-py3.10.egg-info/SOURCES.txt
+[1.754s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_robot_driver/local/lib/python3.10/dist-packages/ur_robot_driver-2.8.1-py3.10.egg-info/dependency_links.txt
+[1.754s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_robot_driver/local/lib/python3.10/dist-packages/ur_robot_driver-2.8.1-py3.10.egg-info/top_level.txt
+[1.755s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_robot_driver/local/lib/python3.10/dist-packages/ur_robot_driver/__init__.py
+[1.756s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_robot_driver/lib/ur_robot_driver/tool_communication.py
+[1.757s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_robot_driver/lib/ur_robot_driver/example_move.py
+[1.757s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_robot_driver/lib/ur_robot_driver/start_ursim.sh
+[1.758s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_robot_driver/lib/ur_robot_driver/examples.py
+[1.758s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_robot_driver/lib/ur_robot_driver/force_mode.py
+[1.759s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_robot_driver/bin/wait_dashboard_server.sh
+[1.759s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_robot_driver/lib/ur_robot_driver/start_ursim.sh
+[1.761s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_robot_driver/share/ur_robot_driver/config/test_goal_publishers_config.yaml
+[1.761s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_robot_driver/share/ur_robot_driver/config/test_velocity_goal_publishers_config.yaml
+[1.762s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_robot_driver/share/ur_robot_driver/config/ur10_update_rate.yaml
+[1.762s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_robot_driver/share/ur_robot_driver/config/ur10e_update_rate.yaml
+[1.763s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_robot_driver/share/ur_robot_driver/config/ur15_update_rate.yaml
+[1.763s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_robot_driver/share/ur_robot_driver/config/ur16e_update_rate.yaml
+[1.764s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_robot_driver/share/ur_robot_driver/config/ur20_update_rate.yaml
+[1.764s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_robot_driver/share/ur_robot_driver/config/ur30_update_rate.yaml
+[1.764s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_robot_driver/share/ur_robot_driver/config/ur3_update_rate.yaml
+[1.765s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_robot_driver/share/ur_robot_driver/config/ur3e_update_rate.yaml
+[1.765s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_robot_driver/share/ur_robot_driver/config/ur5_update_rate.yaml
+[1.766s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_robot_driver/share/ur_robot_driver/config/ur5e_update_rate.yaml
+[1.766s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_robot_driver/share/ur_robot_driver/config/ur_controllers.yaml
+[1.767s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_robot_driver/share/ur_robot_driver/launch/test_forward_velocity_controller.launch.py
+[1.768s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_robot_driver/share/ur_robot_driver/launch/test_joint_trajectory_controller.launch.py
+[1.768s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_robot_driver/share/ur_robot_driver/launch/test_scaled_joint_trajectory_controller.launch.py
+[1.768s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_robot_driver/share/ur_robot_driver/launch/ur10.launch.py
+[1.769s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_robot_driver/share/ur_robot_driver/launch/ur10e.launch.py
+[1.770s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_robot_driver/share/ur_robot_driver/launch/ur12e.launch.py
+[1.770s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_robot_driver/share/ur_robot_driver/launch/ur15.launch.py
+[1.770s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_robot_driver/share/ur_robot_driver/launch/ur16e.launch.py
+[1.771s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_robot_driver/share/ur_robot_driver/launch/ur20.launch.py
+[1.771s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_robot_driver/share/ur_robot_driver/launch/ur3.launch.py
+[1.772s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_robot_driver/share/ur_robot_driver/launch/ur30.launch.py
+[1.772s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_robot_driver/share/ur_robot_driver/launch/ur3e.launch.py
+[1.772s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_robot_driver/share/ur_robot_driver/launch/ur5.launch.py
+[1.773s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_robot_driver/share/ur_robot_driver/launch/ur5e.launch.py
+[1.773s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_robot_driver/share/ur_robot_driver/launch/ur7e.launch.py
+[1.774s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_robot_driver/share/ur_robot_driver/launch/ur_control.launch.py
+[1.774s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_robot_driver/share/ur_robot_driver/launch/ur_dashboard_client.launch.py
+[1.775s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_robot_driver/share/ament_index/resource_index/package_run_dependencies/ur_robot_driver
+[1.775s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_robot_driver/share/ament_index/resource_index/parent_prefix_path/ur_robot_driver
+[1.776s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_robot_driver/share/ur_robot_driver/environment/ament_prefix_path.sh
+[1.776s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_robot_driver/share/ur_robot_driver/environment/ament_prefix_path.dsv
+[1.777s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_robot_driver/share/ur_robot_driver/environment/path.sh
+[1.778s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_robot_driver/share/ur_robot_driver/environment/path.dsv
+[1.778s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_robot_driver/share/ur_robot_driver/local_setup.bash
+[1.779s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_robot_driver/share/ur_robot_driver/local_setup.sh
+[1.780s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_robot_driver/share/ur_robot_driver/local_setup.zsh
+[1.780s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_robot_driver/share/ur_robot_driver/local_setup.dsv
+[1.781s] -- Symlinking: /home/armando30/robotsprj/install/ur_robot_driver/share/ur_robot_driver/package.dsv
+[1.811s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_robot_driver/share/ament_index/resource_index/packages/ur_robot_driver
+[1.812s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_robot_driver/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/ur_robot_driver
+[1.812s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_robot_driver/share/ur_robot_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.813s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_robot_driver/share/ur_robot_driver/cmake/ament_cmake_export_libraries-extras.cmake
+[1.814s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_robot_driver/share/ur_robot_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.814s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_robot_driver/share/ur_robot_driver/cmake/ur_robot_driverConfig.cmake
+[1.815s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_robot_driver/share/ur_robot_driver/cmake/ur_robot_driverConfig-version.cmake
+[1.815s] -- Up-to-date symlink: /home/armando30/robotsprj/install/ur_robot_driver/share/ur_robot_driver/package.xml
+[1.816s] -- Up-to-date: /home/armando30/robotsprj/install/ur_robot_driver/share/ur_robot_driver/resources
+[1.816s] -- Up-to-date: /home/armando30/robotsprj/install/ur_robot_driver/share/ur_robot_driver/resources/externalcontrol-1.0.5.urcap
+[1.816s] -- Up-to-date: /home/armando30/robotsprj/install/ur_robot_driver/share/ur_robot_driver/resources/rtde_input_recipe.txt
+[1.817s] -- Up-to-date: /home/armando30/robotsprj/install/ur_robot_driver/share/ur_robot_driver/resources/rs485-1.0.urcap
+[1.817s] -- Up-to-date: /home/armando30/robotsprj/install/ur_robot_driver/share/ur_robot_driver/resources/rtde_output_recipe.txt
+[1.817s] -- Up-to-date: /home/armando30/robotsprj/install/ur_robot_driver/share/ur_robot_driver/resources/ros_control.urscript
+[1.940s] Listing '/home/armando30/robotsprj/install/ur_robot_driver/local/lib/python3.10/dist-packages/ur_robot_driver'...
+[1.964s] Invoked command in '/home/armando30/robotsprj/build/ur_robot_driver' returned '0': CMAKE_PREFIX_PATH=/home/armando30/robotsprj/install/ur_controllers:/home/armando30/robotsprj/install/ur_dashboard_msgs:/home/armando30/robotsprj/install/ur:/home/armando30/robotsprj/install/ur_calibration:/home/armando30/robotsprj/install/ur_robot_driver:/home/armando30/robotsprj/install/ur_moveit_config:/home/armando30/robotsprj/install/ur_bringup:/home/armando30/robotsprj/install/ros2_linkattacher:/home/armando30/robotsprj/install/ros2_conveyorbelt:/home/armando30/robotsprj/install/linkattacher_msgs:/home/armando30/robotsprj/install/conveyorbelt_msgs:/home/armando30/robotsprj/install/conveyorbelt_gazebo:/opt/ros/humble LD_LIBRARY_PATH=/home/armando30/robotsprj/install/ur_controllers/lib:/home/armando30/robotsprj/install/ur_dashboard_msgs/lib:/home/armando30/robotsprj/install/ur_robot_driver/lib:/home/armando30/robotsprj/install/ros2_linkattacher/lib:/home/armando30/robotsprj/install/ros2_conveyorbelt/lib:/home/armando30/robotsprj/install/linkattacher_msgs/lib:/home/armando30/robotsprj/install/conveyorbelt_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/armando30/robotsprj/build/ur_robot_driver

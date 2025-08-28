@@ -1,0 +1,4 @@
+[0.116s] Invoking command in '/home/armando30/robotsprj/build/color_sorting_perception': /usr/bin/cmake /home/armando30/robotsprj/src/color_sorting_perception -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/armando30/robotsprj/install/color_sorting_perception
+[0.467s] [0mCMake Error: The source directory "/home/armando30/robotsprj/src/color_sorting_perception" does not appear to contain CMakeLists.txt.
+[0.467s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.550s] Invoked command in '/home/armando30/robotsprj/build/color_sorting_perception' returned '1': /usr/bin/cmake /home/armando30/robotsprj/src/color_sorting_perception -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/armando30/robotsprj/install/color_sorting_perception

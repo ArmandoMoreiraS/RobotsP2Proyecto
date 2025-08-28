@@ -1,0 +1,9 @@
+[0.142s] Invoking command in '/home/armando30/robotsprj/build/ur_moveit_config': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/armando30/robotsprj/build/ur_moveit_config -- -j8 -l8
+[1.175s] Built target ament_cmake_python_symlink_ur_moveit_config
+[2.877s] running egg_info
+[2.880s] writing ur_moveit_config.egg-info/PKG-INFO
+[2.880s] writing dependency_links to ur_moveit_config.egg-info/dependency_links.txt
+[2.881s] writing top-level names to ur_moveit_config.egg-info/top_level.txt
+[2.907s] reading manifest file 'ur_moveit_config.egg-info/SOURCES.txt'
+[2.909s] writing manifest file 'ur_moveit_config.egg-info/SOURCES.txt'
+[2.995s] Built target ament_cmake_python_build_ur_moveit_config_egg

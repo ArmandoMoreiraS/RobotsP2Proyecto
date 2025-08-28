@@ -1,0 +1,234 @@
+[0.108s] Invoking command in '/home/armando30/robotsprj/build/linkattacher_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/armando30/robotsprj/src/IFRA_LinkAttacher/linkattacher_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/armando30/robotsprj/install/linkattacher_msgs
+[0.321s] -- The C compiler identification is GNU 11.4.0
+[0.597s] -- The CXX compiler identification is GNU 11.4.0
+[0.634s] -- Detecting C compiler ABI info
+[0.907s] -- Detecting C compiler ABI info - done
+[0.960s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.961s] -- Detecting C compile features
+[0.964s] -- Detecting C compile features - done
+[0.978s] -- Detecting CXX compiler ABI info
+[1.337s] -- Detecting CXX compiler ABI info - done
+[1.395s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.397s] -- Detecting CXX compile features
+[1.399s] -- Detecting CXX compile features - done
+[1.413s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.144s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.425s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.536s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.937s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[2.962s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.003s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.242s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.422s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[5.308s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.478s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.588s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[6.622s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[6.773s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[6.774s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[6.774s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[6.775s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[6.851s] -- Found PythonExtra: .so  
+[7.040s] -- Added test 'copyright' to check source files copyright and LICENSE
+[7.058s] -- Added test 'lint_cmake' to check CMake code style
+[7.062s] -- Added test 'xmllint' to check XML markup files
+[7.114s] -- Configuring done
+[7.260s] -- Generating done
+[7.296s] -- Build files have been written to: /home/armando30/robotsprj/build/linkattacher_msgs
+[7.322s] Invoked command in '/home/armando30/robotsprj/build/linkattacher_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/armando30/robotsprj/src/IFRA_LinkAttacher/linkattacher_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/armando30/robotsprj/install/linkattacher_msgs
+[7.327s] Invoking command in '/home/armando30/robotsprj/build/linkattacher_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/armando30/robotsprj/build/linkattacher_msgs -- -j8 -l8
+[7.498s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[7.536s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[7.551s] [  5%] Built target ament_cmake_python_symlink_linkattacher_msgs
+[9.651s] running egg_info
+[9.657s] creating linkattacher_msgs.egg-info
+[9.657s] writing linkattacher_msgs.egg-info/PKG-INFO
+[9.658s] writing dependency_links to linkattacher_msgs.egg-info/dependency_links.txt
+[9.660s] writing top-level names to linkattacher_msgs.egg-info/top_level.txt
+[9.662s] writing manifest file 'linkattacher_msgs.egg-info/SOURCES.txt'
+[9.685s] reading manifest file 'linkattacher_msgs.egg-info/SOURCES.txt'
+[9.692s] writing manifest file 'linkattacher_msgs.egg-info/SOURCES.txt'
+[9.885s] [  5%] Built target ament_cmake_python_build_linkattacher_msgs_egg
+[11.497s] [  7%] [32mBuilding C object CMakeFiles/linkattacher_msgs__rosidl_generator_c.dir/rosidl_generator_c/linkattacher_msgs/srv/detail/detach_link__functions.c.o[0m
+[11.528s] [ 10%] [32mBuilding C object CMakeFiles/linkattacher_msgs__rosidl_generator_c.dir/rosidl_generator_c/linkattacher_msgs/srv/detail/attach_link__functions.c.o[0m
+[11.719s] [ 10%] Built target linkattacher_msgs__cpp
+[11.785s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[11.814s] [ 15%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[11.852s] [ 17%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[12.182s] [ 20%] [32m[1mLinking C shared library liblinkattacher_msgs__rosidl_generator_c.so[0m
+[12.381s] [ 20%] Built target linkattacher_msgs__rosidl_generator_c
+[12.464s] [ 23%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[12.466s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[12.589s] [ 28%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[15.745s] [ 30%] [32mBuilding CXX object CMakeFiles/linkattacher_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/linkattacher_msgs/srv/attach_link__type_support.cpp.o[0m
+[15.786s] [ 33%] [32mBuilding CXX object CMakeFiles/linkattacher_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/linkattacher_msgs/srv/detach_link__type_support.cpp.o[0m
+[17.246s] [ 35%] [32mBuilding CXX object CMakeFiles/linkattacher_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/linkattacher_msgs/srv/detail/attach_link__type_support_c.cpp.o[0m
+[17.282s] [ 38%] [32mBuilding CXX object CMakeFiles/linkattacher_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/linkattacher_msgs/srv/detail/detach_link__type_support_c.cpp.o[0m
+[18.547s] [ 41%] [32mBuilding CXX object CMakeFiles/linkattacher_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/linkattacher_msgs/srv/detail/dds_fastrtps/attach_link__type_support.cpp.o[0m
+[19.461s] [ 43%] [32mBuilding CXX object CMakeFiles/linkattacher_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/linkattacher_msgs/srv/detail/attach_link__type_support.cpp.o[0m
+[19.773s] [ 46%] [32mBuilding CXX object CMakeFiles/linkattacher_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/linkattacher_msgs/srv/detail/dds_fastrtps/detach_link__type_support.cpp.o[0m
+[19.989s] [ 48%] [32m[1mLinking CXX shared library liblinkattacher_msgs__rosidl_typesupport_cpp.so[0m
+[20.439s] [ 48%] Built target linkattacher_msgs__rosidl_typesupport_cpp
+[20.448s] [ 51%] [32mBuilding CXX object CMakeFiles/linkattacher_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/linkattacher_msgs/srv/attach_link__type_support.cpp.o[0m
+[20.555s] [ 53%] [32mBuilding CXX object CMakeFiles/linkattacher_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/linkattacher_msgs/srv/detach_link__type_support.cpp.o[0m
+[20.674s] [ 56%] [32mBuilding C object CMakeFiles/linkattacher_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/linkattacher_msgs/srv/detail/attach_link__type_support.c.o[0m
+[20.793s] [ 58%] [32m[1mLinking CXX shared library liblinkattacher_msgs__rosidl_typesupport_c.so[0m
+[20.803s] [ 61%] [32mBuilding CXX object CMakeFiles/linkattacher_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/linkattacher_msgs/srv/detail/detach_link__type_support.cpp.o[0m
+[21.074s] [ 64%] [32mBuilding C object CMakeFiles/linkattacher_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/linkattacher_msgs/srv/detail/detach_link__type_support.c.o[0m
+[21.259s] [ 64%] Built target linkattacher_msgs__rosidl_typesupport_c
+[21.305s] [ 66%] [32m[1mLinking C shared library liblinkattacher_msgs__rosidl_typesupport_introspection_c.so[0m
+[21.511s] [ 66%] Built target linkattacher_msgs__rosidl_typesupport_introspection_c
+[22.379s] [ 69%] [32m[1mLinking CXX shared library liblinkattacher_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[22.844s] [ 69%] Built target linkattacher_msgs__rosidl_typesupport_fastrtps_c
+[23.358s] [ 71%] [32m[1mLinking CXX shared library liblinkattacher_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[23.565s] [ 71%] Built target linkattacher_msgs__rosidl_typesupport_introspection_cpp
+[23.762s] [ 74%] [32m[1mLinking CXX shared library liblinkattacher_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[23.988s] [ 74%] Built target linkattacher_msgs__rosidl_typesupport_fastrtps_cpp
+[24.049s] [ 74%] Built target linkattacher_msgs
+[24.110s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[28.308s] [ 76%] Built target linkattacher_msgs__py
+[28.399s] [ 79%] [32mBuilding C object CMakeFiles/linkattacher_msgs__rosidl_generator_py.dir/rosidl_generator_py/linkattacher_msgs/srv/_attach_link_s.c.o[0m
+[28.400s] [ 82%] [32mBuilding C object CMakeFiles/linkattacher_msgs__rosidl_generator_py.dir/rosidl_generator_py/linkattacher_msgs/srv/_detach_link_s.c.o[0m
+[29.051s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/linkattacher_msgs/liblinkattacher_msgs__rosidl_generator_py.so[0m
+[29.233s] [ 84%] Built target linkattacher_msgs__rosidl_generator_py
+[29.328s] [ 87%] [32mBuilding C object CMakeFiles/linkattacher_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/linkattacher_msgs/_linkattacher_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[29.354s] [ 89%] [32mBuilding C object CMakeFiles/linkattacher_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/linkattacher_msgs/_linkattacher_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[29.959s] [ 92%] [32m[1mLinking C shared library rosidl_generator_py/linkattacher_msgs/linkattacher_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[29.964s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/linkattacher_msgs/linkattacher_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[30.115s] [ 94%] Built target linkattacher_msgs__rosidl_typesupport_fastrtps_c__pyext
+[30.121s] [ 94%] Built target linkattacher_msgs__rosidl_typesupport_introspection_c__pyext
+[30.198s] [ 97%] [32mBuilding C object CMakeFiles/linkattacher_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/linkattacher_msgs/_linkattacher_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[30.789s] [100%] [32m[1mLinking C shared library rosidl_generator_py/linkattacher_msgs/linkattacher_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[30.944s] [100%] Built target linkattacher_msgs__rosidl_typesupport_c__pyext
+[30.996s] Invoked command in '/home/armando30/robotsprj/build/linkattacher_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/armando30/robotsprj/build/linkattacher_msgs -- -j8 -l8
+[31.005s] Invoking command in '/home/armando30/robotsprj/build/linkattacher_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/armando30/robotsprj/build/linkattacher_msgs
+[31.038s] -- Install configuration: ""
+[31.041s] -- Execute custom install script
+[31.044s] -- Symlinking: /home/armando30/robotsprj/install/linkattacher_msgs/share/linkattacher_msgs/srv/AttachLink.srv
+[31.083s] -- Symlinking: /home/armando30/robotsprj/install/linkattacher_msgs/share/linkattacher_msgs/srv/DetachLink.srv
+[31.123s] -- Symlinking: /home/armando30/robotsprj/install/linkattacher_msgs/share/ament_index/resource_index/rosidl_interfaces/linkattacher_msgs
+[31.164s] -- Symlinking: /home/armando30/robotsprj/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/msg/rosidl_generator_c__visibility_control.h
+[31.201s] -- Symlinking: /home/armando30/robotsprj/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/attach_link.h
+[31.239s] -- Symlinking: /home/armando30/robotsprj/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detach_link.h
+[31.279s] -- Symlinking: /home/armando30/robotsprj/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/attach_link__functions.h
+[31.317s] -- Symlinking: /home/armando30/robotsprj/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/attach_link__struct.h
+[31.356s] -- Symlinking: /home/armando30/robotsprj/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/attach_link__type_support.h
+[31.393s] -- Symlinking: /home/armando30/robotsprj/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/detach_link__functions.h
+[31.432s] -- Symlinking: /home/armando30/robotsprj/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/detach_link__struct.h
+[31.469s] -- Symlinking: /home/armando30/robotsprj/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/detach_link__type_support.h
+[31.508s] -- Symlinking: /home/armando30/robotsprj/install/linkattacher_msgs/share/linkattacher_msgs/environment/library_path.sh
+[31.545s] -- Symlinking: /home/armando30/robotsprj/install/linkattacher_msgs/share/linkattacher_msgs/environment/library_path.dsv
+[31.586s] -- Symlinking: /home/armando30/robotsprj/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[31.626s] -- Symlinking: /home/armando30/robotsprj/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/attach_link__rosidl_typesupport_fastrtps_c.h
+[31.665s] -- Symlinking: /home/armando30/robotsprj/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/detach_link__rosidl_typesupport_fastrtps_c.h
+[31.710s] -- Symlinking: /home/armando30/robotsprj/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[31.745s] -- Symlinking: /home/armando30/robotsprj/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/attach_link__rosidl_typesupport_introspection_c.h
+[31.785s] -- Symlinking: /home/armando30/robotsprj/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/detach_link__rosidl_typesupport_introspection_c.h
+[31.826s] -- Symlinking: /home/armando30/robotsprj/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[31.866s] -- Symlinking: /home/armando30/robotsprj/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/attach_link.hpp
+[31.899s] -- Symlinking: /home/armando30/robotsprj/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detach_link.hpp
+[31.938s] -- Symlinking: /home/armando30/robotsprj/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/attach_link__builder.hpp
+[31.978s] -- Symlinking: /home/armando30/robotsprj/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/attach_link__struct.hpp
+[32.015s] -- Symlinking: /home/armando30/robotsprj/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/attach_link__traits.hpp
+[32.053s] -- Symlinking: /home/armando30/robotsprj/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/attach_link__type_support.hpp
+[32.095s] -- Symlinking: /home/armando30/robotsprj/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/detach_link__builder.hpp
+[32.124s] -- Symlinking: /home/armando30/robotsprj/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/detach_link__struct.hpp
+[32.164s] -- Symlinking: /home/armando30/robotsprj/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/detach_link__traits.hpp
+[32.202s] -- Symlinking: /home/armando30/robotsprj/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/detach_link__type_support.hpp
+[32.242s] -- Symlinking: /home/armando30/robotsprj/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[32.270s] -- Symlinking: /home/armando30/robotsprj/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/attach_link__rosidl_typesupport_fastrtps_cpp.hpp
+[32.306s] -- Symlinking: /home/armando30/robotsprj/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/detach_link__rosidl_typesupport_fastrtps_cpp.hpp
+[32.337s] -- Symlinking: /home/armando30/robotsprj/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/attach_link__rosidl_typesupport_introspection_cpp.hpp
+[32.375s] -- Symlinking: /home/armando30/robotsprj/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/detach_link__rosidl_typesupport_introspection_cpp.hpp
+[32.414s] -- Symlinking: /home/armando30/robotsprj/install/linkattacher_msgs/share/linkattacher_msgs/environment/pythonpath.sh
+[32.453s] -- Symlinking: /home/armando30/robotsprj/install/linkattacher_msgs/share/linkattacher_msgs/environment/pythonpath.dsv
+[32.494s] -- Symlinking: /home/armando30/robotsprj/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[32.534s] -- Symlinking: /home/armando30/robotsprj/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[32.566s] -- Symlinking: /home/armando30/robotsprj/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[32.603s] -- Symlinking: /home/armando30/robotsprj/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[32.638s] -- Symlinking: /home/armando30/robotsprj/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs/__init__.py
+[32.671s] -- Symlinking: /home/armando30/robotsprj/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs/_linkattacher_msgs_s.ep.rosidl_typesupport_c.c
+[32.700s] -- Symlinking: /home/armando30/robotsprj/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs/_linkattacher_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[32.728s] -- Symlinking: /home/armando30/robotsprj/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs/_linkattacher_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[32.754s] -- Symlinking: /home/armando30/robotsprj/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs/liblinkattacher_msgs__rosidl_generator_py.so
+[32.783s] -- Symlinking: /home/armando30/robotsprj/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs/linkattacher_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[32.809s] -- Symlinking: /home/armando30/robotsprj/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs/linkattacher_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[32.841s] -- Symlinking: /home/armando30/robotsprj/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs/linkattacher_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[32.881s] -- Symlinking: /home/armando30/robotsprj/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs/srv/__init__.py
+[32.919s] -- Symlinking: /home/armando30/robotsprj/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs/srv/_attach_link.py
+[32.960s] -- Symlinking: /home/armando30/robotsprj/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs/srv/_attach_link_s.c
+[33.000s] -- Symlinking: /home/armando30/robotsprj/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs/srv/_detach_link.py
+[33.041s] -- Symlinking: /home/armando30/robotsprj/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs/srv/_detach_link_s.c
+[33.081s] -- Up-to-date symlink: /home/armando30/robotsprj/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs/linkattacher_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[33.082s] -- Up-to-date symlink: /home/armando30/robotsprj/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs/linkattacher_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[33.084s] -- Up-to-date symlink: /home/armando30/robotsprj/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs/linkattacher_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[33.085s] -- Symlinking: /home/armando30/robotsprj/install/linkattacher_msgs/share/linkattacher_msgs/srv/AttachLink.idl
+[33.126s] -- Symlinking: /home/armando30/robotsprj/install/linkattacher_msgs/share/linkattacher_msgs/srv/DetachLink.idl
+[33.164s] -- Up-to-date symlink: /home/armando30/robotsprj/install/linkattacher_msgs/share/linkattacher_msgs/srv/AttachLink.srv
+[33.165s] -- Symlinking: /home/armando30/robotsprj/install/linkattacher_msgs/share/linkattacher_msgs/srv/AttachLink_Request.msg
+[33.211s] -- Symlinking: /home/armando30/robotsprj/install/linkattacher_msgs/share/linkattacher_msgs/srv/AttachLink_Response.msg
+[33.250s] -- Up-to-date symlink: /home/armando30/robotsprj/install/linkattacher_msgs/share/linkattacher_msgs/srv/DetachLink.srv
+[33.250s] -- Symlinking: /home/armando30/robotsprj/install/linkattacher_msgs/share/linkattacher_msgs/srv/DetachLink_Request.msg
+[33.296s] -- Symlinking: /home/armando30/robotsprj/install/linkattacher_msgs/share/linkattacher_msgs/srv/DetachLink_Response.msg
+[33.341s] -- Symlinking: /home/armando30/robotsprj/install/linkattacher_msgs/share/ament_index/resource_index/package_run_dependencies/linkattacher_msgs
+[33.385s] -- Symlinking: /home/armando30/robotsprj/install/linkattacher_msgs/share/ament_index/resource_index/parent_prefix_path/linkattacher_msgs
+[33.423s] -- Symlinking: /home/armando30/robotsprj/install/linkattacher_msgs/share/linkattacher_msgs/environment/ament_prefix_path.sh
+[33.461s] -- Symlinking: /home/armando30/robotsprj/install/linkattacher_msgs/share/linkattacher_msgs/environment/ament_prefix_path.dsv
+[33.502s] -- Symlinking: /home/armando30/robotsprj/install/linkattacher_msgs/share/linkattacher_msgs/environment/path.sh
+[33.543s] -- Symlinking: /home/armando30/robotsprj/install/linkattacher_msgs/share/linkattacher_msgs/environment/path.dsv
+[33.578s] -- Symlinking: /home/armando30/robotsprj/install/linkattacher_msgs/share/linkattacher_msgs/local_setup.bash
+[33.607s] -- Symlinking: /home/armando30/robotsprj/install/linkattacher_msgs/share/linkattacher_msgs/local_setup.sh
+[33.634s] -- Symlinking: /home/armando30/robotsprj/install/linkattacher_msgs/share/linkattacher_msgs/local_setup.zsh
+[33.665s] -- Symlinking: /home/armando30/robotsprj/install/linkattacher_msgs/share/linkattacher_msgs/local_setup.dsv
+[33.695s] -- Symlinking: /home/armando30/robotsprj/install/linkattacher_msgs/share/linkattacher_msgs/package.dsv
+[33.724s] -- Symlinking: /home/armando30/robotsprj/install/linkattacher_msgs/share/ament_index/resource_index/packages/linkattacher_msgs
+[33.752s] -- Symlinking: /home/armando30/robotsprj/install/linkattacher_msgs/share/linkattacher_msgs/cmake/rosidl_cmake-extras.cmake
+[33.782s] -- Symlinking: /home/armando30/robotsprj/install/linkattacher_msgs/share/linkattacher_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[33.809s] -- Symlinking: /home/armando30/robotsprj/install/linkattacher_msgs/share/linkattacher_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[33.838s] -- Symlinking: /home/armando30/robotsprj/install/linkattacher_msgs/share/linkattacher_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[33.868s] -- Symlinking: /home/armando30/robotsprj/install/linkattacher_msgs/share/linkattacher_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[33.894s] -- Symlinking: /home/armando30/robotsprj/install/linkattacher_msgs/share/linkattacher_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[33.921s] -- Symlinking: /home/armando30/robotsprj/install/linkattacher_msgs/share/linkattacher_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[33.948s] -- Symlinking: /home/armando30/robotsprj/install/linkattacher_msgs/share/linkattacher_msgs/cmake/linkattacher_msgsConfig.cmake
+[33.974s] -- Symlinking: /home/armando30/robotsprj/install/linkattacher_msgs/share/linkattacher_msgs/cmake/linkattacher_msgsConfig-version.cmake
+[34.006s] -- Symlinking: /home/armando30/robotsprj/install/linkattacher_msgs/share/linkattacher_msgs/package.xml
+[34.032s] -- Installing: /home/armando30/robotsprj/install/linkattacher_msgs/lib/liblinkattacher_msgs__rosidl_generator_c.so
+[34.033s] -- Set runtime path of "/home/armando30/robotsprj/install/linkattacher_msgs/lib/liblinkattacher_msgs__rosidl_generator_c.so" to ""
+[34.034s] -- Installing: /home/armando30/robotsprj/install/linkattacher_msgs/lib/liblinkattacher_msgs__rosidl_typesupport_fastrtps_c.so
+[34.034s] -- Set runtime path of "/home/armando30/robotsprj/install/linkattacher_msgs/lib/liblinkattacher_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[34.036s] -- Installing: /home/armando30/robotsprj/install/linkattacher_msgs/lib/liblinkattacher_msgs__rosidl_typesupport_introspection_c.so
+[34.036s] -- Set runtime path of "/home/armando30/robotsprj/install/linkattacher_msgs/lib/liblinkattacher_msgs__rosidl_typesupport_introspection_c.so" to ""
+[34.037s] -- Installing: /home/armando30/robotsprj/install/linkattacher_msgs/lib/liblinkattacher_msgs__rosidl_typesupport_c.so
+[34.038s] -- Set runtime path of "/home/armando30/robotsprj/install/linkattacher_msgs/lib/liblinkattacher_msgs__rosidl_typesupport_c.so" to ""
+[34.038s] -- Installing: /home/armando30/robotsprj/install/linkattacher_msgs/lib/liblinkattacher_msgs__rosidl_typesupport_fastrtps_cpp.so
+[34.039s] -- Set runtime path of "/home/armando30/robotsprj/install/linkattacher_msgs/lib/liblinkattacher_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[34.039s] -- Installing: /home/armando30/robotsprj/install/linkattacher_msgs/lib/liblinkattacher_msgs__rosidl_typesupport_introspection_cpp.so
+[34.041s] -- Set runtime path of "/home/armando30/robotsprj/install/linkattacher_msgs/lib/liblinkattacher_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[34.041s] -- Installing: /home/armando30/robotsprj/install/linkattacher_msgs/lib/liblinkattacher_msgs__rosidl_typesupport_cpp.so
+[34.043s] -- Set runtime path of "/home/armando30/robotsprj/install/linkattacher_msgs/lib/liblinkattacher_msgs__rosidl_typesupport_cpp.so" to ""
+[34.177s] Listing '/home/armando30/robotsprj/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs'...
+[34.178s] Compiling '/home/armando30/robotsprj/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs/__init__.py'...
+[34.178s] Listing '/home/armando30/robotsprj/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs/srv'...
+[34.179s] Compiling '/home/armando30/robotsprj/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs/srv/__init__.py'...
+[34.179s] Compiling '/home/armando30/robotsprj/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs/srv/_attach_link.py'...
+[34.180s] Compiling '/home/armando30/robotsprj/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs/srv/_detach_link.py'...
+[34.193s] -- Installing: /home/armando30/robotsprj/install/linkattacher_msgs/lib/liblinkattacher_msgs__rosidl_generator_py.so
+[34.195s] -- Set runtime path of "/home/armando30/robotsprj/install/linkattacher_msgs/lib/liblinkattacher_msgs__rosidl_generator_py.so" to ""
+[34.195s] -- Installing: /home/armando30/robotsprj/install/linkattacher_msgs/share/linkattacher_msgs/cmake/export_linkattacher_msgs__rosidl_generator_cExport.cmake
+[34.196s] -- Installing: /home/armando30/robotsprj/install/linkattacher_msgs/share/linkattacher_msgs/cmake/export_linkattacher_msgs__rosidl_generator_cExport-noconfig.cmake
+[34.196s] -- Installing: /home/armando30/robotsprj/install/linkattacher_msgs/share/linkattacher_msgs/cmake/export_linkattacher_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[34.197s] -- Installing: /home/armando30/robotsprj/install/linkattacher_msgs/share/linkattacher_msgs/cmake/export_linkattacher_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[34.198s] -- Installing: /home/armando30/robotsprj/install/linkattacher_msgs/share/linkattacher_msgs/cmake/linkattacher_msgs__rosidl_typesupport_introspection_cExport.cmake
+[34.199s] -- Installing: /home/armando30/robotsprj/install/linkattacher_msgs/share/linkattacher_msgs/cmake/linkattacher_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[34.199s] -- Installing: /home/armando30/robotsprj/install/linkattacher_msgs/share/linkattacher_msgs/cmake/linkattacher_msgs__rosidl_typesupport_cExport.cmake
+[34.200s] -- Installing: /home/armando30/robotsprj/install/linkattacher_msgs/share/linkattacher_msgs/cmake/linkattacher_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[34.201s] -- Installing: /home/armando30/robotsprj/install/linkattacher_msgs/share/linkattacher_msgs/cmake/export_linkattacher_msgs__rosidl_generator_cppExport.cmake
+[34.202s] -- Installing: /home/armando30/robotsprj/install/linkattacher_msgs/share/linkattacher_msgs/cmake/export_linkattacher_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[34.202s] -- Installing: /home/armando30/robotsprj/install/linkattacher_msgs/share/linkattacher_msgs/cmake/export_linkattacher_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[34.203s] -- Installing: /home/armando30/robotsprj/install/linkattacher_msgs/share/linkattacher_msgs/cmake/linkattacher_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[34.204s] -- Installing: /home/armando30/robotsprj/install/linkattacher_msgs/share/linkattacher_msgs/cmake/linkattacher_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[34.205s] -- Installing: /home/armando30/robotsprj/install/linkattacher_msgs/share/linkattacher_msgs/cmake/linkattacher_msgs__rosidl_typesupport_cppExport.cmake
+[34.205s] -- Installing: /home/armando30/robotsprj/install/linkattacher_msgs/share/linkattacher_msgs/cmake/linkattacher_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[34.206s] -- Installing: /home/armando30/robotsprj/install/linkattacher_msgs/share/linkattacher_msgs/cmake/export_linkattacher_msgs__rosidl_generator_pyExport.cmake
+[34.207s] -- Installing: /home/armando30/robotsprj/install/linkattacher_msgs/share/linkattacher_msgs/cmake/export_linkattacher_msgs__rosidl_generator_pyExport-noconfig.cmake
+[34.215s] Invoked command in '/home/armando30/robotsprj/build/linkattacher_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/armando30/robotsprj/build/linkattacher_msgs

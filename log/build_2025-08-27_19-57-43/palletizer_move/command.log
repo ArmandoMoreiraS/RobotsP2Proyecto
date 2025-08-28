@@ -1,0 +1,1 @@
+Invoking command in '/home/armando30/robotsprj/build/palletizer_move': /usr/bin/cmake /home/armando30/robotsprj/src/palletizer_move -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/armando30/robotsprj/install/palletizer_move

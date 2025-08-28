@@ -1,0 +1,25 @@
+[4.121s] Invoking command in '/home/armando30/robotsprj/build/ur5e_conveyor_bringup': PYTHONPATH=/home/armando30/robotsprj/build/ur5e_conveyor_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/armando30/robotsprj/install/ur5e_conveyor_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/armando30/robotsprj/build/ur5e_conveyor_bringup/build --no-deps symlink_data
+[5.352s] running develop
+[6.170s] running egg_info
+[6.170s] creating ur5e_conveyor_bringup.egg-info
+[6.171s] writing ur5e_conveyor_bringup.egg-info/PKG-INFO
+[6.172s] writing dependency_links to ur5e_conveyor_bringup.egg-info/dependency_links.txt
+[6.172s] writing entry points to ur5e_conveyor_bringup.egg-info/entry_points.txt
+[6.173s] writing requirements to ur5e_conveyor_bringup.egg-info/requires.txt
+[6.173s] writing top-level names to ur5e_conveyor_bringup.egg-info/top_level.txt
+[6.174s] writing manifest file 'ur5e_conveyor_bringup.egg-info/SOURCES.txt'
+[6.178s] reading manifest file 'ur5e_conveyor_bringup.egg-info/SOURCES.txt'
+[6.180s] writing manifest file 'ur5e_conveyor_bringup.egg-info/SOURCES.txt'
+[6.185s] running build_ext
+[6.185s] Creating /home/armando30/robotsprj/install/ur5e_conveyor_bringup/lib/python3.10/site-packages/ur5e-conveyor-bringup.egg-link (link to .)
+[6.189s] 
+[6.190s] Installed /home/armando30/robotsprj/build/ur5e_conveyor_bringup
+[6.190s] running symlink_data
+[6.190s] creating /home/armando30/robotsprj/install/ur5e_conveyor_bringup/share
+[6.191s] creating /home/armando30/robotsprj/install/ur5e_conveyor_bringup/share/ament_index
+[6.191s] creating /home/armando30/robotsprj/install/ur5e_conveyor_bringup/share/ament_index/resource_index
+[6.191s] creating /home/armando30/robotsprj/install/ur5e_conveyor_bringup/share/ament_index/resource_index/packages
+[6.192s] symbolically linking /home/armando30/robotsprj/build/ur5e_conveyor_bringup/resource/ur5e_conveyor_bringup -> /home/armando30/robotsprj/install/ur5e_conveyor_bringup/share/ament_index/resource_index/packages
+[6.192s] creating /home/armando30/robotsprj/install/ur5e_conveyor_bringup/share/ur5e_conveyor_bringup
+[6.192s] error: can't copy '/home/armando30/robotsprj/build/ur5e_conveyor_bringup/package.xml': doesn't exist or not a regular file
+[6.271s] Invoked command in '/home/armando30/robotsprj/build/ur5e_conveyor_bringup' returned '1': PYTHONPATH=/home/armando30/robotsprj/build/ur5e_conveyor_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/armando30/robotsprj/install/ur5e_conveyor_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/armando30/robotsprj/build/ur5e_conveyor_bringup/build --no-deps symlink_data

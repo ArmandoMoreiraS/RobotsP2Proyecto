@@ -1,0 +1,9 @@
+/home/armando30/robotsprj/build/ur/CMakeFiles/uninstall.dir
+/home/armando30/robotsprj/build/ur/CMakeFiles/ur_uninstall.dir
+/home/armando30/robotsprj/build/ur/CMakeFiles/test.dir
+/home/armando30/robotsprj/build/ur/CMakeFiles/edit_cache.dir
+/home/armando30/robotsprj/build/ur/CMakeFiles/rebuild_cache.dir
+/home/armando30/robotsprj/build/ur/CMakeFiles/list_install_components.dir
+/home/armando30/robotsprj/build/ur/CMakeFiles/install.dir
+/home/armando30/robotsprj/build/ur/CMakeFiles/install/local.dir
+/home/armando30/robotsprj/build/ur/CMakeFiles/install/strip.dir

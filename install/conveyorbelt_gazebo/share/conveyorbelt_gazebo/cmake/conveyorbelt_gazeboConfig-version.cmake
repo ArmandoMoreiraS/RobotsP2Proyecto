@@ -1,0 +1,1 @@
+/home/armando30/robotsprj/build/conveyorbelt_gazebo/ament_cmake_core/conveyorbelt_gazeboConfig-version.cmake

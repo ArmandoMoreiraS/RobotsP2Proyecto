@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>palletizer_move</name>
+  <version>0.1.0</version>
+  <description>Simple 3x3 palletizer using JointTrajectory</description>
+  <maintainer email="you@example.com">armando</maintainer>
+  <license>Apache-2.0</license>
+  <buildtool_depend>ament_python</buildtool_depend>
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>trajectory_msgs</exec_depend>
+  <exec_depend>builtin_interfaces</exec_depend>
+</package>

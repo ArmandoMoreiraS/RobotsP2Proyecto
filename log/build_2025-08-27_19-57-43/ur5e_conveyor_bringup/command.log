@@ -1,0 +1,1 @@
+Invoking command in '/home/armando30/robotsprj/build/ur5e_conveyor_bringup': /usr/bin/cmake /home/armando30/robotsprj/src/ur5e_conveyor_bringup -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/armando30/robotsprj/install/ur5e_conveyor_bringup
